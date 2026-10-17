@@ -17,6 +17,7 @@
   body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.45}
   .wrap{max-width:1080px;margin:0 auto;padding:20px 16px 48px}
   h1{font-size:30px;margin:8px 0 2px}
+  .date{font-size:20px;font-weight:700;color:var(--accent);margin:0 0 4px}
   .sub{color:var(--muted);margin:0 0 16px;font-size:18px}
   .safety{background:var(--warn);border:2px solid var(--warn-line);border-radius:16px;padding:14px 16px;margin-bottom:18px;font-size:18px}
   .safety summary{font-weight:700;cursor:pointer;font-size:20px}
@@ -53,6 +54,7 @@
 <body>
 <div class="wrap">
   <h1>Daily Exercises</h1>
+  <p class="date" id="today"></p>
   <p class="sub">Gentle, mostly seated or supported routines. Monday to Friday, about 30 minutes a day.</p>
 
   <details class="safety" open>
@@ -114,11 +116,20 @@ const DAYS = [
 
 const tabsEl = document.getElementById("tabs");
 const contentEl = document.getElementById("content");
-const dow = new Date().getDay();            // 0 Sun ... 6 Sat
+const now = new Date();
+const dow = now.getDay();                   // 0 Sun ... 6 Sat
 const todayIdx = (dow>=1 && dow<=5) ? dow-1 : -1;
 let current = todayIdx>=0 ? todayIdx : 0;
 
-const todayStr = new Date().toISOString().slice(0,10);
+// Local date (not UTC), e.g. "2026-10-16"
+const todayStr = now.getFullYear()+"-"+String(now.getMonth()+1).padStart(2,"0")+"-"+String(now.getDate()).padStart(2,"0");
+document.getElementById("today").textContent =
+  now.toLocaleDateString("en-US", { weekday:"long", year:"numeric", month:"long", day:"numeric" });
+
+// If the app is left open past midnight, refresh when it is shown again
+document.addEventListener("visibilitychange", ()=>{
+  if(document.visibilityState==="visible" && new Date().toDateString()!==now.toDateString()) location.reload();
+});
 function getDone(){ try{ return JSON.parse(localStorage.getItem("done-"+todayStr)||"{}"); }catch(e){ return {}; } }
 function setDone(k,v){ try{ const d=getDone(); if(v) d[k]=1; else delete d[k]; localStorage.setItem("done-"+todayStr, JSON.stringify(d)); }catch(e){} }
 let memDone = {};  // fallback if storage is unavailable
@@ -138,6 +149,9 @@ function renderTabs(){
   });
 }
 
+// The player needs our origin to report play/pause, but a file opened from disk has none
+const ytOrigin = location.protocol.startsWith("http") ? "&origin="+encodeURIComponent(location.origin) : "";
+
 function renderDay(){
   const d = DAYS[current];
   let html = "";
@@ -148,7 +162,7 @@ function renderDay(){
   d.tiles.forEach((t,i)=>{
     const k = d.key+i;
     html += '<article class="card'+(isDone(k)?' done':'')+'" id="card-'+k+'">'+
-      '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/'+t.id+'?rel=0&playsinline=1" title="'+t.title+'" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>'+
+      '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/'+t.id+'?rel=0&playsinline=1&enablejsapi=1'+ytOrigin+'" title="'+t.title+'" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>'+
       '<div class="body"><div class="step">'+t.step+'</div><h3 class="title">'+t.title+'</h3>'+
       '<div class="meta">About '+t.mins+' minutes</div><div class="tip">'+t.tip+'</div>'+
       '<div class="row"><button class="btn primary" data-k="'+k+'">'+(isDone(k)?'Done ✓':'Mark done')+'</button>'+
@@ -166,6 +180,21 @@ function renderDay(){
       btn.textContent = nowDone ? "Done ✓" : "Mark done";
     };
   });
+  hookPlayers();
+}
+
+// Only one video plays at a time: when one starts, pause the others.
+let players = [];
+let ytReady = false;
+window.onYouTubeIframeAPIReady = ()=>{ ytReady = true; hookPlayers(); };
+function hookPlayers(){
+  if(!ytReady) return;
+  players = [...contentEl.querySelectorAll("iframe")].map(f=> new YT.Player(f, { events:{
+    onStateChange: e=>{
+      if(e.data!==YT.PlayerState.PLAYING) return;
+      players.forEach(p=>{ if(p!==e.target && p.pauseVideo) p.pauseVideo(); });
+    }
+  }}));
 }
 
 // Tabs show full weekday names on wider screens, short on phones
@@ -178,5 +207,6 @@ function labelTabs(){
 renderTabs(); labelTabs(); renderDay();
 window.addEventListener("resize", labelTabs);
 </script>
+<script src="https://www.youtube.com/iframe_api"></script>
 </body>
 </html>

@@ -1,0 +1,49 @@
+{
+  "subtitle": "Gentle, mostly seated or supported routines. Monday to Friday, about 30 to 45 minutes a day.",
+  "safetyTitle": "Before you start: safety first",
+  "safety": [
+    "Check with the doctor before beginning or changing any exercise routine, especially with atrial fibrillation or if medicines (like blood thinners) have changed.",
+    "Go at a pace where you can still talk in full sentences. Never hold your breath or strain.",
+    "<strong>Stop and rest</strong> if you feel dizzy, lightheaded, unusually short of breath, or notice a racing or irregular heartbeat that is worse than normal.",
+    "<strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.",
+    "Wear sturdy, non-slip shoes. Keep a firm chair or kitchen counter within reach, and have water nearby. Skip a day if feeling unwell."
+  ],
+  "restMessage": "<strong>It is the weekend.</strong> Rest, or take an easy walk around the house or yard. The weekday plan is below.",
+  "days": [
+    { "key": "Mon", "name": "Monday", "focus": "Seated Strength & Joint Mobility",
+      "note": "Easy start to the week. All done sitting down.",
+      "tiles": [
+        { "step": "1. Warm-up", "title": "Seated Mobility Workout", "mins": 10, "id": "ZKfDVpZdipg", "tip": "Move slowly. Loosen the neck, shoulders, hips and ankles." },
+        { "step": "2. Main", "title": "Chair Workout, All Seated", "mins": 6, "id": "6KiPatdnGEY", "tip": "Keep breathing steadily. Take a short sip of water between moves." },
+        { "step": "3. Cool-down", "title": "10-Minute Chair Yoga", "mins": 12, "id": "mPNLL_hAZP0", "tip": "Gentle stretches. Let the heart rate settle." }
+      ]},
+    { "key": "Tue", "name": "Tuesday", "focus": "Balance & Fall Prevention",
+      "note": "Stand next to a kitchen counter or a sturdy chair you can hold.",
+      "tiles": [
+        { "step": "1. Warm-up", "title": "5-Minute Indoor Walk", "mins": 7, "id": "SPTWBCwAZEs", "tip": "Easy pace. Walk in place near a counter if needed." },
+        { "step": "2. Main", "title": "10-Minute Balance Exercises", "mins": 11, "id": "1AaAWRvKj1k", "tip": "Hold on with one hand whenever it feels wobbly." },
+        { "step": "3. Cool-down", "title": "Chair Yoga Full-Body Stretch", "mins": 18, "id": "OfMSpuTglqs", "tip": "Sit tall and breathe slowly." }
+      ]},
+    { "key": "Wed", "name": "Wednesday", "focus": "Gentle Walking Day",
+      "note": "Steady, low-impact walking is great for the heart. Keep it conversational.",
+      "tiles": [
+        { "step": "1. Warm-up", "title": "Gentle Chair Exercises for Range of Motion", "mins": 11, "id": "R-w2Esi8p08", "tip": "Wake up the joints before walking." },
+        { "step": "2. Main", "title": "20-Minute Gentle Walking Workout", "mins": 21, "id": "TCsmCYbKzoY", "tip": "Rest on a chair any time. Slow down if breathing gets heavy." },
+        { "step": "3. Cool-down", "title": "15-Minute Gentle Chair Yoga", "mins": 16, "id": "0Q82IqhqJ7c", "tip": "Stretch calves, hips and back. Move slowly." }
+      ]},
+    { "key": "Thu", "name": "Thursday", "focus": "Tai Chi & Flexibility",
+      "note": "Slow, flowing movement that helps balance and calm.",
+      "tiles": [
+        { "step": "1. Warm-up", "title": "10-Minute Chair Exercises", "mins": 10, "id": "auk8nQSfvus", "tip": "Easy joint warm-up before the flow." },
+        { "step": "2. Main", "title": "15-Minute Chair Tai Chi", "mins": 15, "id": "IjcGRxr9jHI", "tip": "Follow slowly. Smooth breathing, no rushing." },
+        { "step": "3. Cool-down", "title": "15-Minute Chair Yoga", "mins": 18, "id": "oZRa7m69ZVU", "tip": "Finish with relaxed, deep breathing." }
+      ]},
+    { "key": "Fri", "name": "Friday", "focus": "Strength, Balance & Wrap-Up",
+      "note": "A mix of the week. Finish strong and feel good heading into the weekend.",
+      "tiles": [
+        { "step": "1. Warm-up", "title": "Beginner Chair Exercises, No Equipment", "mins": 12, "id": "oumzMyqK-2I", "tip": "No weights needed. Smooth, controlled moves." },
+        { "step": "2. Main", "title": "7 Balance Exercises by Physical Therapists", "mins": 11, "id": "BNC4bi3Ucac", "tip": "Hold the counter. Safety matters more than perfect form." },
+        { "step": "3. Cool-down", "title": "Chair Tai Chi for Mobility & Calm", "mins": 16, "id": "s3JbAYlQJT4", "tip": "Slow and relaxing finish." }
+      ]}
+  ]
+}

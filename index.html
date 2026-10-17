@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Family Health</title>
+<link rel="icon" href="exercises/icon-192.png" type="image/png">
+<link rel="stylesheet" href="shared/app.css">
+<style>
+  .apps{display:grid;gap:16px;margin-top:20px}
+  @media(min-width:640px){.apps{grid-template-columns:1fr 1fr}}
+  .app{display:flex;flex-direction:row;gap:16px;align-items:center;padding:18px;text-decoration:none;color:var(--ink)}
+  .app img{width:72px;height:72px;border-radius:16px;flex:none}
+  .app .title{margin-bottom:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Family Health</h1>
+  <p class="sub">Daily plans for each family member. Open an app, then install it from there to keep it on the home screen.</p>
+  <div class="apps">
+    <a class="card app" href="exercises/">
+      <img src="exercises/icon-192.png" alt="">
+      <div><h2 class="title">Daily Exercises</h2><div class="meta">Gentle exercise videos for each day</div></div>
+    </a>
+    <a class="card app" href="meal_plan/">
+      <img src="meal_plan/icon-192.png" alt="">
+      <div><h2 class="title">Meal Plan</h2><div class="meta">Breakfast, lunch, dinner and snacks for each day</div></div>
+    </a>
+  </div>
+</div>
+</body>
+</html>

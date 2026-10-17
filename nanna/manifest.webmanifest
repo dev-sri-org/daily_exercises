@@ -1,6 +1,7 @@
 {
   "name": "Nanna's Daily Plan",
   "short_name": "Nanna",
+  "name_te": "నాన్న",
   "description": "Daily exercises and meal plan.",
   "id": "./",
   "start_url": "./",

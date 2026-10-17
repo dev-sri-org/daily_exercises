@@ -1,149 +1,961 @@
 {
-  "subtitle": "Heart-healthy, diabetes-friendly Indian meals for an 80-year-old. Small portions, low salt, no added sugar, and plenty of vegetables, dal, nuts and fruit.",
-  "safetyTitle": "Daily rules of thumb",
+  "subtitle": {
+    "en": "Heart-healthy, diabetes-friendly Indian meals for an 80-year-old. Small portions, low salt, no added sugar, and plenty of vegetables, dal, nuts and fruit.",
+    "te": "80 ఏళ్ల వారికి గుండెకు మంచి, షుగర్‌కు అనుకూలమైన భోజనం. తక్కువ మోతాదు, తక్కువ ఉప్పు, చక్కెర లేకుండా, కూరగాయలు, పప్పు, గింజలు, పండ్లు ఎక్కువగా."
+  },
+  "safetyTitle": {
+    "en": "Daily rules of thumb",
+    "te": "రోజూ పాటించవలసినవి"
+  },
   "safety": [
-    "Check with the doctor or a dietitian before changing the diet, especially with diabetes tablets or insulin (to avoid low sugar) or a blood thinner.",
-    "<strong>Blood thinner (warfarin):</strong> keep green leafy vegetables like palak and methi about the same amount every week. Do not suddenly add a lot or stop them.",
-    "<strong>Plate:</strong> half vegetables, a quarter dal, paneer or curd, and a quarter rice or roti. About 1 small cup of cooked rice or 2 small phulkas per meal.",
-    "<strong>Salt:</strong> less than 1 teaspoon a day in total. Skip pickles, papad, chips and salted nuts.",
-    "<strong>Oil:</strong> 3 to 4 teaspoons a day (groundnut, mustard or rice-bran). Ghee only a few drops.",
-    "<strong>No added sugar</strong>, jaggery or honey. Eat whole fruit instead of juice. Avoid grapefruit, which interacts with some heart medicines.",
-    "Drink 6 to 8 glasses of water a day, unless the doctor has limited fluids. Eat dinner early, by 7:30 pm.",
-    "<strong>Low sugar</strong> (shaky, sweaty, confused): take half a glass of fruit juice or 3 glucose tablets right away, then call the doctor."
+    {
+      "en": "Check with the doctor or a dietitian before changing the diet, especially with diabetes tablets or insulin (to avoid low sugar) or a blood thinner.",
+      "te": "ఆహారం మార్చే ముందు డాక్టర్ లేదా డైటీషియన్‌ను అడగండి. ముఖ్యంగా షుగర్ మాత్రలు లేదా ఇన్సులిన్ (షుగర్ పడిపోకుండా) లేదా రక్తం పలుచబడే మందులు వాడుతుంటే తప్పకుండా అడగండి."
+    },
+    {
+      "en": "<strong>Blood thinner (warfarin):</strong> keep green leafy vegetables like palak and methi about the same amount every week. Do not suddenly add a lot or stop them.",
+      "te": "<strong>రక్తం పలుచబడే మందు (వార్ఫరిన్):</strong> పాలకూర, మెంతికూర వంటి ఆకుకూరలు ప్రతి వారం దాదాపు ఒకే మోతాదులో తినండి. ఒక్కసారిగా ఎక్కువ తినడం లేదా పూర్తిగా మానేయడం చేయవద్దు."
+    },
+    {
+      "en": "<strong>Plate:</strong> half vegetables, a quarter dal, paneer or curd, and a quarter rice or roti. About 1 small cup of cooked rice or 2 small phulkas per meal.",
+      "te": "<strong>పళ్లెం:</strong> సగం కూరగాయలు, పావు వంతు పప్పు, పనీర్ లేదా పెరుగు, పావు వంతు అన్నం లేదా రొట్టె. ఒక పూటకు సుమారు 1 చిన్న కప్పు అన్నం లేదా 2 చిన్న పుల్కాలు."
+    },
+    {
+      "en": "<strong>Salt:</strong> less than 1 teaspoon a day in total. Skip pickles, papad, chips and salted nuts.",
+      "te": "<strong>ఉప్పు:</strong> రోజు మొత్తానికి 1 చిన్న చెంచా కంటే తక్కువ. ఊరగాయలు, అప్పడాలు, చిప్స్, ఉప్పు వేసిన గింజలు వద్దు."
+    },
+    {
+      "en": "<strong>Oil:</strong> 3 to 4 teaspoons a day (groundnut, mustard or rice-bran). Ghee only a few drops.",
+      "te": "<strong>నూనె:</strong> రోజుకు 3 నుండి 4 చిన్న చెంచాలు (వేరుశనగ, ఆవ లేదా రైస్ బ్రాన్ నూనె). నెయ్యి కొన్ని చుక్కలు మాత్రమే."
+    },
+    {
+      "en": "<strong>No added sugar</strong>, jaggery or honey. Eat whole fruit instead of juice. Avoid grapefruit, which interacts with some heart medicines.",
+      "te": "<strong>చక్కెర</strong>, బెల్లం, తేనె <strong>వద్దు</strong>. రసం బదులు పూర్తి పండు తినండి. గ్రేప్‌ఫ్రూట్ తినవద్దు, అది కొన్ని గుండె మందులతో కలిసి ఇబ్బంది కలిగిస్తుంది."
+    },
+    {
+      "en": "Drink 6 to 8 glasses of water a day, unless the doctor has limited fluids. Eat dinner early, by 7:30 pm.",
+      "te": "డాక్టర్ నీళ్లు తగ్గించమని చెప్పకపోతే, రోజుకు 6 నుండి 8 గ్లాసుల నీళ్లు తాగండి. రాత్రి భోజనం త్వరగా, 7:30 లోపు చేయండి."
+    },
+    {
+      "en": "<strong>Low sugar</strong> (shaky, sweaty, confused): take half a glass of fruit juice or 3 glucose tablets right away, then call the doctor.",
+      "te": "<strong>షుగర్ పడిపోతే</strong> (వణుకు, చెమట, అయోమయం): వెంటనే అర గ్లాసు పండ్ల రసం లేదా 3 గ్లూకోజ్ మాత్రలు తీసుకుని, డాక్టర్‌కు ఫోన్ చేయండి."
+    }
   ],
   "times": {
-    "Breakfast": "8:00 am",
-    "Mid-morning": "10:30 am",
-    "Lunch": "1:00 pm",
-    "Evening snack": "4:30 pm",
-    "Dinner": "7:30 pm"
+    "Breakfast": {
+      "en": "8:00 am",
+      "te": "ఉదయం 8:00"
+    },
+    "Mid-morning": {
+      "en": "10:30 am",
+      "te": "ఉదయం 10:30"
+    },
+    "Lunch": {
+      "en": "1:00 pm",
+      "te": "మధ్యాహ్నం 1:00"
+    },
+    "Evening snack": {
+      "en": "4:30 pm",
+      "te": "సాయంత్రం 4:30"
+    },
+    "Dinner": {
+      "en": "7:30 pm",
+      "te": "రాత్రి 7:30"
+    }
   },
   "days": [
-    { "key": "Mon", "name": "Monday", "focus": "Oats & Millets",
+    {
+      "key": "Mon",
+      "name": "Monday",
+      "focus": {
+        "en": "Oats & Millets",
+        "te": "ఓట్స్ & చిరుధాన్యాలు"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Vegetable oats upma",
-          "items": ["1 cup oats upma with carrot, beans and peas", "½ cup steamed moong sprouts", "Tea or coffee, no sugar"],
-          "why": "Oats fibre keeps sugar steady and helps lower cholesterol." },
-        { "slot": "Mid-morning", "dish": "Guava and almonds",
-          "items": ["1 guava", "5 soaked almonds (peeled, easier to chew)"],
-          "why": "Guava is low in sugar and high in fibre and vitamin C." },
-        { "slot": "Lunch", "dish": "Brown rice, moong dal and beans poriyal",
-          "items": ["1 small cup brown rice, or 2 small jowar rotis", "1 cup moong dal", "1 cup beans poriyal (stir-fry)", "Cucumber and carrot salad", "1 glass buttermilk"],
-          "why": "Half the plate is vegetables; dal gives protein without much fat." },
-        { "slot": "Evening snack", "dish": "Roasted chana",
-          "items": ["¼ cup roasted chana (unsalted)", "Green tea or lemon water, no sugar"],
-          "why": "Protein and fibre instead of fried snacks." },
-        { "slot": "Dinner", "dish": "Ragi dosa with sambar",
-          "items": ["2 small ragi dosas", "1 cup vegetable sambar", "2 tbsp mint chutney"],
-          "why": "Ragi gives calcium; a light, early dinner helps morning sugar." }
-      ]},
-    { "key": "Tue", "name": "Tuesday", "focus": "Dal & Paneer",
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Vegetable oats upma",
+            "te": "కూరగాయల ఓట్స్ ఉప్మా"
+          },
+          "items": [
+            {
+              "en": "1 cup oats upma with carrot, beans and peas",
+              "te": "క్యారెట్, బీన్స్, బఠాణీలతో 1 కప్పు ఓట్స్ ఉప్మా"
+            },
+            {
+              "en": "½ cup steamed moong sprouts",
+              "te": "½ కప్పు ఆవిరిపై ఉడికించిన పెసర మొలకలు"
+            },
+            {
+              "en": "Tea or coffee, no sugar",
+              "te": "చక్కెర లేని టీ లేదా కాఫీ"
+            }
+          ],
+          "why": {
+            "en": "Oats fibre keeps sugar steady and helps lower cholesterol.",
+            "te": "ఓట్స్‌లోని పీచు షుగర్‌ను నిలకడగా ఉంచి, కొలెస్ట్రాల్ తగ్గడానికి సహాయపడుతుంది."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Guava and almonds",
+            "te": "జామపండు & బాదం"
+          },
+          "items": [
+            {
+              "en": "1 guava",
+              "te": "1 జామపండు"
+            },
+            {
+              "en": "5 soaked almonds (peeled, easier to chew)",
+              "te": "5 నానబెట్టిన బాదం (పొట్టు తీస్తే నమలడం సులువు)"
+            }
+          ],
+          "why": {
+            "en": "Guava is low in sugar and high in fibre and vitamin C.",
+            "te": "జామపండులో చక్కెర తక్కువ, పీచు మరియు విటమిన్ C ఎక్కువ."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Brown rice, moong dal and beans poriyal",
+            "te": "దంపుడు బియ్యం అన్నం, పెసరపప్పు & బీన్స్ కూర"
+          },
+          "items": [
+            {
+              "en": "1 small cup brown rice, or 2 small jowar rotis",
+              "te": "1 చిన్న కప్పు దంపుడు బియ్యం అన్నం, లేదా 2 చిన్న జొన్న రొట్టెలు"
+            },
+            {
+              "en": "1 cup moong dal",
+              "te": "1 కప్పు పెసరపప్పు"
+            },
+            {
+              "en": "1 cup beans poriyal (stir-fry)",
+              "te": "1 కప్పు బీన్స్ వేపుడు"
+            },
+            {
+              "en": "Cucumber and carrot salad",
+              "te": "దోసకాయ, క్యారెట్ సలాడ్"
+            },
+            {
+              "en": "1 glass buttermilk",
+              "te": "1 గ్లాసు మజ్జిగ"
+            }
+          ],
+          "why": {
+            "en": "Half the plate is vegetables; dal gives protein without much fat.",
+            "te": "సగం పళ్లెం కూరగాయలు; పప్పు కొవ్వు లేకుండా ప్రోటీన్ ఇస్తుంది."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Roasted chana",
+            "te": "పుట్నాలు"
+          },
+          "items": [
+            {
+              "en": "¼ cup roasted chana (unsalted)",
+              "te": "¼ కప్పు పుట్నాలు (ఉప్పు లేకుండా)"
+            },
+            {
+              "en": "Green tea or lemon water, no sugar",
+              "te": "చక్కెర లేని గ్రీన్ టీ లేదా నిమ్మరసం నీళ్లు"
+            }
+          ],
+          "why": {
+            "en": "Protein and fibre instead of fried snacks.",
+            "te": "వేపుడు చిరుతిళ్ల బదులు ప్రోటీన్, పీచు."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Ragi dosa with sambar",
+            "te": "రాగి దోశ & సాంబారు"
+          },
+          "items": [
+            {
+              "en": "2 small ragi dosas",
+              "te": "2 చిన్న రాగి దోశలు"
+            },
+            {
+              "en": "1 cup vegetable sambar",
+              "te": "1 కప్పు కూరగాయల సాంబారు"
+            },
+            {
+              "en": "2 tbsp mint chutney",
+              "te": "2 పెద్ద చెంచాల పుదీనా చట్నీ"
+            }
+          ],
+          "why": {
+            "en": "Ragi gives calcium; a light, early dinner helps morning sugar.",
+            "te": "రాగిలో కాల్షియం ఉంటుంది; త్వరగా, తేలికగా రాత్రి భోజనం చేస్తే ఉదయం షుగర్ బాగుంటుంది."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Tue",
+      "name": "Tuesday",
+      "focus": {
+        "en": "Dal & Paneer",
+        "te": "పప్పు & పనీర్"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Pesarattu",
-          "items": ["2 small pesarattu (green moong dosa)", "2 tbsp ginger chutney", "Tea or coffee, no sugar"],
-          "why": "Moong is gentle, easy-to-digest protein." },
-        { "slot": "Mid-morning", "dish": "Apple and walnuts",
-          "items": ["1 small apple, with skin", "2 walnuts"],
-          "why": "Walnuts have omega-3 fats that are good for the heart." },
-        { "slot": "Lunch", "dish": "Phulka, palak paneer and cabbage",
-          "items": ["2 small multigrain phulkas, no ghee", "1 cup palak paneer, low oil", "1 cup cabbage stir-fry", "½ cup curd"],
-          "why": "Paneer and curd add protein and calcium for strong muscles and bones." },
-        { "slot": "Evening snack", "dish": "Sprouts chaat",
-          "items": ["1 cup steamed sprouts with tomato, onion and lemon", "Tea, no sugar"],
-          "why": "Sprouts are filling and raise sugar slowly." },
-        { "slot": "Dinner", "dish": "Vegetable dalia khichdi",
-          "items": ["1½ cups broken-wheat (dalia) khichdi with vegetables and moong dal", "½ cup curd or cucumber raita"],
-          "why": "Whole-grain dalia is soft and keeps sugar steady overnight." }
-      ]},
-    { "key": "Wed", "name": "Wednesday", "focus": "South Indian Day",
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Pesarattu",
+            "te": "పెసరట్టు"
+          },
+          "items": [
+            {
+              "en": "2 small pesarattu (green moong dosa)",
+              "te": "2 చిన్న పెసరట్లు"
+            },
+            {
+              "en": "2 tbsp ginger chutney",
+              "te": "2 పెద్ద చెంచాల అల్లం చట్నీ"
+            },
+            {
+              "en": "Tea or coffee, no sugar",
+              "te": "చక్కెర లేని టీ లేదా కాఫీ"
+            }
+          ],
+          "why": {
+            "en": "Moong is gentle, easy-to-digest protein.",
+            "te": "పెసలు తేలికగా అరిగే ప్రోటీన్."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Apple and walnuts",
+            "te": "ఆపిల్ & అక్రోట్లు"
+          },
+          "items": [
+            {
+              "en": "1 small apple, with skin",
+              "te": "1 చిన్న ఆపిల్, తొక్కతో సహా"
+            },
+            {
+              "en": "2 walnuts",
+              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
+            }
+          ],
+          "why": {
+            "en": "Walnuts have omega-3 fats that are good for the heart.",
+            "te": "అక్రోట్లలో గుండెకు మంచి చేసే ఒమేగా-3 కొవ్వులు ఉంటాయి."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Phulka, palak paneer and cabbage",
+            "te": "పుల్కా, పాలక్ పనీర్ & క్యాబేజీ"
+          },
+          "items": [
+            {
+              "en": "2 small multigrain phulkas, no ghee",
+              "te": "2 చిన్న మల్టీగ్రెయిన్ పుల్కాలు, నెయ్యి లేకుండా"
+            },
+            {
+              "en": "1 cup palak paneer, low oil",
+              "te": "1 కప్పు పాలక్ పనీర్, తక్కువ నూనెతో"
+            },
+            {
+              "en": "1 cup cabbage stir-fry",
+              "te": "1 కప్పు క్యాబేజీ కూర"
+            },
+            {
+              "en": "½ cup curd",
+              "te": "½ కప్పు పెరుగు"
+            }
+          ],
+          "why": {
+            "en": "Paneer and curd add protein and calcium for strong muscles and bones.",
+            "te": "పనీర్, పెరుగు కండరాలకు, ఎముకలకు బలం ఇచ్చే ప్రోటీన్, కాల్షియం ఇస్తాయి."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Sprouts chaat",
+            "te": "మొలకల చాట్"
+          },
+          "items": [
+            {
+              "en": "1 cup steamed sprouts with tomato, onion and lemon",
+              "te": "టమాటా, ఉల్లిపాయ, నిమ్మరసంతో 1 కప్పు ఉడికించిన మొలకలు"
+            },
+            {
+              "en": "Tea, no sugar",
+              "te": "చక్కెర లేని టీ"
+            }
+          ],
+          "why": {
+            "en": "Sprouts are filling and raise sugar slowly.",
+            "te": "మొలకలు కడుపు నింపుతాయి, షుగర్‌ను నెమ్మదిగా పెంచుతాయి."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Vegetable dalia khichdi",
+            "te": "కూరగాయల గోధుమ రవ్వ కిచిడీ"
+          },
+          "items": [
+            {
+              "en": "1½ cups broken-wheat (dalia) khichdi with vegetables and moong dal",
+              "te": "కూరగాయలు, పెసరపప్పుతో 1½ కప్పుల గోధుమ రవ్వ కిచిడీ"
+            },
+            {
+              "en": "½ cup curd or cucumber raita",
+              "te": "½ కప్పు పెరుగు లేదా దోసకాయ పెరుగు పచ్చడి"
+            }
+          ],
+          "why": {
+            "en": "Whole-grain dalia is soft and keeps sugar steady overnight.",
+            "te": "గోధుమ రవ్వ మెత్తగా ఉంటుంది, రాత్రంతా షుగర్‌ను నిలకడగా ఉంచుతుంది."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Wed",
+      "name": "Wednesday",
+      "focus": {
+        "en": "South Indian Day",
+        "te": "దక్షిణాది వంటల రోజు"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Idli with sambar",
-          "items": ["2 idlis (or ragi or millet idlis)", "1 cup sambar", "1 tbsp coconut chutney"],
-          "why": "Steamed and low in oil; sambar adds dal and vegetables." },
-        { "slot": "Mid-morning", "dish": "Papaya and seeds",
-          "items": ["1 cup papaya pieces", "1 tbsp roasted pumpkin seeds"],
-          "why": "Papaya is gentle on digestion; seeds add healthy fats and magnesium." },
-        { "slot": "Lunch", "dish": "Korra rice, sorakaya dal and bhindi",
-          "items": ["1 small cup foxtail millet (korra) rice", "1 cup sorakaya (bottle gourd) chana dal", "1 cup bhindi fry, low oil", "Salad", "1 glass buttermilk"],
-          "why": "Millets raise sugar more slowly than white rice." },
-        { "slot": "Evening snack", "dish": "Roasted makhana",
-          "items": ["1 cup roasted makhana (fox nuts), no salt or just a pinch", "Tea, no sugar"],
-          "why": "A light, crunchy snack that is low in fat." },
-        { "slot": "Dinner", "dish": "Jowar roti with paneer bhurji",
-          "items": ["2 small jowar rotis", "½ cup paneer bhurji, or tofu bhurji", "1 cup mixed vegetable curry"],
-          "why": "Protein at dinner helps keep muscles strong at 80." }
-      ]},
-    { "key": "Thu", "name": "Thursday", "focus": "Light & Simple",
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Idli with sambar",
+            "te": "ఇడ్లీ & సాంబారు"
+          },
+          "items": [
+            {
+              "en": "2 idlis (or ragi or millet idlis)",
+              "te": "2 ఇడ్లీలు (లేదా రాగి లేదా చిరుధాన్యాల ఇడ్లీలు)"
+            },
+            {
+              "en": "1 cup sambar",
+              "te": "1 కప్పు సాంబారు"
+            },
+            {
+              "en": "1 tbsp coconut chutney",
+              "te": "1 పెద్ద చెంచా కొబ్బరి చట్నీ"
+            }
+          ],
+          "why": {
+            "en": "Steamed and low in oil; sambar adds dal and vegetables.",
+            "te": "ఆవిరిపై వండినది, నూనె తక్కువ; సాంబారులో పప్పు, కూరగాయలు ఉంటాయి."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Papaya and seeds",
+            "te": "బొప్పాయి & గింజలు"
+          },
+          "items": [
+            {
+              "en": "1 cup papaya pieces",
+              "te": "1 కప్పు బొప్పాయి ముక్కలు"
+            },
+            {
+              "en": "1 tbsp roasted pumpkin seeds",
+              "te": "1 పెద్ద చెంచా వేయించిన గుమ్మడి గింజలు"
+            }
+          ],
+          "why": {
+            "en": "Papaya is gentle on digestion; seeds add healthy fats and magnesium.",
+            "te": "బొప్పాయి సులువుగా అరుగుతుంది; గింజలు మంచి కొవ్వులు, మెగ్నీషియం ఇస్తాయి."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Korra rice, sorakaya dal and bhindi",
+            "te": "కొర్ర అన్నం, సొరకాయ పప్పు & బెండకాయ"
+          },
+          "items": [
+            {
+              "en": "1 small cup foxtail millet (korra) rice",
+              "te": "1 చిన్న కప్పు కొర్ర అన్నం"
+            },
+            {
+              "en": "1 cup sorakaya (bottle gourd) chana dal",
+              "te": "1 కప్పు సొరకాయ శనగపప్పు"
+            },
+            {
+              "en": "1 cup bhindi fry, low oil",
+              "te": "1 కప్పు బెండకాయ వేపుడు, తక్కువ నూనెతో"
+            },
+            {
+              "en": "Salad",
+              "te": "సలాడ్"
+            },
+            {
+              "en": "1 glass buttermilk",
+              "te": "1 గ్లాసు మజ్జిగ"
+            }
+          ],
+          "why": {
+            "en": "Millets raise sugar more slowly than white rice.",
+            "te": "తెల్ల అన్నం కంటే చిరుధాన్యాలు షుగర్‌ను నెమ్మదిగా పెంచుతాయి."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Roasted makhana",
+            "te": "వేయించిన మఖానా (తామర గింజలు)"
+          },
+          "items": [
+            {
+              "en": "1 cup roasted makhana (fox nuts), no salt or just a pinch",
+              "te": "1 కప్పు వేయించిన మఖానా, ఉప్పు లేకుండా లేదా చిటికెడు"
+            },
+            {
+              "en": "Tea, no sugar",
+              "te": "చక్కెర లేని టీ"
+            }
+          ],
+          "why": {
+            "en": "A light, crunchy snack that is low in fat.",
+            "te": "కొవ్వు తక్కువగా ఉండే తేలికైన, కరకరలాడే చిరుతిండి."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Jowar roti with paneer bhurji",
+            "te": "జొన్న రొట్టె & పనీర్ బుర్జీ"
+          },
+          "items": [
+            {
+              "en": "2 small jowar rotis",
+              "te": "2 చిన్న జొన్న రొట్టెలు"
+            },
+            {
+              "en": "½ cup paneer bhurji, or tofu bhurji",
+              "te": "½ కప్పు పనీర్ బుర్జీ, లేదా టోఫు బుర్జీ"
+            },
+            {
+              "en": "1 cup mixed vegetable curry",
+              "te": "1 కప్పు మిక్స్‌డ్ కూరగాయల కూర"
+            }
+          ],
+          "why": {
+            "en": "Protein at dinner helps keep muscles strong at 80.",
+            "te": "రాత్రి భోజనంలో ప్రోటీన్ 80 ఏళ్ల వయసులో కండరాలను బలంగా ఉంచుతుంది."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Thu",
+      "name": "Thursday",
+      "focus": {
+        "en": "Light & Simple",
+        "te": "తేలికైన & సులువైన"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Vegetable poha",
-          "items": ["1 cup poha with lots of vegetables and a few peanuts", "1 glass low-fat milk, no sugar"],
-          "why": "More vegetables and less poha keeps the sugar rise small." },
-        { "slot": "Mid-morning", "dish": "Orange and almonds",
-          "items": ["1 orange (whole fruit, not juice)", "5 soaked almonds"],
-          "why": "Whole fruit has fibre that juice loses." },
-        { "slot": "Lunch", "dish": "Brown rice, tomato pappu and beerakaya",
-          "items": ["1 small cup brown rice", "1 cup tomato pappu (dal)", "1 cup beerakaya (ridge gourd) curry", "½ cup curd"],
-          "why": "Gourd vegetables are light, watery and low in calories." },
-        { "slot": "Evening snack", "dish": "Buttermilk and cucumber",
-          "items": ["1 glass buttermilk", "1 small cucumber, sliced, with a pinch of chaat masala"],
-          "why": "Cooling and hydrating, with almost no sugar." },
-        { "slot": "Dinner", "dish": "Vegetable soup, phulka and methi dal",
-          "items": ["1 bowl clear vegetable soup (no cream, little salt)", "2 small phulkas", "1 cup methi dal"],
-          "why": "Methi (fenugreek) may help with blood sugar." }
-      ]},
-    { "key": "Fri", "name": "Friday", "focus": "Paneer Day",
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Vegetable poha",
+            "te": "కూరగాయల అటుకుల ఉప్మా"
+          },
+          "items": [
+            {
+              "en": "1 cup poha with lots of vegetables and a few peanuts",
+              "te": "ఎక్కువ కూరగాయలు, కొన్ని వేరుశనగలతో 1 కప్పు అటుకుల ఉప్మా"
+            },
+            {
+              "en": "1 glass low-fat milk, no sugar",
+              "te": "1 గ్లాసు కొవ్వు తక్కువ పాలు, చక్కెర లేకుండా"
+            }
+          ],
+          "why": {
+            "en": "More vegetables and less poha keeps the sugar rise small.",
+            "te": "అటుకులు తక్కువ, కూరగాయలు ఎక్కువ వేస్తే షుగర్ కొంచెమే పెరుగుతుంది."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Orange and almonds",
+            "te": "బత్తాయి/నారింజ & బాదం"
+          },
+          "items": [
+            {
+              "en": "1 orange (whole fruit, not juice)",
+              "te": "1 బత్తాయి లేదా నారింజ (పూర్తి పండు, రసం కాదు)"
+            },
+            {
+              "en": "5 soaked almonds",
+              "te": "5 నానబెట్టిన బాదం"
+            }
+          ],
+          "why": {
+            "en": "Whole fruit has fibre that juice loses.",
+            "te": "రసంలో పోయే పీచు పూర్తి పండులో ఉంటుంది."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Brown rice, tomato pappu and beerakaya",
+            "te": "దంపుడు బియ్యం అన్నం, టమాటా పప్పు & బీరకాయ"
+          },
+          "items": [
+            {
+              "en": "1 small cup brown rice",
+              "te": "1 చిన్న కప్పు దంపుడు బియ్యం అన్నం"
+            },
+            {
+              "en": "1 cup tomato pappu (dal)",
+              "te": "1 కప్పు టమాటా పప్పు"
+            },
+            {
+              "en": "1 cup beerakaya (ridge gourd) curry",
+              "te": "1 కప్పు బీరకాయ కూర"
+            },
+            {
+              "en": "½ cup curd",
+              "te": "½ కప్పు పెరుగు"
+            }
+          ],
+          "why": {
+            "en": "Gourd vegetables are light, watery and low in calories.",
+            "te": "బీరకాయ, సొరకాయ వంటి కూరలు తేలికగా, నీరు ఎక్కువగా, కేలరీలు తక్కువగా ఉంటాయి."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Buttermilk and cucumber",
+            "te": "మజ్జిగ & దోసకాయ"
+          },
+          "items": [
+            {
+              "en": "1 glass buttermilk",
+              "te": "1 గ్లాసు మజ్జిగ"
+            },
+            {
+              "en": "1 small cucumber, sliced, with a pinch of chaat masala",
+              "te": "1 చిన్న దోసకాయ ముక్కలు, చిటికెడు చాట్ మసాలాతో"
+            }
+          ],
+          "why": {
+            "en": "Cooling and hydrating, with almost no sugar.",
+            "te": "చలువ చేస్తుంది, ఒంట్లో నీరు ఉంచుతుంది, దాదాపు చక్కెర ఉండదు."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Vegetable soup, phulka and methi dal",
+            "te": "కూరగాయల సూప్, పుల్కా & మెంతికూర పప్పు"
+          },
+          "items": [
+            {
+              "en": "1 bowl clear vegetable soup (no cream, little salt)",
+              "te": "1 గిన్నె పలుచని కూరగాయల సూప్ (క్రీమ్ లేకుండా, ఉప్పు తక్కువ)"
+            },
+            {
+              "en": "2 small phulkas",
+              "te": "2 చిన్న పుల్కాలు"
+            },
+            {
+              "en": "1 cup methi dal",
+              "te": "1 కప్పు మెంతికూర పప్పు"
+            }
+          ],
+          "why": {
+            "en": "Methi (fenugreek) may help with blood sugar.",
+            "te": "మెంతికూర షుగర్ అదుపులో ఉండడానికి సహాయపడవచ్చు."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Fri",
+      "name": "Friday",
+      "focus": {
+        "en": "Paneer Day",
+        "te": "పనీర్ రోజు"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Ragi porridge",
-          "items": ["1 cup ragi java (porridge) with low-fat milk, no sugar", "1 tbsp ground flaxseed stirred in", "4 to 5 soaked almonds"],
-          "why": "Flaxseed adds omega-3 and fibre; ragi adds calcium." },
-        { "slot": "Mid-morning", "dish": "Pear",
-          "items": ["1 pear"],
-          "why": "A low-sugar fruit with lots of fibre." },
-        { "slot": "Lunch", "dish": "Phulka with paneer curry and dondakaya",
-          "items": ["2 small phulkas, or 1 small cup brown rice", "1 cup paneer curry (low oil), or tofu curry", "1 cup dondakaya (ivy gourd) fry, low oil", "Salad"],
-          "why": "Paneer gives protein and calcium. The flaxseed and walnuts in this plan provide the heart-healthy omega-3." },
-        { "slot": "Evening snack", "dish": "Roasted chana or peanuts",
-          "items": ["¼ cup roasted chana or unsalted peanuts", "Green tea"],
-          "why": "Keeps hunger away until dinner without spiking sugar." },
-        { "slot": "Dinner", "dish": "Moong dal khichdi",
-          "items": ["1½ cups moong dal khichdi with vegetables (more dal than rice)", "½ cup curd"],
-          "why": "Soft, easy to digest and balanced." }
-      ]},
-    { "key": "Sat", "name": "Saturday", "focus": "Comfort Food",
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Ragi porridge",
+            "te": "రాగి జావ"
+          },
+          "items": [
+            {
+              "en": "1 cup ragi java (porridge) with low-fat milk, no sugar",
+              "te": "కొవ్వు తక్కువ పాలతో 1 కప్పు రాగి జావ, చక్కెర లేకుండా"
+            },
+            {
+              "en": "1 tbsp ground flaxseed stirred in",
+              "te": "1 పెద్ద చెంచా అవిసె గింజల పొడి కలిపి"
+            },
+            {
+              "en": "4 to 5 soaked almonds",
+              "te": "4 నుండి 5 నానబెట్టిన బాదం"
+            }
+          ],
+          "why": {
+            "en": "Flaxseed adds omega-3 and fibre; ragi adds calcium.",
+            "te": "అవిసె గింజలు ఒమేగా-3, పీచు ఇస్తాయి; రాగి కాల్షియం ఇస్తుంది."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Pear",
+            "te": "బేరిపండు"
+          },
+          "items": [
+            {
+              "en": "1 pear",
+              "te": "1 బేరిపండు"
+            }
+          ],
+          "why": {
+            "en": "A low-sugar fruit with lots of fibre.",
+            "te": "చక్కెర తక్కువ, పీచు ఎక్కువ ఉన్న పండు."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Phulka with paneer curry and dondakaya",
+            "te": "పుల్కా, పనీర్ కూర & దొండకాయ"
+          },
+          "items": [
+            {
+              "en": "2 small phulkas, or 1 small cup brown rice",
+              "te": "2 చిన్న పుల్కాలు, లేదా 1 చిన్న కప్పు దంపుడు బియ్యం అన్నం"
+            },
+            {
+              "en": "1 cup paneer curry (low oil), or tofu curry",
+              "te": "1 కప్పు పనీర్ కూర (తక్కువ నూనెతో), లేదా టోఫు కూర"
+            },
+            {
+              "en": "1 cup dondakaya (ivy gourd) fry, low oil",
+              "te": "1 కప్పు దొండకాయ వేపుడు, తక్కువ నూనెతో"
+            },
+            {
+              "en": "Salad",
+              "te": "సలాడ్"
+            }
+          ],
+          "why": {
+            "en": "Paneer gives protein and calcium. The flaxseed and walnuts in this plan provide the heart-healthy omega-3.",
+            "te": "పనీర్ ప్రోటీన్, కాల్షియం ఇస్తుంది. గుండెకు మంచి ఒమేగా-3 ఈ ప్రణాళికలోని అవిసె గింజలు, అక్రోట్ల నుండి వస్తుంది."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Roasted chana or peanuts",
+            "te": "పుట్నాలు లేదా వేరుశనగలు"
+          },
+          "items": [
+            {
+              "en": "¼ cup roasted chana or unsalted peanuts",
+              "te": "¼ కప్పు పుట్నాలు లేదా ఉప్పు లేని వేయించిన వేరుశనగలు"
+            },
+            {
+              "en": "Green tea",
+              "te": "గ్రీన్ టీ"
+            }
+          ],
+          "why": {
+            "en": "Keeps hunger away until dinner without spiking sugar.",
+            "te": "షుగర్ పెంచకుండా రాత్రి భోజనం వరకు ఆకలి వేయకుండా ఉంచుతుంది."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Moong dal khichdi",
+            "te": "పెసరపప్పు కిచిడీ"
+          },
+          "items": [
+            {
+              "en": "1½ cups moong dal khichdi with vegetables (more dal than rice)",
+              "te": "కూరగాయలతో 1½ కప్పుల పెసరపప్పు కిచిడీ (బియ్యం కంటే పప్పు ఎక్కువ)"
+            },
+            {
+              "en": "½ cup curd",
+              "te": "½ కప్పు పెరుగు"
+            }
+          ],
+          "why": {
+            "en": "Soft, easy to digest and balanced.",
+            "te": "మెత్తగా, సులువుగా అరిగే, సమతుల్యమైన భోజనం."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Sat",
+      "name": "Saturday",
+      "focus": {
+        "en": "Comfort Food",
+        "te": "ఇష్టమైన వంటల రోజు"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Besan chilla",
-          "items": ["2 vegetable besan chillas, little oil", "2 tbsp mint-coriander chutney", "Tea or coffee, no sugar"],
-          "why": "Besan (gram flour) is high in protein and low in glycemic load." },
-        { "slot": "Mid-morning", "dish": "Seasonal fruit and walnuts",
-          "items": ["1 cup jamun or berries in season, or 1 small guava", "2 walnuts"],
-          "why": "Jamun and berries are among the best fruits for blood sugar." },
-        { "slot": "Lunch", "dish": "Millet bisi bele bath",
-          "items": ["1½ cups millet bisi bele bath with lots of vegetables", "1 cup cucumber raita"],
-          "why": "A one-pot meal with grain, dal and vegetables together." },
-        { "slot": "Evening snack", "dish": "Chickpea sundal",
-          "items": ["½ cup chickpea sundal with coconut and curry leaves", "Tea, no sugar"],
-          "why": "Chickpeas are filling and rich in protein and fibre." },
-        { "slot": "Dinner", "dish": "Roti with soya chunk curry",
-          "items": ["2 small multigrain rotis", "1 cup soya chunk curry (low oil), or chana masala", "1 cup sorakaya or beans curry"],
-          "why": "Soya is a complete vegetarian protein that helps keep strength up." }
-      ]},
-    { "key": "Sun", "name": "Sunday", "focus": "Easy Day",
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Besan chilla",
+            "te": "శనగపిండి అట్టు"
+          },
+          "items": [
+            {
+              "en": "2 vegetable besan chillas, little oil",
+              "te": "తక్కువ నూనెతో 2 కూరగాయల శనగపిండి అట్లు"
+            },
+            {
+              "en": "2 tbsp mint-coriander chutney",
+              "te": "2 పెద్ద చెంచాల పుదీనా-కొత్తిమీర చట్నీ"
+            },
+            {
+              "en": "Tea or coffee, no sugar",
+              "te": "చక్కెర లేని టీ లేదా కాఫీ"
+            }
+          ],
+          "why": {
+            "en": "Besan (gram flour) is high in protein and low in glycemic load.",
+            "te": "శనగపిండిలో ప్రోటీన్ ఎక్కువ, షుగర్‌ను నెమ్మదిగా పెంచుతుంది."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Seasonal fruit and walnuts",
+            "te": "సీజన్ పండు & అక్రోట్లు"
+          },
+          "items": [
+            {
+              "en": "1 cup jamun or berries in season, or 1 small guava",
+              "te": "సీజన్‌లో 1 కప్పు నేరేడు పండ్లు లేదా బెర్రీలు, లేదా 1 చిన్న జామపండు"
+            },
+            {
+              "en": "2 walnuts",
+              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
+            }
+          ],
+          "why": {
+            "en": "Jamun and berries are among the best fruits for blood sugar.",
+            "te": "షుగర్ ఉన్నవారికి నేరేడు పండ్లు, బెర్రీలు చాలా మంచి పండ్లు."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Millet bisi bele bath",
+            "te": "చిరుధాన్యాల బిసిబేళే బాత్"
+          },
+          "items": [
+            {
+              "en": "1½ cups millet bisi bele bath with lots of vegetables",
+              "te": "ఎక్కువ కూరగాయలతో 1½ కప్పుల చిరుధాన్యాల బిసిబేళే బాత్"
+            },
+            {
+              "en": "1 cup cucumber raita",
+              "te": "1 కప్పు దోసకాయ పెరుగు పచ్చడి"
+            }
+          ],
+          "why": {
+            "en": "A one-pot meal with grain, dal and vegetables together.",
+            "te": "ధాన్యం, పప్పు, కూరగాయలు అన్నీ కలిపి ఒకే గిన్నెలో వండే భోజనం."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Chickpea sundal",
+            "te": "శనగ గుగ్గిళ్లు"
+          },
+          "items": [
+            {
+              "en": "½ cup chickpea sundal with coconut and curry leaves",
+              "te": "కొబ్బరి, కరివేపాకుతో ½ కప్పు శనగ గుగ్గిళ్లు"
+            },
+            {
+              "en": "Tea, no sugar",
+              "te": "చక్కెర లేని టీ"
+            }
+          ],
+          "why": {
+            "en": "Chickpeas are filling and rich in protein and fibre.",
+            "te": "శనగలు కడుపు నింపుతాయి, ప్రోటీన్, పీచు ఎక్కువ."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Roti with soya chunk curry",
+            "te": "రొట్టె & సోయా ముక్కల కూర"
+          },
+          "items": [
+            {
+              "en": "2 small multigrain rotis",
+              "te": "2 చిన్న మల్టీగ్రెయిన్ రొట్టెలు"
+            },
+            {
+              "en": "1 cup soya chunk curry (low oil), or chana masala",
+              "te": "1 కప్పు సోయా ముక్కల కూర (తక్కువ నూనెతో), లేదా శనగ కూర"
+            },
+            {
+              "en": "1 cup sorakaya or beans curry",
+              "te": "1 కప్పు సొరకాయ లేదా బీన్స్ కూర"
+            }
+          ],
+          "why": {
+            "en": "Soya is a complete vegetarian protein that helps keep strength up.",
+            "te": "సోయా శాకాహారంలో పూర్తి ప్రోటీన్, బలం నిలబెడుతుంది."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Sun",
+      "name": "Sunday",
+      "focus": {
+        "en": "Easy Day",
+        "te": "సులువైన రోజు"
+      },
       "meals": [
-        { "slot": "Breakfast", "dish": "Oats or ragi uttapam",
-          "items": ["2 small oats or ragi uttapams with onion and tomato", "1 cup sambar"],
-          "why": "A familiar breakfast made with whole grains." },
-        { "slot": "Mid-morning", "dish": "Fruit and pistachios",
-          "items": ["1 guava or 1 cup papaya", "10 unsalted pistachios"],
-          "why": "Pistachios support healthy cholesterol." },
-        { "slot": "Lunch", "dish": "Brown rice, sambar and cabbage-peas curry",
-          "items": ["1 small cup brown rice", "1 cup sambar or pappu", "1 cup cabbage and peas curry", "½ cup curd"],
-          "why": "A simple, balanced plate." },
-        { "slot": "Evening snack", "dish": "Roasted makhana",
-          "items": ["1 cup roasted makhana", "Tea, no sugar"],
-          "why": "Light and low in fat." },
-        { "slot": "Dinner", "dish": "Vegetable broken-wheat upma",
-          "items": ["1½ cups vegetable broken-wheat upma", "1 cup dal soup, or ½ cup curd"],
-          "why": "Soft whole grain with protein to finish the week." }
-      ]}
+        {
+          "slot": "Breakfast",
+          "dish": {
+            "en": "Oats or ragi uttapam",
+            "te": "ఓట్స్ లేదా రాగి ఊతప్పం"
+          },
+          "items": [
+            {
+              "en": "2 small oats or ragi uttapams with onion and tomato",
+              "te": "ఉల్లిపాయ, టమాటాతో 2 చిన్న ఓట్స్ లేదా రాగి ఊతప్పాలు"
+            },
+            {
+              "en": "1 cup sambar",
+              "te": "1 కప్పు సాంబారు"
+            }
+          ],
+          "why": {
+            "en": "A familiar breakfast made with whole grains.",
+            "te": "పూర్తి ధాన్యాలతో చేసిన అలవాటైన అల్పాహారం."
+          }
+        },
+        {
+          "slot": "Mid-morning",
+          "dish": {
+            "en": "Fruit and pistachios",
+            "te": "పండు & పిస్తా"
+          },
+          "items": [
+            {
+              "en": "1 guava or 1 cup papaya",
+              "te": "1 జామపండు లేదా 1 కప్పు బొప్పాయి"
+            },
+            {
+              "en": "10 unsalted pistachios",
+              "te": "10 ఉప్పు లేని పిస్తా పప్పులు"
+            }
+          ],
+          "why": {
+            "en": "Pistachios support healthy cholesterol.",
+            "te": "పిస్తా కొలెస్ట్రాల్ అదుపులో ఉండడానికి సహాయపడుతుంది."
+          }
+        },
+        {
+          "slot": "Lunch",
+          "dish": {
+            "en": "Brown rice, sambar and cabbage-peas curry",
+            "te": "దంపుడు బియ్యం అన్నం, సాంబారు & క్యాబేజీ-బఠాణీ కూర"
+          },
+          "items": [
+            {
+              "en": "1 small cup brown rice",
+              "te": "1 చిన్న కప్పు దంపుడు బియ్యం అన్నం"
+            },
+            {
+              "en": "1 cup sambar or pappu",
+              "te": "1 కప్పు సాంబారు లేదా పప్పు"
+            },
+            {
+              "en": "1 cup cabbage and peas curry",
+              "te": "1 కప్పు క్యాబేజీ-బఠాణీ కూర"
+            },
+            {
+              "en": "½ cup curd",
+              "te": "½ కప్పు పెరుగు"
+            }
+          ],
+          "why": {
+            "en": "A simple, balanced plate.",
+            "te": "సులువైన, సమతుల్యమైన పళ్లెం."
+          }
+        },
+        {
+          "slot": "Evening snack",
+          "dish": {
+            "en": "Roasted makhana",
+            "te": "వేయించిన మఖానా (తామర గింజలు)"
+          },
+          "items": [
+            {
+              "en": "1 cup roasted makhana",
+              "te": "1 కప్పు వేయించిన మఖానా"
+            },
+            {
+              "en": "Tea, no sugar",
+              "te": "చక్కెర లేని టీ"
+            }
+          ],
+          "why": {
+            "en": "Light and low in fat.",
+            "te": "తేలికగా, కొవ్వు తక్కువగా."
+          }
+        },
+        {
+          "slot": "Dinner",
+          "dish": {
+            "en": "Vegetable broken-wheat upma",
+            "te": "కూరగాయల గోధుమ రవ్వ ఉప్మా"
+          },
+          "items": [
+            {
+              "en": "1½ cups vegetable broken-wheat upma",
+              "te": "1½ కప్పుల కూరగాయల గోధుమ రవ్వ ఉప్మా"
+            },
+            {
+              "en": "1 cup dal soup, or ½ cup curd",
+              "te": "1 కప్పు పప్పు చారు, లేదా ½ కప్పు పెరుగు"
+            }
+          ],
+          "why": {
+            "en": "Soft whole grain with protein to finish the week.",
+            "te": "వారం ముగింపుకు ప్రోటీన్‌తో మెత్తని పూర్తి ధాన్యం."
+          }
+        }
+      ]
+    }
   ]
 }

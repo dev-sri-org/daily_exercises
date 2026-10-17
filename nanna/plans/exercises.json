@@ -1,49 +1,348 @@
 {
-  "subtitle": "Gentle, mostly seated or supported routines. Monday to Friday, about 30 to 45 minutes a day.",
-  "safetyTitle": "Before you start: safety first",
+  "subtitle": {
+    "en": "Gentle, mostly seated or supported routines. Monday to Friday, about 30 to 45 minutes a day.",
+    "te": "నెమ్మదిగా, ఎక్కువగా కూర్చుని లేదా ఆధారం పట్టుకుని చేసే వ్యాయామాలు. సోమవారం నుండి శుక్రవారం వరకు, రోజుకు సుమారు 30 నుండి 45 నిమిషాలు."
+  },
+  "safetyTitle": {
+    "en": "Before you start: safety first",
+    "te": "మొదలుపెట్టే ముందు: జాగ్రత్తలు"
+  },
   "safety": [
-    "Check with the doctor before beginning or changing any exercise routine, especially with atrial fibrillation or if medicines (like blood thinners) have changed.",
-    "Go at a pace where you can still talk in full sentences. Never hold your breath or strain.",
-    "<strong>Stop and rest</strong> if you feel dizzy, lightheaded, unusually short of breath, or notice a racing or irregular heartbeat that is worse than normal.",
-    "<strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.",
-    "Wear sturdy, non-slip shoes. Keep a firm chair or kitchen counter within reach, and have water nearby. Skip a day if feeling unwell."
+    {
+      "en": "Check with the doctor before beginning or changing any exercise routine, especially with atrial fibrillation or if medicines (like blood thinners) have changed.",
+      "te": "ఏ వ్యాయామం మొదలుపెట్టే ముందు లేదా మార్చే ముందు డాక్టర్‌ను అడగండి. ముఖ్యంగా గుండె దడ (ఏట్రియల్ ఫిబ్రిలేషన్) ఉన్నా, లేదా మందులు (రక్తం పలుచబడే మందుల వంటివి) మారినా తప్పకుండా అడగండి."
+    },
+    {
+      "en": "Go at a pace where you can still talk in full sentences. Never hold your breath or strain.",
+      "te": "మాట్లాడగలిగేంత నెమ్మదిగా చేయండి. ఊపిరి బిగబట్టవద్దు, ఒత్తిడి పెట్టవద్దు."
+    },
+    {
+      "en": "<strong>Stop and rest</strong> if you feel dizzy, lightheaded, unusually short of breath, or notice a racing or irregular heartbeat that is worse than normal.",
+      "te": "తల తిరిగినా, మైకంగా అనిపించినా, ఎక్కువ ఆయాసం వచ్చినా, లేదా గుండె మామూలు కంటే వేగంగా లేదా అస్తవ్యస్తంగా కొట్టుకున్నా <strong>వెంటనే ఆపి విశ్రాంతి తీసుకోండి</strong>."
+    },
+    {
+      "en": "<strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.",
+      "te": "ఛాతీ నొప్పి లేదా ఒత్తిడి, స్పృహ తప్పడం, ఒక్కసారిగా బలహీనత లేదా మాట తడబడడం జరిగితే <strong>వెంటనే అంబులెన్స్‌ను పిలవండి</strong>."
+    },
+    {
+      "en": "Wear sturdy, non-slip shoes. Keep a firm chair or kitchen counter within reach, and have water nearby. Skip a day if feeling unwell.",
+      "te": "జారని, గట్టి చెప్పులు లేదా షూస్ వేసుకోండి. గట్టి కుర్చీ లేదా వంటగది గట్టు దగ్గరలో ఉంచుకోండి, నీళ్లు పక్కన పెట్టుకోండి. ఒంట్లో బాగోలేకపోతే ఆ రోజు చేయవద్దు."
+    }
   ],
-  "restMessage": "<strong>It is the weekend.</strong> Rest, or take an easy walk around the house or yard. The weekday plan is below.",
+  "restMessage": {
+    "en": "<strong>It is the weekend.</strong> Rest, or take an easy walk around the house or yard. The weekday plan is below.",
+    "te": "<strong>ఈరోజు వారాంతం.</strong> విశ్రాంతి తీసుకోండి, లేదా ఇంట్లో లేదా ఆవరణలో నెమ్మదిగా నడవండి. వారం రోజుల ప్రణాళిక కింద ఉంది."
+  },
   "days": [
-    { "key": "Mon", "name": "Monday", "focus": "Seated Strength & Joint Mobility",
-      "note": "Easy start to the week. All done sitting down.",
+    {
+      "key": "Mon",
+      "name": "Monday",
+      "focus": {
+        "en": "Seated Strength & Joint Mobility",
+        "te": "కూర్చుని బలం & కీళ్ల కదలిక"
+      },
+      "note": {
+        "en": "Easy start to the week. All done sitting down.",
+        "te": "వారానికి తేలికైన మొదలు. అన్నీ కూర్చునే చేయవచ్చు."
+      },
       "tiles": [
-        { "step": "1. Warm-up", "title": "Seated Mobility Workout", "mins": 10, "id": "ZKfDVpZdipg", "tip": "Move slowly. Loosen the neck, shoulders, hips and ankles." },
-        { "step": "2. Main", "title": "Chair Workout, All Seated", "mins": 6, "id": "6KiPatdnGEY", "tip": "Keep breathing steadily. Take a short sip of water between moves." },
-        { "step": "3. Cool-down", "title": "10-Minute Chair Yoga", "mins": 12, "id": "mPNLL_hAZP0", "tip": "Gentle stretches. Let the heart rate settle." }
-      ]},
-    { "key": "Tue", "name": "Tuesday", "focus": "Balance & Fall Prevention",
-      "note": "Stand next to a kitchen counter or a sturdy chair you can hold.",
+        {
+          "step": {
+            "en": "1. Warm-up",
+            "te": "1. వార్మప్"
+          },
+          "title": {
+            "en": "Seated Mobility Workout",
+            "te": "కూర్చుని కీళ్ల కదలిక వ్యాయామం"
+          },
+          "mins": 10,
+          "id": "ZKfDVpZdipg",
+          "tip": {
+            "en": "Move slowly. Loosen the neck, shoulders, hips and ankles.",
+            "te": "నెమ్మదిగా కదలండి. మెడ, భుజాలు, తుంటి, చీలమండలు వదులు చేయండి."
+          }
+        },
+        {
+          "step": {
+            "en": "2. Main",
+            "te": "2. ముఖ్య వ్యాయామం"
+          },
+          "title": {
+            "en": "Chair Workout, All Seated",
+            "te": "కుర్చీ వ్యాయామం, అంతా కూర్చునే"
+          },
+          "mins": 6,
+          "id": "6KiPatdnGEY",
+          "tip": {
+            "en": "Keep breathing steadily. Take a short sip of water between moves.",
+            "te": "నిలకడగా ఊపిరి తీసుకోండి. మధ్యలో కొంచెం నీళ్లు తాగండి."
+          }
+        },
+        {
+          "step": {
+            "en": "3. Cool-down",
+            "te": "3. కూల్‌డౌన్"
+          },
+          "title": {
+            "en": "10-Minute Chair Yoga",
+            "te": "10 నిమిషాల కుర్చీ యోగా"
+          },
+          "mins": 12,
+          "id": "mPNLL_hAZP0",
+          "tip": {
+            "en": "Gentle stretches. Let the heart rate settle.",
+            "te": "తేలికపాటి స్ట్రెచ్‌లు. గుండె వేగం నెమ్మదిగా తగ్గనివ్వండి."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Tue",
+      "name": "Tuesday",
+      "focus": {
+        "en": "Balance & Fall Prevention",
+        "te": "బ్యాలెన్స్ & పడిపోకుండా జాగ్రత్త"
+      },
+      "note": {
+        "en": "Stand next to a kitchen counter or a sturdy chair you can hold.",
+        "te": "పట్టుకోవడానికి వంటగది గట్టు లేదా గట్టి కుర్చీ పక్కన నిలబడండి."
+      },
       "tiles": [
-        { "step": "1. Warm-up", "title": "5-Minute Indoor Walk", "mins": 7, "id": "SPTWBCwAZEs", "tip": "Easy pace. Walk in place near a counter if needed." },
-        { "step": "2. Main", "title": "10-Minute Balance Exercises", "mins": 11, "id": "1AaAWRvKj1k", "tip": "Hold on with one hand whenever it feels wobbly." },
-        { "step": "3. Cool-down", "title": "Chair Yoga Full-Body Stretch", "mins": 18, "id": "OfMSpuTglqs", "tip": "Sit tall and breathe slowly." }
-      ]},
-    { "key": "Wed", "name": "Wednesday", "focus": "Gentle Walking Day",
-      "note": "Steady, low-impact walking is great for the heart. Keep it conversational.",
+        {
+          "step": {
+            "en": "1. Warm-up",
+            "te": "1. వార్మప్"
+          },
+          "title": {
+            "en": "5-Minute Indoor Walk",
+            "te": "5 నిమిషాల ఇంట్లో నడక"
+          },
+          "mins": 7,
+          "id": "SPTWBCwAZEs",
+          "tip": {
+            "en": "Easy pace. Walk in place near a counter if needed.",
+            "te": "నెమ్మదిగా నడవండి. అవసరమైతే గట్టు దగ్గర ఉన్నచోటే నడవండి."
+          }
+        },
+        {
+          "step": {
+            "en": "2. Main",
+            "te": "2. ముఖ్య వ్యాయామం"
+          },
+          "title": {
+            "en": "10-Minute Balance Exercises",
+            "te": "10 నిమిషాల బ్యాలెన్స్ వ్యాయామాలు"
+          },
+          "mins": 11,
+          "id": "1AaAWRvKj1k",
+          "tip": {
+            "en": "Hold on with one hand whenever it feels wobbly.",
+            "te": "తూలినట్లు అనిపిస్తే ఒక చేత్తో పట్టుకోండి."
+          }
+        },
+        {
+          "step": {
+            "en": "3. Cool-down",
+            "te": "3. కూల్‌డౌన్"
+          },
+          "title": {
+            "en": "Chair Yoga Full-Body Stretch",
+            "te": "కుర్చీ యోగా: ఒళ్లంతా స్ట్రెచ్"
+          },
+          "mins": 18,
+          "id": "OfMSpuTglqs",
+          "tip": {
+            "en": "Sit tall and breathe slowly.",
+            "te": "నిటారుగా కూర్చుని నెమ్మదిగా ఊపిరి తీసుకోండి."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Wed",
+      "name": "Wednesday",
+      "focus": {
+        "en": "Gentle Walking Day",
+        "te": "నెమ్మది నడక రోజు"
+      },
+      "note": {
+        "en": "Steady, low-impact walking is great for the heart. Keep it conversational.",
+        "te": "నిలకడగా, తేలికగా నడవడం గుండెకు చాలా మంచిది. మాట్లాడగలిగేంత వేగంతో నడవండి."
+      },
       "tiles": [
-        { "step": "1. Warm-up", "title": "Gentle Chair Exercises for Range of Motion", "mins": 11, "id": "R-w2Esi8p08", "tip": "Wake up the joints before walking." },
-        { "step": "2. Main", "title": "20-Minute Gentle Walking Workout", "mins": 21, "id": "TCsmCYbKzoY", "tip": "Rest on a chair any time. Slow down if breathing gets heavy." },
-        { "step": "3. Cool-down", "title": "15-Minute Gentle Chair Yoga", "mins": 16, "id": "0Q82IqhqJ7c", "tip": "Stretch calves, hips and back. Move slowly." }
-      ]},
-    { "key": "Thu", "name": "Thursday", "focus": "Tai Chi & Flexibility",
-      "note": "Slow, flowing movement that helps balance and calm.",
+        {
+          "step": {
+            "en": "1. Warm-up",
+            "te": "1. వార్మప్"
+          },
+          "title": {
+            "en": "Gentle Chair Exercises for Range of Motion",
+            "te": "కీళ్ల కదలికకు తేలికపాటి కుర్చీ వ్యాయామాలు"
+          },
+          "mins": 11,
+          "id": "R-w2Esi8p08",
+          "tip": {
+            "en": "Wake up the joints before walking.",
+            "te": "నడిచే ముందు కీళ్లను కదిలించండి."
+          }
+        },
+        {
+          "step": {
+            "en": "2. Main",
+            "te": "2. ముఖ్య వ్యాయామం"
+          },
+          "title": {
+            "en": "20-Minute Gentle Walking Workout",
+            "te": "20 నిమిషాల నెమ్మది నడక వ్యాయామం"
+          },
+          "mins": 21,
+          "id": "TCsmCYbKzoY",
+          "tip": {
+            "en": "Rest on a chair any time. Slow down if breathing gets heavy.",
+            "te": "ఎప్పుడైనా కుర్చీలో విశ్రాంతి తీసుకోండి. ఆయాసం వస్తే నెమ్మదించండి."
+          }
+        },
+        {
+          "step": {
+            "en": "3. Cool-down",
+            "te": "3. కూల్‌డౌన్"
+          },
+          "title": {
+            "en": "15-Minute Gentle Chair Yoga",
+            "te": "15 నిమిషాల తేలికపాటి కుర్చీ యోగా"
+          },
+          "mins": 16,
+          "id": "0Q82IqhqJ7c",
+          "tip": {
+            "en": "Stretch calves, hips and back. Move slowly.",
+            "te": "పిక్కలు, తుంటి, వీపు స్ట్రెచ్ చేయండి. నెమ్మదిగా కదలండి."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Thu",
+      "name": "Thursday",
+      "focus": {
+        "en": "Tai Chi & Flexibility",
+        "te": "తాయ్ చి & శరీర సాగుదల"
+      },
+      "note": {
+        "en": "Slow, flowing movement that helps balance and calm.",
+        "te": "బ్యాలెన్స్‌కు, మనసు ప్రశాంతతకు సహాయపడే నెమ్మది కదలికలు."
+      },
       "tiles": [
-        { "step": "1. Warm-up", "title": "10-Minute Chair Exercises", "mins": 10, "id": "auk8nQSfvus", "tip": "Easy joint warm-up before the flow." },
-        { "step": "2. Main", "title": "15-Minute Chair Tai Chi", "mins": 15, "id": "IjcGRxr9jHI", "tip": "Follow slowly. Smooth breathing, no rushing." },
-        { "step": "3. Cool-down", "title": "15-Minute Chair Yoga", "mins": 18, "id": "oZRa7m69ZVU", "tip": "Finish with relaxed, deep breathing." }
-      ]},
-    { "key": "Fri", "name": "Friday", "focus": "Strength, Balance & Wrap-Up",
-      "note": "A mix of the week. Finish strong and feel good heading into the weekend.",
+        {
+          "step": {
+            "en": "1. Warm-up",
+            "te": "1. వార్మప్"
+          },
+          "title": {
+            "en": "10-Minute Chair Exercises",
+            "te": "10 నిమిషాల కుర్చీ వ్యాయామాలు"
+          },
+          "mins": 10,
+          "id": "auk8nQSfvus",
+          "tip": {
+            "en": "Easy joint warm-up before the flow.",
+            "te": "మొదలుపెట్టే ముందు కీళ్లకు తేలికపాటి వార్మప్."
+          }
+        },
+        {
+          "step": {
+            "en": "2. Main",
+            "te": "2. ముఖ్య వ్యాయామం"
+          },
+          "title": {
+            "en": "15-Minute Chair Tai Chi",
+            "te": "15 నిమిషాల కుర్చీ తాయ్ చి"
+          },
+          "mins": 15,
+          "id": "IjcGRxr9jHI",
+          "tip": {
+            "en": "Follow slowly. Smooth breathing, no rushing.",
+            "te": "నెమ్మదిగా అనుసరించండి. హాయిగా ఊపిరి తీసుకోండి, తొందర వద్దు."
+          }
+        },
+        {
+          "step": {
+            "en": "3. Cool-down",
+            "te": "3. కూల్‌డౌన్"
+          },
+          "title": {
+            "en": "15-Minute Chair Yoga",
+            "te": "15 నిమిషాల కుర్చీ యోగా"
+          },
+          "mins": 18,
+          "id": "oZRa7m69ZVU",
+          "tip": {
+            "en": "Finish with relaxed, deep breathing.",
+            "te": "ప్రశాంతంగా, లోతుగా ఊపిరి తీసుకుని ముగించండి."
+          }
+        }
+      ]
+    },
+    {
+      "key": "Fri",
+      "name": "Friday",
+      "focus": {
+        "en": "Strength, Balance & Wrap-Up",
+        "te": "బలం, బ్యాలెన్స్ & వారం ముగింపు"
+      },
+      "note": {
+        "en": "A mix of the week. Finish strong and feel good heading into the weekend.",
+        "te": "వారమంతా చేసినవాటి కలయిక. ఉత్సాహంగా ముగించి వారాంతానికి సిద్ధం అవ్వండి."
+      },
       "tiles": [
-        { "step": "1. Warm-up", "title": "Beginner Chair Exercises, No Equipment", "mins": 12, "id": "oumzMyqK-2I", "tip": "No weights needed. Smooth, controlled moves." },
-        { "step": "2. Main", "title": "7 Balance Exercises by Physical Therapists", "mins": 11, "id": "BNC4bi3Ucac", "tip": "Hold the counter. Safety matters more than perfect form." },
-        { "step": "3. Cool-down", "title": "Chair Tai Chi for Mobility & Calm", "mins": 16, "id": "s3JbAYlQJT4", "tip": "Slow and relaxing finish." }
-      ]}
+        {
+          "step": {
+            "en": "1. Warm-up",
+            "te": "1. వార్మప్"
+          },
+          "title": {
+            "en": "Beginner Chair Exercises, No Equipment",
+            "te": "మొదలుపెట్టేవారికి కుర్చీ వ్యాయామాలు, సామగ్రి అవసరం లేదు"
+          },
+          "mins": 12,
+          "id": "oumzMyqK-2I",
+          "tip": {
+            "en": "No weights needed. Smooth, controlled moves.",
+            "te": "బరువులు అవసరం లేదు. నెమ్మదిగా, అదుపుగా కదలండి."
+          }
+        },
+        {
+          "step": {
+            "en": "2. Main",
+            "te": "2. ముఖ్య వ్యాయామం"
+          },
+          "title": {
+            "en": "7 Balance Exercises by Physical Therapists",
+            "te": "ఫిజియోథెరపిస్టులు చెప్పిన 7 బ్యాలెన్స్ వ్యాయామాలు"
+          },
+          "mins": 11,
+          "id": "BNC4bi3Ucac",
+          "tip": {
+            "en": "Hold the counter. Safety matters more than perfect form.",
+            "te": "గట్టును పట్టుకోండి. సరిగ్గా చేయడం కంటే జాగ్రత్త ముఖ్యం."
+          }
+        },
+        {
+          "step": {
+            "en": "3. Cool-down",
+            "te": "3. కూల్‌డౌన్"
+          },
+          "title": {
+            "en": "Chair Tai Chi for Mobility & Calm",
+            "te": "కదలికకు, ప్రశాంతతకు కుర్చీ తాయ్ చి"
+          },
+          "mins": 16,
+          "id": "s3JbAYlQJT4",
+          "tip": {
+            "en": "Slow and relaxing finish.",
+            "te": "నెమ్మదిగా, హాయిగా ముగింపు."
+          }
+        }
+      ]
+    }
   ]
 }

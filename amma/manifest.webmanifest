@@ -1,6 +1,7 @@
 {
   "name": "Amma's Daily Plan",
   "short_name": "Amma",
+  "name_te": "అమ్మ",
   "description": "Daily exercises and meal plan.",
   "id": "./",
   "start_url": "./",

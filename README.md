@@ -2,6 +2,9 @@
 
 Each family member has their own installable web app with two tabs: Exercises and Meals.
 Link straight to a tab with `#exercises` or `#meals`, e.g. `.../nanna/#meals`.
+
+The **తెలుగు / English** button switches the language, and the phone remembers the choice.
+A link can choose it too: `.../nanna/?lang=te#meals`. Videos stay in English.
 Hosted on GitHub Pages: https://dev-sri-org.github.io/daily_exercises/
 
 | Member | App |
@@ -21,7 +24,7 @@ shared/                   Code and styles every member's app uses
   icons/                  App and tab icons
 nanna/                    Nanna's app
   index.html              The app page (same for every member)
-  manifest.webmanifest    App name shown on the phone ("short_name" is used on the page)
+  manifest.webmanifest    App name shown on the phone ("short_name", and "name_te" in Telugu, is used on the page)
   sw.js                   Offline support (just imports shared/sw-core.js)
   plans/exercises.json    Nanna's exercise plan
   plans/meals.json        Nanna's meal plan
@@ -37,6 +40,9 @@ exercises/, meal_plan/    Old addresses; they redirect to the member's app
 4. Add a link to `ravi/` in the root `index.html`.
 
 ## Plan format
+
+Any text can be a plain string or an English/Telugu pair: `{ "en": "1 cup sambar", "te": "1 కప్పు సాంబారు" }`.
+Plain strings and missing Telugu show in English. Weekday names come from the app, not the plan.
 
 Both plan files share these fields:
 

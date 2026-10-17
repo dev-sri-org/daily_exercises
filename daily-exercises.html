@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Exercises</title>
+<style>
+  :root{
+    --bg:#f6f3ec; --card:#ffffff; --ink:#1f2a2e; --muted:#5a676c;
+    --accent:#1f6f5c; --accent-ink:#ffffff; --line:#e2ddd0; --warn:#fff4d6; --warn-line:#e8c766;
+    --done:#dff1e8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#14191b; --card:#1e2629; --ink:#f1f3f2; --muted:#a9b6ba; --accent:#4fc3a1; --accent-ink:#0c1a16; --line:#2d393d; --warn:#2c2616; --warn-line:#7a6528; --done:#1b3a2f; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.45}
+  .wrap{max-width:1080px;margin:0 auto;padding:20px 16px 48px}
+  h1{font-size:30px;margin:8px 0 2px}
+  .sub{color:var(--muted);margin:0 0 16px;font-size:18px}
+  .safety{background:var(--warn);border:2px solid var(--warn-line);border-radius:16px;padding:14px 16px;margin-bottom:18px;font-size:18px}
+  .safety summary{font-weight:700;cursor:pointer;font-size:20px}
+  .safety ul{margin:10px 0 0;padding-left:22px}
+  .safety li{margin:6px 0}
+  .tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:8px}
+  .tab{font:inherit;font-weight:700;padding:14px 4px;border-radius:14px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer;min-height:56px}
+  .tab small{display:block;font-weight:500;color:var(--muted);font-size:13px}
+  .tab[aria-selected="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+  .tab[aria-selected="true"] small{color:var(--accent-ink);opacity:.9}
+  .tab.today::after{content:"Today";display:block;font-size:12px;font-weight:600}
+  .focus{font-size:22px;font-weight:700;margin:18px 0 4px}
+  .focus-sub{color:var(--muted);margin:0 0 14px;font-size:18px}
+  .grid{display:grid;grid-template-columns:1fr;gap:16px}
+  @media(min-width:860px){.grid{grid-template-columns:repeat(3,1fr)}}
+  .card{background:var(--card);border:2px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+  .card.done{background:var(--done);border-color:var(--accent)}
+  .video{position:relative;aspect-ratio:16/9;background:#000}
+  .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .step{font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+  .title{font-size:22px;font-weight:700;margin:0}
+  .meta{color:var(--muted);font-size:17px}
+  .tip{font-size:17px}
+  .row{display:flex;gap:10px;margin-top:auto;padding-top:6px;flex-wrap:wrap}
+  .btn{font:inherit;font-weight:700;font-size:18px;border-radius:12px;padding:12px 14px;min-height:50px;border:2px solid var(--accent);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;flex:1}
+  .btn.primary{background:var(--accent);color:var(--accent-ink)}
+  .btn.ghost{background:transparent;color:var(--accent)}
+  .rest{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:20px;margin-top:16px}
+  .foot{color:var(--muted);font-size:15px;margin-top:28px}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Daily Exercises</h1>
+  <p class="sub">Gentle, mostly seated or supported routines. Monday to Friday, about 30 minutes a day.</p>
+
+  <details class="safety" open>
+    <summary>Before you start: safety first</summary>
+    <ul>
+      <li>Check with the doctor before beginning or changing any exercise routine, especially with atrial fibrillation or if medicines (like blood thinners) have changed.</li>
+      <li>Go at a pace where you can still talk in full sentences. Never hold your breath or strain.</li>
+      <li><strong>Stop and rest</strong> if you feel dizzy, lightheaded, unusually short of breath, or notice a racing or irregular heartbeat that is worse than normal.</li>
+      <li><strong>Call 911</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.</li>
+      <li>Wear sturdy, non-slip shoes. Keep a firm chair or kitchen counter within reach, and have water nearby. Skip a day if feeling unwell.</li>
+    </ul>
+  </details>
+
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div id="content"></div>
+
+  <p class="foot">Videos are from YouTube creators and are not medical advice. If a video does not play here, use the "Open in YouTube" button.</p>
+</div>
+
+<script>
+// Each day: warm-up, main, cool-down. "id" is the YouTube video ID.
+const DAYS = [
+  { key:"Mon", name:"Monday", focus:"Seated Strength & Joint Mobility",
+    note:"Easy start to the week. All done sitting down.",
+    tiles:[
+      { step:"1. Warm-up", title:"Seated Mobility Workout", mins:10, id:"ZKfDVpZdipg", tip:"Move slowly. Loosen the neck, shoulders, hips and ankles." },
+      { step:"2. Main", title:"Chair Workout, All Seated", mins:10, id:"6KiPatdnGEY", tip:"Keep breathing steadily. Take a short sip of water between moves." },
+      { step:"3. Cool-down", title:"10-Minute Chair Yoga", mins:10, id:"mPNLL_hAZP0", tip:"Gentle stretches. Let the heart rate settle." }
+    ]},
+  { key:"Tue", name:"Tuesday", focus:"Balance & Fall Prevention",
+    note:"Stand next to a kitchen counter or a sturdy chair you can hold.",
+    tiles:[
+      { step:"1. Warm-up", title:"5-Minute Indoor Walk", mins:5, id:"SPTWBCwAZEs", tip:"Easy pace. Walk in place near a counter if needed." },
+      { step:"2. Main", title:"10-Minute Balance Exercises", mins:10, id:"1AaAWRvKj1k", tip:"Hold on with one hand whenever it feels wobbly." },
+      { step:"3. Cool-down", title:"Chair Yoga Full-Body Stretch", mins:15, id:"OfMSpuTglqs", tip:"Sit tall and breathe slowly." }
+    ]},
+  { key:"Wed", name:"Wednesday", focus:"Gentle Walking Day",
+    note:"Steady, low-impact walking is great for the heart. Keep it conversational.",
+    tiles:[
+      { step:"1. Warm-up", title:"Gentle Seated Mobility", mins:10, id:"23PhjfDuKKA", tip:"Wake up the joints before walking." },
+      { step:"2. Main", title:"20-Minute Gentle Walking Workout", mins:20, id:"TCsmCYbKzoY", tip:"Rest on a chair any time. Slow down if breathing gets heavy." },
+      { step:"3. Cool-down", title:"Gentle Yoga Routine for Seniors", mins:15, id:"FOY-gG-iKBk", tip:"Stretch calves, hips and back. Move slowly." }
+    ]},
+  { key:"Thu", name:"Thursday", focus:"Tai Chi & Flexibility",
+    note:"Slow, flowing movement that helps balance and calm.",
+    tiles:[
+      { step:"1. Warm-up", title:"10-Minute Chair Exercises", mins:10, id:"auk8nQSfvus", tip:"Easy joint warm-up before the flow." },
+      { step:"2. Main", title:"15-Minute Chair Tai Chi", mins:15, id:"IjcGRxr9jHI", tip:"Follow slowly. Smooth breathing, no rushing." },
+      { step:"3. Cool-down", title:"15-Minute Chair Yoga", mins:15, id:"oZRa7m69ZVU", tip:"Finish with relaxed, deep breathing." }
+    ]},
+  { key:"Fri", name:"Friday", focus:"Strength, Balance & Wrap-Up",
+    note:"A mix of the week. Finish strong and feel good heading into the weekend.",
+    tiles:[
+      { step:"1. Warm-up", title:"Build Strength Sitting Down", mins:10, id:"hXdaGzcrDeM", tip:"Use light or no weights. Smooth, controlled moves." },
+      { step:"2. Main", title:"7 Balance Exercises by Physical Therapists", mins:10, id:"BNC4bi3Ucac", tip:"Hold the counter. Safety matters more than perfect form." },
+      { step:"3. Cool-down", title:"15-Minute Chair Tai Chi", mins:15, id:"s3JbAYlQJT4", tip:"Slow and relaxing finish." }
+    ]}
+];
+
+const tabsEl = document.getElementById("tabs");
+const contentEl = document.getElementById("content");
+const dow = new Date().getDay();            // 0 Sun ... 6 Sat
+const todayIdx = (dow>=1 && dow<=5) ? dow-1 : -1;
+let current = todayIdx>=0 ? todayIdx : 0;
+
+const todayStr = new Date().toISOString().slice(0,10);
+function getDone(){ try{ return JSON.parse(localStorage.getItem("done-"+todayStr)||"{}"); }catch(e){ return {}; } }
+function setDone(k,v){ try{ const d=getDone(); if(v) d[k]=1; else delete d[k]; localStorage.setItem("done-"+todayStr, JSON.stringify(d)); }catch(e){} }
+let memDone = {};  // fallback if storage is unavailable
+function isDone(k){ return !!(getDone()[k] || memDone[k]); }
+
+function renderTabs(){
+  tabsEl.innerHTML = "";
+  DAYS.forEach((d,i)=>{
+    const b = document.createElement("button");
+    b.className = "tab" + (i===todayIdx ? " today" : "");
+    b.setAttribute("role","tab");
+    b.setAttribute("aria-selected", i===current);
+    b.innerHTML = d.key + "<small></small>";
+    b.querySelector("small").remove();
+    b.onclick = ()=>{ current=i; renderTabs(); renderDay(); };
+    tabsEl.appendChild(b);
+  });
+}
+
+function renderDay(){
+  const d = DAYS[current];
+  let html = "";
+  if(todayIdx===-1){
+    html += '<div class="rest"><strong>It is the weekend.</strong> Rest, or take an easy walk around the house or yard. The weekday plan is below.</div>';
+  }
+  html += '<div class="focus">'+d.name+": "+d.focus+'</div><p class="focus-sub">'+d.note+'</p><div class="grid">';
+  d.tiles.forEach((t,i)=>{
+    const k = d.key+i;
+    html += '<article class="card'+(isDone(k)?' done':'')+'" id="card-'+k+'">'+
+      '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/'+t.id+'?rel=0&playsinline=1" title="'+t.title+'" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>'+
+      '<div class="body"><div class="step">'+t.step+'</div><h3 class="title">'+t.title+'</h3>'+
+      '<div class="meta">About '+t.mins+' minutes</div><div class="tip">'+t.tip+'</div>'+
+      '<div class="row"><button class="btn primary" data-k="'+k+'">'+(isDone(k)?'Done ✓':'Mark done')+'</button>'+
+      '<a class="btn ghost" href="https://www.youtube.com/watch?v='+t.id+'" target="_blank" rel="noopener">Open in YouTube</a></div></div></article>';
+  });
+  html += "</div>";
+  contentEl.innerHTML = html;
+  contentEl.querySelectorAll("button[data-k]").forEach(btn=>{
+    btn.onclick = ()=>{
+      const k = btn.dataset.k, nowDone = !isDone(k);
+      if(nowDone) memDone[k]=1; else delete memDone[k];
+      setDone(k, nowDone);
+      const card = document.getElementById("card-"+k);
+      card.classList.toggle("done", nowDone);
+      btn.textContent = nowDone ? "Done ✓" : "Mark done";
+    };
+  });
+}
+
+// Tabs show full weekday names on wider screens, short on phones
+function labelTabs(){
+  const wide = window.innerWidth >= 560;
+  [...tabsEl.children].forEach((b,i)=>{
+    b.firstChild.textContent = wide ? DAYS[i].name : DAYS[i].key;
+  });
+}
+renderTabs(); labelTabs(); renderDay();
+window.addEventListener("resize", labelTabs);
+</script>
+</body>
+</html>

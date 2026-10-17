@@ -46,10 +46,6 @@
       "en": "8:00 am",
       "te": "ఉదయం 8:00"
     },
-    "Mid-morning": {
-      "en": "10:30 am",
-      "te": "ఉదయం 10:30"
-    },
     "Lunch": {
       "en": "1:00 pm",
       "te": "మధ్యాహ్నం 1:00"
@@ -98,27 +94,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Guava and almonds",
-            "te": "జామపండు & బాదం"
-          },
-          "items": [
-            {
-              "en": "1 guava",
-              "te": "1 జామపండు"
-            },
-            {
-              "en": "5 soaked almonds (peeled, easier to chew)",
-              "te": "5 నానబెట్టిన బాదం (పొట్టు తీస్తే నమలడం సులువు)"
-            }
-          ],
-          "why": {
-            "en": "Guava is low in sugar and high in fibre and vitamin C.",
-            "te": "జామపండులో చక్కెర తక్కువ, పీచు మరియు విటమిన్ C ఎక్కువ."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Brown rice, moong dal and beans poriyal",
@@ -154,22 +129,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Roasted chana",
-            "te": "పుట్నాలు"
+            "en": "Guava and almonds",
+            "te": "జామపండు & బాదం"
           },
           "items": [
             {
-              "en": "¼ cup roasted chana (unsalted)",
-              "te": "¼ కప్పు పుట్నాలు (ఉప్పు లేకుండా)"
+              "en": "1 guava",
+              "te": "1 జామపండు"
             },
             {
-              "en": "Green tea or lemon water, no sugar",
-              "te": "చక్కెర లేని గ్రీన్ టీ లేదా నిమ్మరసం నీళ్లు"
+              "en": "5 soaked almonds (peeled, easier to chew)",
+              "te": "5 నానబెట్టిన బాదం (పొట్టు తీస్తే నమలడం సులువు)"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "Protein and fibre instead of fried snacks.",
-            "te": "వేపుడు చిరుతిళ్ల బదులు ప్రోటీన్, పీచు."
+            "en": "Guava is low in sugar and high in fibre and vitamin C.",
+            "te": "జామపండులో చక్కెర తక్కువ, పీచు మరియు విటమిన్ C ఎక్కువ."
           }
         },
         {
@@ -233,27 +212,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Apple and walnuts",
-            "te": "ఆపిల్ & అక్రోట్లు"
-          },
-          "items": [
-            {
-              "en": "1 small apple, with skin",
-              "te": "1 చిన్న ఆపిల్, తొక్కతో సహా"
-            },
-            {
-              "en": "2 walnuts",
-              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
-            }
-          ],
-          "why": {
-            "en": "Walnuts have omega-3 fats that are good for the heart.",
-            "te": "అక్రోట్లలో గుండెకు మంచి చేసే ఒమేగా-3 కొవ్వులు ఉంటాయి."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Phulka, palak paneer and cabbage",
@@ -285,22 +243,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Sprouts chaat",
-            "te": "మొలకల చాట్"
+            "en": "Apple and walnuts",
+            "te": "ఆపిల్ & అక్రోట్లు"
           },
           "items": [
             {
-              "en": "1 cup steamed sprouts with tomato, onion and lemon",
-              "te": "టమాటా, ఉల్లిపాయ, నిమ్మరసంతో 1 కప్పు ఉడికించిన మొలకలు"
+              "en": "1 small apple, with skin",
+              "te": "1 చిన్న ఆపిల్, తొక్కతో సహా"
             },
             {
-              "en": "Tea, no sugar",
-              "te": "చక్కెర లేని టీ"
+              "en": "2 walnuts",
+              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "Sprouts are filling and raise sugar slowly.",
-            "te": "మొలకలు కడుపు నింపుతాయి, షుగర్‌ను నెమ్మదిగా పెంచుతాయి."
+            "en": "Walnuts have omega-3 fats that are good for the heart.",
+            "te": "అక్రోట్లలో గుండెకు మంచి చేసే ఒమేగా-3 కొవ్వులు ఉంటాయి."
           }
         },
         {
@@ -360,27 +322,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Papaya and seeds",
-            "te": "బొప్పాయి & గింజలు"
-          },
-          "items": [
-            {
-              "en": "1 cup papaya pieces",
-              "te": "1 కప్పు బొప్పాయి ముక్కలు"
-            },
-            {
-              "en": "1 tbsp roasted pumpkin seeds",
-              "te": "1 పెద్ద చెంచా వేయించిన గుమ్మడి గింజలు"
-            }
-          ],
-          "why": {
-            "en": "Papaya is gentle on digestion; seeds add healthy fats and magnesium.",
-            "te": "బొప్పాయి సులువుగా అరుగుతుంది; గింజలు మంచి కొవ్వులు, మెగ్నీషియం ఇస్తాయి."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Korra rice, sorakaya dal and bhindi",
@@ -416,22 +357,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Roasted makhana",
-            "te": "వేయించిన మఖానా (తామర గింజలు)"
+            "en": "Papaya and seeds",
+            "te": "బొప్పాయి & గింజలు"
           },
           "items": [
             {
-              "en": "1 cup roasted makhana (fox nuts), no salt or just a pinch",
-              "te": "1 కప్పు వేయించిన మఖానా, ఉప్పు లేకుండా లేదా చిటికెడు"
+              "en": "1 cup papaya pieces",
+              "te": "1 కప్పు బొప్పాయి ముక్కలు"
             },
             {
-              "en": "Tea, no sugar",
-              "te": "చక్కెర లేని టీ"
+              "en": "1 tbsp roasted pumpkin seeds",
+              "te": "1 పెద్ద చెంచా వేయించిన గుమ్మడి గింజలు"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "A light, crunchy snack that is low in fat.",
-            "te": "కొవ్వు తక్కువగా ఉండే తేలికైన, కరకరలాడే చిరుతిండి."
+            "en": "Papaya is gentle on digestion; seeds add healthy fats and magnesium.",
+            "te": "బొప్పాయి సులువుగా అరుగుతుంది; గింజలు మంచి కొవ్వులు, మెగ్నీషియం ఇస్తాయి."
           }
         },
         {
@@ -491,27 +436,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Orange and almonds",
-            "te": "బత్తాయి/నారింజ & బాదం"
-          },
-          "items": [
-            {
-              "en": "1 orange (whole fruit, not juice)",
-              "te": "1 బత్తాయి లేదా నారింజ (పూర్తి పండు, రసం కాదు)"
-            },
-            {
-              "en": "5 soaked almonds",
-              "te": "5 నానబెట్టిన బాదం"
-            }
-          ],
-          "why": {
-            "en": "Whole fruit has fibre that juice loses.",
-            "te": "రసంలో పోయే పీచు పూర్తి పండులో ఉంటుంది."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Brown rice, tomato pappu and beerakaya",
@@ -543,22 +467,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Buttermilk and cucumber",
-            "te": "మజ్జిగ & దోసకాయ"
+            "en": "Orange and almonds",
+            "te": "బత్తాయి/నారింజ & బాదం"
           },
           "items": [
             {
-              "en": "1 glass buttermilk",
-              "te": "1 గ్లాసు మజ్జిగ"
+              "en": "1 orange (whole fruit, not juice)",
+              "te": "1 బత్తాయి లేదా నారింజ (పూర్తి పండు, రసం కాదు)"
             },
             {
-              "en": "1 small cucumber, sliced, with a pinch of chaat masala",
-              "te": "1 చిన్న దోసకాయ ముక్కలు, చిటికెడు చాట్ మసాలాతో"
+              "en": "5 soaked almonds",
+              "te": "5 నానబెట్టిన బాదం"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "Cooling and hydrating, with almost no sugar.",
-            "te": "చలువ చేస్తుంది, ఒంట్లో నీరు ఉంచుతుంది, దాదాపు చక్కెర ఉండదు."
+            "en": "Whole fruit has fibre that juice loses.",
+            "te": "రసంలో పోయే పీచు పూర్తి పండులో ఉంటుంది."
           }
         },
         {
@@ -622,23 +550,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Pear",
-            "te": "బేరిపండు"
-          },
-          "items": [
-            {
-              "en": "1 pear",
-              "te": "1 బేరిపండు"
-            }
-          ],
-          "why": {
-            "en": "A low-sugar fruit with lots of fibre.",
-            "te": "చక్కెర తక్కువ, పీచు ఎక్కువ ఉన్న పండు."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Phulka with paneer curry and dondakaya",
@@ -670,22 +581,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Roasted chana or peanuts",
-            "te": "పుట్నాలు లేదా వేరుశనగలు"
+            "en": "Pear and walnuts",
+            "te": "బేరిపండు & అక్రోట్లు"
           },
           "items": [
             {
-              "en": "¼ cup roasted chana or unsalted peanuts",
-              "te": "¼ కప్పు పుట్నాలు లేదా ఉప్పు లేని వేయించిన వేరుశనగలు"
+              "en": "1 pear",
+              "te": "1 బేరిపండు"
             },
             {
-              "en": "Green tea",
-              "te": "గ్రీన్ టీ"
+              "en": "2 walnuts",
+              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "Keeps hunger away until dinner without spiking sugar.",
-            "te": "షుగర్ పెంచకుండా రాత్రి భోజనం వరకు ఆకలి వేయకుండా ఉంచుతుంది."
+            "en": "A low-sugar fruit with lots of fibre; walnuts add heart-healthy omega-3.",
+            "te": "చక్కెర తక్కువ, పీచు ఎక్కువ ఉన్న పండు; అక్రోట్లు గుండెకు మంచి ఒమేగా-3 ఇస్తాయి."
           }
         },
         {
@@ -745,27 +660,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Seasonal fruit and walnuts",
-            "te": "సీజన్ పండు & అక్రోట్లు"
-          },
-          "items": [
-            {
-              "en": "1 cup jamun or berries in season, or 1 small guava",
-              "te": "సీజన్‌లో 1 కప్పు నేరేడు పండ్లు లేదా బెర్రీలు, లేదా 1 చిన్న జామపండు"
-            },
-            {
-              "en": "2 walnuts",
-              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
-            }
-          ],
-          "why": {
-            "en": "Jamun and berries are among the best fruits for blood sugar.",
-            "te": "షుగర్ ఉన్నవారికి నేరేడు పండ్లు, బెర్రీలు చాలా మంచి పండ్లు."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Millet bisi bele bath",
@@ -789,22 +683,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Chickpea sundal",
-            "te": "శనగ గుగ్గిళ్లు"
+            "en": "Seasonal fruit and walnuts",
+            "te": "సీజన్ పండు & అక్రోట్లు"
           },
           "items": [
             {
-              "en": "½ cup chickpea sundal with coconut and curry leaves",
-              "te": "కొబ్బరి, కరివేపాకుతో ½ కప్పు శనగ గుగ్గిళ్లు"
+              "en": "1 cup jamun or berries in season, or 1 small guava",
+              "te": "సీజన్‌లో 1 కప్పు నేరేడు పండ్లు లేదా బెర్రీలు, లేదా 1 చిన్న జామపండు"
             },
             {
-              "en": "Tea, no sugar",
-              "te": "చక్కెర లేని టీ"
+              "en": "2 walnuts",
+              "te": "2 అక్రోట్లు (వాల్‌నట్స్)"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "Chickpeas are filling and rich in protein and fibre.",
-            "te": "శనగలు కడుపు నింపుతాయి, ప్రోటీన్, పీచు ఎక్కువ."
+            "en": "Jamun and berries are among the best fruits for blood sugar.",
+            "te": "షుగర్ ఉన్నవారికి నేరేడు పండ్లు, బెర్రీలు చాలా మంచి పండ్లు."
           }
         },
         {
@@ -864,27 +762,6 @@
           }
         },
         {
-          "slot": "Mid-morning",
-          "dish": {
-            "en": "Fruit and pistachios",
-            "te": "పండు & పిస్తా"
-          },
-          "items": [
-            {
-              "en": "1 guava or 1 cup papaya",
-              "te": "1 జామపండు లేదా 1 కప్పు బొప్పాయి"
-            },
-            {
-              "en": "10 unsalted pistachios",
-              "te": "10 ఉప్పు లేని పిస్తా పప్పులు"
-            }
-          ],
-          "why": {
-            "en": "Pistachios support healthy cholesterol.",
-            "te": "పిస్తా కొలెస్ట్రాల్ అదుపులో ఉండడానికి సహాయపడుతుంది."
-          }
-        },
-        {
           "slot": "Lunch",
           "dish": {
             "en": "Brown rice, sambar and cabbage-peas curry",
@@ -916,22 +793,26 @@
         {
           "slot": "Evening snack",
           "dish": {
-            "en": "Roasted makhana",
-            "te": "వేయించిన మఖానా (తామర గింజలు)"
+            "en": "Fruit and pistachios",
+            "te": "పండు & పిస్తా"
           },
           "items": [
             {
-              "en": "1 cup roasted makhana",
-              "te": "1 కప్పు వేయించిన మఖానా"
+              "en": "1 guava or 1 cup papaya",
+              "te": "1 జామపండు లేదా 1 కప్పు బొప్పాయి"
             },
             {
-              "en": "Tea, no sugar",
-              "te": "చక్కెర లేని టీ"
+              "en": "10 unsalted pistachios",
+              "te": "10 ఉప్పు లేని పిస్తా పప్పులు"
+            },
+            {
+              "en": "Tea or green tea, no sugar",
+              "te": "చక్కెర లేని టీ లేదా గ్రీన్ టీ"
             }
           ],
           "why": {
-            "en": "Light and low in fat.",
-            "te": "తేలికగా, కొవ్వు తక్కువగా."
+            "en": "Pistachios support healthy cholesterol.",
+            "te": "పిస్తా కొలెస్ట్రాల్ అదుపులో ఉండడానికి సహాయపడుతుంది."
           }
         },
         {

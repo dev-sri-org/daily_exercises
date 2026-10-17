@@ -3,7 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Exercises</title>
+<title>Daily Exercises for Amma and Nanna</title>
+<meta name="theme-color" content="#1f6f5c">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Exercises">
 <style>
   :root{
     --bg:#f6f3ec; --card:#ffffff; --ink:#1f2a2e; --muted:#5a676c;
@@ -49,11 +55,17 @@
   .rest{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:20px;margin-top:16px}
   .foot{color:var(--muted);font-size:15px;margin-top:28px}
   :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+  .install{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom));max-width:620px;margin:0 auto;background:var(--card);border:2px solid var(--accent);border-radius:20px;padding:14px 16px;box-shadow:0 8px 28px rgba(0,0,0,.25);display:flex;gap:14px;align-items:center;flex-wrap:wrap;z-index:10}
+  .install[hidden]{display:none}
+  .install img{width:52px;height:52px;border-radius:12px}
+  .install .msg{flex:1;min-width:200px;font-size:18px}
+  .install .row{margin:0;padding:0;flex-basis:100%}
+  body.has-install .wrap{padding-bottom:200px}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>Daily Exercises</h1>
+  <h1>Daily Exercises for Amma and Nanna</h1>
   <p class="date" id="today"></p>
   <p class="sub">Gentle, mostly seated or supported routines. Monday to Friday, about 30 minutes a day.</p>
 
@@ -63,7 +75,7 @@
       <li>Check with the doctor before beginning or changing any exercise routine, especially with atrial fibrillation or if medicines (like blood thinners) have changed.</li>
       <li>Go at a pace where you can still talk in full sentences. Never hold your breath or strain.</li>
       <li><strong>Stop and rest</strong> if you feel dizzy, lightheaded, unusually short of breath, or notice a racing or irregular heartbeat that is worse than normal.</li>
-      <li><strong>Call 911</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.</li>
+      <li><strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.</li>
       <li>Wear sturdy, non-slip shoes. Keep a firm chair or kitchen counter within reach, and have water nearby. Skip a day if feeling unwell.</li>
     </ul>
   </details>
@@ -72,6 +84,15 @@
   <div id="content"></div>
 
   <p class="foot">Videos are from YouTube creators and are not medical advice. If a video does not play here, use the "Open in YouTube" button.</p>
+</div>
+
+<div class="install" id="install" role="dialog" aria-label="Install app" hidden>
+  <img src="icon-192.png" alt="">
+  <div class="msg" id="install-msg"><strong>Install this app</strong><br>Open it from your home screen like any other app.</div>
+  <div class="row">
+    <button class="btn primary" id="install-yes">Install</button>
+    <button class="btn ghost" id="install-no">Not now</button>
+  </div>
 </div>
 
 <script>
@@ -206,6 +227,45 @@ function labelTabs(){
 }
 renderTabs(); labelTabs(); renderDay();
 window.addEventListener("resize", labelTabs);
+
+// ---- Install as an app ----
+if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
+
+const installEl = document.getElementById("install");
+const installYes = document.getElementById("install-yes");
+const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform==="MacIntel" && navigator.maxTouchPoints>1);
+let deferredPrompt = null;
+
+// "Not now" hides the popup for 3 days
+function snoozed(){ try{ return Date.now() < +(localStorage.getItem("install-snooze")||0); }catch(e){ return false; } }
+function showInstall(){ if(installed || snoozed()) return; installEl.hidden = false; document.body.classList.add("has-install"); }
+function hideInstall(){ installEl.hidden = true; document.body.classList.remove("has-install"); }
+
+// Chrome, Edge and Android: the browser says the app can be installed
+window.addEventListener("beforeinstallprompt", e=>{ e.preventDefault(); deferredPrompt = e; showInstall(); });
+window.addEventListener("appinstalled", hideInstall);
+
+// iPhone/iPad Safari has no install button, so explain the steps instead
+if(isIOS && !installed){
+  document.getElementById("install-msg").innerHTML =
+    "<strong>Install this app</strong><br>Tap the Share button <span aria-hidden='true'>⬆︎</span>, then <strong>Add to Home Screen</strong>.";
+  installYes.style.display = "none";
+  document.getElementById("install-no").textContent = "OK";
+  showInstall();
+}
+
+installYes.onclick = async ()=>{
+  if(!deferredPrompt) return;
+  deferredPrompt.prompt();
+  await deferredPrompt.userChoice;
+  deferredPrompt = null;
+  hideInstall();
+};
+document.getElementById("install-no").onclick = ()=>{
+  try{ localStorage.setItem("install-snooze", Date.now() + 3*24*60*60*1000); }catch(e){}
+  hideInstall();
+};
 </script>
 <script src="https://www.youtube.com/iframe_api"></script>
 </body>

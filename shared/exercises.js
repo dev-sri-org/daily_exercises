@@ -1,4 +1,4 @@
-// Exercise page. Each day in plans/exercises.json has tiles (warm-up, main, cool-down);
+// Exercises tab. Each day in plans/exercises.json has tiles (warm-up, main, cool-down);
 // "id" is the YouTube video ID.
 (function(){
 const { isIOS, isAndroid } = FamilyApp;
@@ -51,9 +51,12 @@ function hookPlayers(){
   }}));
 }
 
-FamilyApp.dayPage({
+FamilyApp.addSection({
+  id: "exercises",
+  label: "Exercises",
+  icon: "heart",
+  themeColor: "#1f6f5c",
   plan: "plans/exercises.json",
-  title: "Daily Exercises",
   foot: 'Videos are from YouTube creators and are not medical advice. If a video does not play here, use the "Watch on TV / YouTube" button.',
   renderDay,
   afterRender: hookPlayers

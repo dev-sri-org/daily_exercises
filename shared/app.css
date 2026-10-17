@@ -1,8 +1,7 @@
-/* Shared look for every family member's app. Meal pages use an orange accent (body.meals). */
+/* Shared look for every family member's app. The Meals tab uses an orange accent. */
 :root{
   --bg:#f6f3ec; --card:#ffffff; --ink:#1f2a2e; --muted:#5a676c;
   --accent:#1f6f5c; --accent-ink:#ffffff; --line:#e2ddd0; --warn:#fff4d6; --warn-line:#e8c766;
- 
 }
 @media (prefers-color-scheme: dark){
   :root{ --bg:#14191b; --card:#1e2629; --ink:#f1f3f2; --muted:#a9b6ba; --accent:#4fc3a1; --accent-ink:#0c1a16; --line:#2d393d; --warn:#2c2616; --warn-line:#7a6528; }
@@ -13,17 +12,21 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"S
 h1{font-size:30px;margin:8px 0 2px}
 .date{font-size:20px;font-weight:700;color:var(--accent);margin:0 0 4px}
 .sub{color:var(--muted);margin:0 0 16px;font-size:18px}
-.back{display:inline-block;font-size:18px;font-weight:700;color:var(--accent);text-decoration:none;padding:8px 0;min-height:44px}
-body.meals{--accent:#a8481f}
-@media (prefers-color-scheme: dark){ body.meals{--accent:#f0a274} }
+body[data-section="meals"]{--accent:#a8481f}
+@media (prefers-color-scheme: dark){ body[data-section="meals"]{--accent:#f0a274} }
 
-/* Member home page */
+/* Exercises / Meals tabs at the top of a member's app */
+.sections{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 14px}
+.section{font:inherit;font-weight:700;font-size:20px;display:flex;align-items:center;justify-content:center;gap:10px;min-height:64px;padding:10px;border-radius:16px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+.section img{width:36px;height:36px;border-radius:9px;flex:none}
+.section[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+
+/* Family page */
 .apps{display:grid;gap:16px;margin-top:20px}
 @media(min-width:640px){.apps{grid-template-columns:1fr 1fr}}
 .card.app{flex-direction:row;gap:16px;align-items:center;padding:18px;text-decoration:none;color:var(--ink)}
 .app img{width:72px;height:72px;border-radius:16px;flex:none}
 .app .title{margin-bottom:4px}
-
 
 .safety{background:var(--warn);border:2px solid var(--warn-line);border-radius:16px;padding:14px 16px;margin-bottom:18px;font-size:18px}
 .safety[hidden]{display:none}

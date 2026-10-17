@@ -1,6 +1,7 @@
 # Family Health
 
-Each family member has their own installable web app with a daily exercise plan and a daily meal plan.
+Each family member has their own installable web app with two tabs: Exercises and Meals.
+Link straight to a tab with `#exercises` or `#meals`, e.g. `.../nanna/#meals`.
 Hosted on GitHub Pages: https://dev-sri-org.github.io/daily_exercises/
 
 | Member | App |
@@ -13,16 +14,14 @@ Hosted on GitHub Pages: https://dev-sri-org.github.io/daily_exercises/
 ```
 index.html                Family page linking to each member's app
 shared/                   Code and styles every member's app uses
-  app.js                  Home page, day tabs, date, install popup
-  exercises.js            Exercise page (YouTube videos)
-  meals.js                Meal plan page
+  app.js                  Page layout, Exercises/Meals tabs, day tabs, date, install popup
+  exercises.js            Exercises tab (YouTube videos)
+  meals.js                Meals tab
   app.css, sw-core.js     Styles and offline support
-  icons/                  App and section icons
+  icons/                  App and tab icons
 nanna/                    Nanna's app
-  index.html              Home: links to Daily Exercises and Daily Meal Plan
-  exercises.html          Daily exercises
-  meals.html              Daily meal plan
-  manifest.webmanifest    App name shown on the phone ("short_name" is used on the pages)
+  index.html              The app page (same for every member)
+  manifest.webmanifest    App name shown on the phone ("short_name" is used on the page)
   sw.js                   Offline support (just imports shared/sw-core.js)
   plans/exercises.json    Nanna's exercise plan
   plans/meals.json        Nanna's meal plan

@@ -2,8 +2,8 @@
 // Pages and plans are fetched fresh when online (so updates show up right away)
 // and fall back to the cached copy when offline.
 const APP = location.pathname.split("/").slice(-2, -1)[0];  // member folder, e.g. "nanna"
-const CACHE = APP + "-v3";
-const PRECACHE = ["./", "./exercises.html", "./meals.html", "./manifest.webmanifest",
+const CACHE = APP + "-v4";
+const PRECACHE = ["./", "./manifest.webmanifest",
   "./plans/exercises.json", "./plans/meals.json",
   "../shared/app.css", "../shared/app.js", "../shared/exercises.js", "../shared/meals.js",
   "../shared/icons/heart-192.png", "../shared/icons/bowl-192.png"];

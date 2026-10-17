@@ -1,4 +1,4 @@
-// Meal plan page. Each day in plans/meals.json has meals; each meal has a slot (Breakfast, Lunch...),
+// Meals tab. Each day in plans/meals.json has meals; each meal has a slot (Breakfast, Lunch...),
 // a dish name, a list of items with portions, and a short "why". Slot times come from the plan's "times".
 (function(){
 let times = {};
@@ -16,9 +16,12 @@ function renderDay(d){
   return html + "</div>";
 }
 
-FamilyApp.dayPage({
+FamilyApp.addSection({
+  id: "meals",
+  label: "Meals",
+  icon: "bowl",
+  themeColor: "#a8481f",
   plan: "plans/meals.json",
-  title: "Daily Meal Plan",
   foot: "A general guide, not medical advice. Ask the doctor or a dietitian to check portions, especially with diabetes medicines, insulin or blood thinners.",
   renderDay,
   onPlan: plan => { times = plan.times || {}; }

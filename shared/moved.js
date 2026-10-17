@@ -1,11 +1,11 @@
-// Old app addresses (exercises/, meal_plan/) send people to the same page in their own member app.
-// Usage: <script src="../shared/moved.js" data-page="exercises.html"></script>
+// Old app addresses (exercises/, meal_plan/) send people to the same tab in their own member app.
+// Usage: <script src="../shared/moved.js" data-page="#exercises"></script>
 (function(){
 const page = document.currentScript.dataset.page;
 let who = new URLSearchParams(location.search).get("p");
 try{ who = who || localStorage.getItem("family-person"); }catch(e){}
 if(!/^[a-z0-9_-]+$/.test(who || "")) who = "nanna";
-const target = "../" + who + "/" + page;
+const target = "../" + who + "/" + page;  // e.g. ../nanna/#meals
 const link = document.getElementById("moved-link");
 if(link) link.href = target;
 

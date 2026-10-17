@@ -4,7 +4,7 @@
   "safety": [
     "Check with the doctor or a dietitian before changing the diet, especially with diabetes tablets or insulin (to avoid low sugar) or a blood thinner.",
     "<strong>Blood thinner (warfarin):</strong> keep green leafy vegetables like palak and methi about the same amount every week. Do not suddenly add a lot or stop them.",
-    "<strong>Plate:</strong> half vegetables, a quarter dal, paneer, egg or fish, and a quarter rice or roti. About 1 small cup of cooked rice or 2 small phulkas per meal.",
+    "<strong>Plate:</strong> half vegetables, a quarter dal, paneer or curd, and a quarter rice or roti. About 1 small cup of cooked rice or 2 small phulkas per meal.",
     "<strong>Salt:</strong> less than 1 teaspoon a day in total. Skip pickles, papad, chips and salted nuts.",
     "<strong>Oil:</strong> 3 to 4 teaspoons a day (groundnut, mustard or rice-bran). Ghee only a few drops.",
     "<strong>No added sugar</strong>, jaggery or honey. Eat whole fruit instead of juice. Avoid grapefruit, which interacts with some heart medicines.",
@@ -22,7 +22,7 @@
     { "key": "Mon", "name": "Monday", "focus": "Oats & Millets",
       "meals": [
         { "slot": "Breakfast", "dish": "Vegetable oats upma",
-          "items": ["1 cup oats upma with carrot, beans and peas", "1 boiled egg, or ½ cup steamed sprouts", "Tea or coffee, no sugar"],
+          "items": ["1 cup oats upma with carrot, beans and peas", "½ cup steamed moong sprouts", "Tea or coffee, no sugar"],
           "why": "Oats fibre keeps sugar steady and helps lower cholesterol." },
         { "slot": "Mid-morning", "dish": "Guava and almonds",
           "items": ["1 guava", "5 soaked almonds (peeled, easier to chew)"],
@@ -69,14 +69,14 @@
         { "slot": "Evening snack", "dish": "Roasted makhana",
           "items": ["1 cup roasted makhana (fox nuts), no salt or just a pinch", "Tea, no sugar"],
           "why": "A light, crunchy snack that is low in fat." },
-        { "slot": "Dinner", "dish": "Jowar roti with egg or paneer bhurji",
-          "items": ["2 small jowar rotis", "Egg bhurji (1 egg + 2 egg whites), or paneer or tofu bhurji", "1 cup mixed vegetable curry"],
+        { "slot": "Dinner", "dish": "Jowar roti with paneer bhurji",
+          "items": ["2 small jowar rotis", "½ cup paneer bhurji, or tofu bhurji", "1 cup mixed vegetable curry"],
           "why": "Protein at dinner helps keep muscles strong at 80." }
       ]},
     { "key": "Thu", "name": "Thursday", "focus": "Light & Simple",
       "meals": [
         { "slot": "Breakfast", "dish": "Vegetable poha",
-          "items": ["1 cup poha with lots of vegetables and a few peanuts", "1 boiled egg, or 1 glass low-fat milk with no sugar"],
+          "items": ["1 cup poha with lots of vegetables and a few peanuts", "1 glass low-fat milk, no sugar"],
           "why": "More vegetables and less poha keeps the sugar rise small." },
         { "slot": "Mid-morning", "dish": "Orange and almonds",
           "items": ["1 orange (whole fruit, not juice)", "5 soaked almonds"],
@@ -91,7 +91,7 @@
           "items": ["1 bowl clear vegetable soup (no cream, little salt)", "2 small phulkas", "1 cup methi dal"],
           "why": "Methi (fenugreek) may help with blood sugar." }
       ]},
-    { "key": "Fri", "name": "Friday", "focus": "Fish or Paneer",
+    { "key": "Fri", "name": "Friday", "focus": "Paneer Day",
       "meals": [
         { "slot": "Breakfast", "dish": "Ragi porridge",
           "items": ["1 cup ragi java (porridge) with low-fat milk, no sugar", "1 tbsp ground flaxseed stirred in", "4 to 5 soaked almonds"],
@@ -99,9 +99,9 @@
         { "slot": "Mid-morning", "dish": "Pear",
           "items": ["1 pear"],
           "why": "A low-sugar fruit with lots of fibre." },
-        { "slot": "Lunch", "dish": "Phulka with fish curry and dondakaya",
-          "items": ["2 small phulkas, or 1 small cup brown rice", "1 cup fish curry (rohu, sardine or salmon, low oil), or paneer curry", "1 cup dondakaya (ivy gourd) fry, low oil", "Salad"],
-          "why": "Fish twice a week gives omega-3 fats that protect the heart." },
+        { "slot": "Lunch", "dish": "Phulka with paneer curry and dondakaya",
+          "items": ["2 small phulkas, or 1 small cup brown rice", "1 cup paneer curry (low oil), or tofu curry", "1 cup dondakaya (ivy gourd) fry, low oil", "Salad"],
+          "why": "Paneer gives protein and calcium. The flaxseed and walnuts in this plan provide the heart-healthy omega-3." },
         { "slot": "Evening snack", "dish": "Roasted chana or peanuts",
           "items": ["¼ cup roasted chana or unsalted peanuts", "Green tea"],
           "why": "Keeps hunger away until dinner without spiking sugar." },
@@ -123,9 +123,9 @@
         { "slot": "Evening snack", "dish": "Chickpea sundal",
           "items": ["½ cup chickpea sundal with coconut and curry leaves", "Tea, no sugar"],
           "why": "Chickpeas are filling and rich in protein and fibre." },
-        { "slot": "Dinner", "dish": "Roti with chicken or paneer curry",
-          "items": ["2 small multigrain rotis", "1 cup chicken curry (skinless, low oil), or paneer or soya curry", "1 cup sorakaya or beans curry"],
-          "why": "Lean protein helps keep strength up." }
+        { "slot": "Dinner", "dish": "Roti with soya chunk curry",
+          "items": ["2 small multigrain rotis", "1 cup soya chunk curry (low oil), or chana masala", "1 cup sorakaya or beans curry"],
+          "why": "Soya is a complete vegetarian protein that helps keep strength up." }
       ]},
     { "key": "Sun", "name": "Sunday", "focus": "Easy Day",
       "meals": [

@@ -1,11 +1,11 @@
-/* Shared look for the family apps. Each app can override --accent and --done in its own :root. */
+/* Shared look for every family member's app. Meal pages use an orange accent (body.meals). */
 :root{
   --bg:#f6f3ec; --card:#ffffff; --ink:#1f2a2e; --muted:#5a676c;
   --accent:#1f6f5c; --accent-ink:#ffffff; --line:#e2ddd0; --warn:#fff4d6; --warn-line:#e8c766;
-  --done:#dff1e8;
+ 
 }
 @media (prefers-color-scheme: dark){
-  :root{ --bg:#14191b; --card:#1e2629; --ink:#f1f3f2; --muted:#a9b6ba; --accent:#4fc3a1; --accent-ink:#0c1a16; --line:#2d393d; --warn:#2c2616; --warn-line:#7a6528; --done:#1b3a2f; }
+  :root{ --bg:#14191b; --card:#1e2629; --ink:#f1f3f2; --muted:#a9b6ba; --accent:#4fc3a1; --accent-ink:#0c1a16; --line:#2d393d; --warn:#2c2616; --warn-line:#7a6528; }
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:20px;line-height:1.45}
@@ -13,12 +13,17 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,"S
 h1{font-size:30px;margin:8px 0 2px}
 .date{font-size:20px;font-weight:700;color:var(--accent);margin:0 0 4px}
 .sub{color:var(--muted);margin:0 0 16px;font-size:18px}
+.back{display:inline-block;font-size:18px;font-weight:700;color:var(--accent);text-decoration:none;padding:8px 0;min-height:44px}
+body.meals{--accent:#a8481f}
+@media (prefers-color-scheme: dark){ body.meals{--accent:#f0a274} }
 
-.people{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 12px}
-.people[hidden]{display:none}
-.people .label{font-size:17px;color:var(--muted);font-weight:600}
-.person{font:inherit;font-weight:700;font-size:18px;padding:8px 18px;min-height:46px;border-radius:999px;border:2px solid var(--accent);background:var(--card);color:var(--accent);cursor:pointer}
-.person[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink)}
+/* Member home page */
+.apps{display:grid;gap:16px;margin-top:20px}
+@media(min-width:640px){.apps{grid-template-columns:1fr 1fr}}
+.card.app{flex-direction:row;gap:16px;align-items:center;padding:18px;text-decoration:none;color:var(--ink)}
+.app img{width:72px;height:72px;border-radius:16px;flex:none}
+.app .title{margin-bottom:4px}
+
 
 .safety{background:var(--warn);border:2px solid var(--warn-line);border-radius:16px;padding:14px 16px;margin-bottom:18px;font-size:18px}
 .safety[hidden]{display:none}
@@ -37,7 +42,6 @@ h1{font-size:30px;margin:8px 0 2px}
 .grid{display:grid;grid-template-columns:1fr;gap:16px}
 @media(min-width:860px){.grid{grid-template-columns:repeat(3,1fr)}}
 .card{background:var(--card);border:2px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
-.card.done{background:var(--done);border-color:var(--accent)}
 .body{padding:14px 16px 16px;display:flex;flex-direction:column;gap:8px;flex:1}
 .step{font-size:14px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .title{font-size:22px;font-weight:700;margin:0}
@@ -48,6 +52,13 @@ h1{font-size:30px;margin:8px 0 2px}
 .btn.primary{background:var(--accent);color:var(--accent-ink)}
 .btn.ghost{background:transparent;color:var(--accent)}
 .rest{background:var(--card);border:2px solid var(--line);border-radius:20px;padding:20px;margin-top:16px}
+.castnote{margin:0 0 14px;font-size:17px}
+.video{position:relative;aspect-ratio:16/9;background:#000}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.time{color:var(--muted);font-size:16px;font-weight:600}
+.items{margin:0;padding-left:22px;font-size:19px}
+.items li{margin:4px 0}
+.why{font-size:17px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px}
 .foot{color:var(--muted);font-size:15px;margin-top:28px}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 

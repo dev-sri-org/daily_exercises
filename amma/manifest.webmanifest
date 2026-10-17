@@ -1,0 +1,16 @@
+{
+  "name": "Amma's Daily Plan",
+  "short_name": "Amma",
+  "description": "Daily exercises and meal plan.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ec",
+  "theme_color": "#1f6f5c",
+  "icons": [
+    { "src": "../shared/icons/heart-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "../shared/icons/heart-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "../shared/icons/heart-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

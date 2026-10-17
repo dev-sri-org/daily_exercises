@@ -1,13 +1,16 @@
-// Shared by the family apps (exercises, meal plan): family-member picker, day tabs,
-// today's date, "done" ticks saved per person per day, offline support and the install popup.
-//
-// Each app folder has plans/people.json (who has a plan) and plans/<person id>.json (their plan),
-// and calls FamilyApp.start({...}) with its own renderDay. See README.md for the plan format.
+// Shared by every family member's app. Each member has their own folder (e.g. nanna/) with:
+//   index.html      their home page, linking to the two pages below
+//   exercises.html  daily exercise videos   (plan: plans/exercises.json)
+//   meals.html      daily meal plan         (plan: plans/meals.json)
+//   manifest.webmanifest, sw.js
+// The HTML pages are the same for everyone; the member's name comes from their manifest's short_name.
 (function(){
 const DAY_KEYS = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform==="MacIntel" && navigator.maxTouchPoints>1);
 const isAndroid = /Android/i.test(navigator.userAgent);
 const $ = id => document.getElementById(id);
+const now = new Date();
+const member = location.pathname.split("/").slice(-2, -1)[0];  // folder name, e.g. "nanna"
 
 // Storage can be unavailable (private mode, blocked site data), so every access is guarded
 const store = {
@@ -21,86 +24,81 @@ async function getJSON(url){
   return res.json();
 }
 
-async function start(opts){
-  // opts: { app, title(name), renderDay(day, helpers), onPlan(plan), afterRender(), doneLabels:[notDone, done] }
-  const [offLabel, onLabel] = opts.doneLabels || ["Mark done", "Done ✓"];
-  const now = new Date();
-  const dow = now.getDay();
-  // Local date (not UTC), e.g. "2026-10-16"
-  const todayStr = now.getFullYear()+"-"+String(now.getMonth()+1).padStart(2,"0")+"-"+String(now.getDate()).padStart(2,"0");
-  $("today").textContent = now.toLocaleDateString("en-US", { weekday:"long", year:"numeric", month:"long", day:"numeric" });
+async function memberName(){
+  try{ const m = await getJSON("manifest.webmanifest"); return m.short_name || m.name || ""; }
+  catch(e){ return ""; }
+}
 
+const dateLine = () => now.toLocaleDateString("en-US", { weekday:"long", year:"numeric", month:"long", day:"numeric" });
+
+function setup(html){
+  document.body.insertAdjacentHTML("afterbegin", '<div class="wrap">'+html+'</div>');
   // If the app is left open past midnight, refresh when it is shown again
   document.addEventListener("visibilitychange", ()=>{
     if(document.visibilityState==="visible" && new Date().toDateString()!==now.toDateString()) location.reload();
   });
-
   if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(()=>{});
-  setupInstall(opts.app);
+  setupInstall();
+}
 
-  let people;
-  try{ people = await getJSON("plans/people.json"); }
-  catch(e){ return showError(); }
+function showError(){
+  $("content").innerHTML = '<div class="rest"><strong>Could not load the plan.</strong> Check the internet connection, then close and reopen the app.</div>';
+}
 
-  // Person comes from ?p=<id>, else the last one picked (shared by all the apps), else the first
-  const asked = new URLSearchParams(location.search).get("p");
-  let personId = [asked, store.get("family-person")].find(id => people.some(p => p.id===id)) || people[0].id;
+// ---- Member home page: links to exercises and meals, with today's focus for each ----
+async function homePage(){
+  const sections = [
+    { href:"exercises.html", icon:"heart", title:"Daily Exercises", plan:"plans/exercises.json", none:"Rest day, no exercises today" },
+    { href:"meals.html", icon:"bowl", title:"Daily Meal Plan", plan:"plans/meals.json", none:"No meal plan for today" }
+  ];
+  setup('<h1 id="title">Daily Plan</h1><p class="date">'+dateLine()+'</p>'+
+    '<div class="apps">'+sections.map((s,i)=>
+      '<a class="card app" href="'+s.href+'"><img src="../shared/icons/'+s.icon+'-192.png" alt="">'+
+      '<div><h2 class="title">'+s.title+'</h2><div class="meta" id="today-'+i+'"></div></div></a>').join("")+'</div>');
 
-  let plan, current, todayIdx, memDone = {};
-  const doneKey = () => "done-"+opts.app+"-"+personId+"-"+todayStr;
-  const getDone = () => { try{ return JSON.parse(store.get(doneKey())||"{}"); }catch(e){ return {}; } };
-  const isDone = k => !!(getDone()[k] || memDone[personId+k]);
-  function setDone(k, v){
-    if(v) memDone[personId+k]=1; else delete memDone[personId+k];
-    const d = getDone(); if(v) d[k]=1; else delete d[k];
-    store.set(doneKey(), JSON.stringify(d));
-  }
-  const helpers = {
-    isDone,
-    doneButton: k => '<button class="btn primary" data-k="'+k+'">'+(isDone(k)?onLabel:offLabel)+'</button>',
-    cardClass: k => "card"+(isDone(k)?" done":"")
-  };
+  const name = await memberName();
+  if(name) document.title = $("title").textContent = name+"'s Daily Plan";
+  sections.forEach(async (s,i)=>{
+    try{
+      const d = (await getJSON(s.plan)).days.find(d => d.key===DAY_KEYS[now.getDay()]);
+      $("today-"+i).textContent = d ? "Today: "+d.focus : s.none;
+    }catch(e){}
+  });
+}
 
-  async function loadPerson(id){
-    personId = id;
-    store.set("family-person", id);
-    const person = people.find(p => p.id===id);
-    try{ plan = await getJSON("plans/"+id+".json"); }
-    catch(e){ return showError(); }
-    if(opts.onPlan) opts.onPlan(plan);
+// ---- Exercise and meal pages: day tabs plus the selected day's content ----
+// opts: { plan, title, foot, renderDay(day), onPlan(plan), afterRender() }
+async function dayPage(opts){
+  setup('<a class="back" href="./">← Home</a>'+
+    '<h1 id="title">'+opts.title+'</h1><p class="date">'+dateLine()+'</p><p class="sub" id="sub"></p>'+
+    '<details class="safety" id="safety" open hidden><summary id="safety-title"></summary><ul id="safety-list"></ul></details>'+
+    '<div class="tabs" id="tabs" role="tablist"></div><div id="content"></div>'+
+    '<p class="foot">'+opts.foot+'</p>');
 
-    document.title = $("title").textContent = opts.title(person.name);
-    $("sub").textContent = plan.subtitle || "";
-    const safe = plan.safety || [];
-    $("safety").hidden = !safe.length;
-    $("safety-title").textContent = plan.safetyTitle || "Before you start: safety first";
-    $("safety-list").innerHTML = safe.map(s => "<li>"+s+"</li>").join("");
+  const [name, plan] = await Promise.all([memberName(), getJSON(opts.plan).catch(()=>null)]);
+  if(name) document.title = $("title").textContent = opts.title+" for "+name;
+  if(!plan) return showError();
+  if(opts.onPlan) opts.onPlan(plan);
 
-    todayIdx = plan.days.findIndex(d => d.key===DAY_KEYS[dow]);
-    current = todayIdx>=0 ? todayIdx : 0;
-    renderPeople(); renderTabs(); renderDay();
-  }
+  $("sub").textContent = plan.subtitle || "";
+  const safe = plan.safety || [];
+  $("safety").hidden = !safe.length;
+  $("safety-title").textContent = plan.safetyTitle || "Before you start: safety first";
+  $("safety-list").innerHTML = safe.map(s => "<li>"+s+"</li>").join("");
 
-  function renderPeople(){
-    const el = $("people");
-    el.hidden = people.length < 2;
-    el.innerHTML = '<span class="label">Plan for:</span>' + people.map(p =>
-      '<button class="person" data-p="'+p.id+'" aria-pressed="'+(p.id===personId)+'">'+p.name+'</button>').join("");
-    el.querySelectorAll("button").forEach(b => b.onclick = ()=>{ if(b.dataset.p!==personId) loadPerson(b.dataset.p); });
-  }
+  const todayIdx = plan.days.findIndex(d => d.key===DAY_KEYS[now.getDay()]);
+  let current = todayIdx>=0 ? todayIdx : 0;
 
   function renderTabs(){
     const el = $("tabs");
     el.style.setProperty("--n", plan.days.length);
     el.classList.toggle("many", plan.days.length > 5);
-    el.setAttribute("role", "tablist");
     el.innerHTML = "";
     plan.days.forEach((d,i)=>{
       const b = document.createElement("button");
       b.className = "tab" + (i===todayIdx ? " today" : "");
       b.setAttribute("role","tab");
       b.setAttribute("aria-selected", i===current);
-      b.textContent = d.key;
       b.onclick = ()=>{ current=i; renderTabs(); renderDay(); };
       el.appendChild(b);
     });
@@ -109,49 +107,33 @@ async function start(opts){
 
   // Full weekday names when there is room, short ones on phones
   function labelTabs(){
-    if(!plan) return;
     const wide = window.innerWidth >= plan.days.length*112;
     [...$("tabs").children].forEach((b,i)=>{ b.textContent = wide ? plan.days[i].name : plan.days[i].key; });
   }
   window.addEventListener("resize", labelTabs);
 
   function renderDay(){
-    const d = plan.days[current];
     let html = "";
     if(todayIdx===-1 && plan.restMessage) html += '<div class="rest">'+plan.restMessage+'</div>';
-    html += opts.renderDay(d, helpers);
-    const content = $("content");
-    content.innerHTML = html;
-    content.querySelectorAll("button[data-k]").forEach(btn=>{
-      btn.onclick = ()=>{
-        const k = btn.dataset.k, nowDone = !isDone(k);
-        setDone(k, nowDone);
-        btn.closest(".card").classList.toggle("done", nowDone);
-        btn.textContent = nowDone ? onLabel : offLabel;
-      };
-    });
+    $("content").innerHTML = html + opts.renderDay(plan.days[current]);
     if(opts.afterRender) opts.afterRender();
   }
 
-  loadPerson(personId);
-}
-
-function showError(){
-  $("content").innerHTML = '<div class="rest"><strong>Could not load the plan.</strong> Check the internet connection, then close and reopen the app.</div>';
+  renderTabs(); renderDay();
 }
 
 // ---- Install as an app ----
-function setupInstall(app){
+function setupInstall(){
   const box = document.createElement("div");
   box.className = "install"; box.hidden = true;
   box.setAttribute("role","dialog"); box.setAttribute("aria-label","Install app");
-  box.innerHTML = '<img src="icon-192.png" alt=""><div class="msg"><strong>Install this app</strong><br>Open it from your home screen like any other app.</div>'+
+  box.innerHTML = '<img src="../shared/icons/heart-192.png" alt=""><div class="msg"><strong>Install this app</strong><br>Open it from your home screen like any other app.</div>'+
     '<div class="row"><button class="btn primary">Install</button><button class="btn ghost">Not now</button></div>';
   document.body.appendChild(box);
   const [yes, no] = box.querySelectorAll("button");
 
   const installed = matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
-  const snoozeKey = "install-snooze-"+app;
+  const snoozeKey = "install-snooze-"+member;
   let deferredPrompt = null;
   const show = ()=>{ if(installed || Date.now() < +(store.get(snoozeKey)||0)) return; box.hidden = false; document.body.classList.add("has-install"); };
   const hide = ()=>{ box.hidden = true; document.body.classList.remove("has-install"); };
@@ -179,5 +161,5 @@ function setupInstall(app){
   no.onclick = ()=>{ store.set(snoozeKey, Date.now() + 3*24*60*60*1000); hide(); };
 }
 
-window.FamilyApp = { start, isIOS, isAndroid };
+window.FamilyApp = { homePage, dayPage, isIOS, isAndroid };
 })();

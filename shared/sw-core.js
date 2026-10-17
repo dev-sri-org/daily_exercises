@@ -1,17 +1,22 @@
-// Service worker logic shared by the apps. Each app's sw.js sets self.APP and self.PRECACHE, then imports this.
+// Offline support for a member's app. Each member's sw.js just imports this file.
 // Pages and plans are fetched fresh when online (so updates show up right away)
 // and fall back to the cached copy when offline.
-const CACHE = self.APP + "-v2";
+const APP = location.pathname.split("/").slice(-2, -1)[0];  // member folder, e.g. "nanna"
+const CACHE = APP + "-v3";
+const PRECACHE = ["./", "./exercises.html", "./meals.html", "./manifest.webmanifest",
+  "./plans/exercises.json", "./plans/meals.json",
+  "../shared/app.css", "../shared/app.js", "../shared/exercises.js", "../shared/meals.js",
+  "../shared/icons/heart-192.png", "../shared/icons/bowl-192.png"];
 
 self.addEventListener("install", e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(self.PRECACHE)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(PRECACHE)).then(() => self.skipWaiting()));
 });
 
-// All apps share one cache storage, so only clear this app's older caches
+// All apps on this site share one cache storage, so only clear this app's older caches
 self.addEventListener("activate", e => {
   e.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.filter(k => k.startsWith(self.APP + "-") && k !== CACHE).map(k => caches.delete(k))))
+      .then(keys => Promise.all(keys.filter(k => k.startsWith(APP + "-") && k !== CACHE).map(k => caches.delete(k))))
       .then(() => self.clients.claim())
   );
 });

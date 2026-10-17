@@ -3,25 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Daily Exercises has moved</title>
-<noscript><meta http-equiv="refresh" content="0; url=../exercises/?p=nanna"></noscript>
+<title>Daily Plan</title>
+<meta name="theme-color" content="#1f6f5c">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="../shared/icons/heart-192.png" type="image/png">
+<link rel="apple-touch-icon" href="../shared/icons/heart-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="stylesheet" href="../shared/app.css">
 </head>
 <body>
-<div class="wrap">
-  <h1>Daily Exercises has moved</h1>
-  <p class="sub">Taking you to the new page… If nothing happens, <a href="../exercises/?p=nanna">tap here</a>.
-  If you installed the old app, uninstall it and install the new one.</p>
-</div>
-<script>
-// The app used to live here. Remove its old offline worker, then go to the new address.
-const go = () => location.replace("../exercises/?p=nanna");
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.getRegistrations()
-    .then(rs => Promise.all(rs.filter(r => r.scope.endsWith("/nanna/")).map(r => r.unregister())))
-    .catch(() => {})
-    .finally(go);
-} else go();
-</script>
+<script src="../shared/app.js"></script>
+<script>FamilyApp.homePage();</script>
 </body>
 </html>

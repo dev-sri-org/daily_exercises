@@ -3,67 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Meal Plan</title>
-<meta name="theme-color" content="#a8481f">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon-192.png" type="image/png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Meals">
+<title>Meal Plan has moved</title>
 <link rel="stylesheet" href="../shared/app.css">
-<style>
-  :root{ --accent:#a8481f; --done:#fbe9dc; }
-  @media (prefers-color-scheme: dark){ :root{ --accent:#f0a274; --done:#3a2619; } }
-  .time{color:var(--muted);font-size:16px;font-weight:600}
-  .items{margin:0;padding-left:22px;font-size:19px}
-  .items li{margin:4px 0}
-  .why{font-size:17px;color:var(--muted);border-top:1px solid var(--line);padding-top:8px}
-</style>
 </head>
 <body>
 <div class="wrap">
-  <h1 id="title">Meal Plan</h1>
-  <div class="people" id="people" hidden></div>
-  <p class="date" id="today"></p>
-  <p class="sub" id="sub"></p>
-
-  <details class="safety" id="safety" open hidden>
-    <summary id="safety-title"></summary>
-    <ul id="safety-list"></ul>
-  </details>
-
-  <div class="tabs" id="tabs"></div>
-  <div id="content"></div>
-
-  <p class="foot">A general guide, not medical advice. Ask the doctor or a dietitian to check portions, especially with diabetes medicines, insulin or blood thinners.</p>
+  <h1>Meal Plan has moved</h1>
+  <p class="sub">Each family member now has their own app with exercises and meals together.
+  Taking you there… If nothing happens, <a id="moved-link" href="../">tap here</a>.
+  If you installed this old app, uninstall it and install the new one.</p>
 </div>
-
-<script src="../shared/app.js"></script>
-<script>
-// Each day in plans/<person>.json has meals; each meal has a slot (Breakfast, Lunch...),
-// a dish name, a list of items with portions, and a short "why".
-let times = {};
-function renderDay(d, h){
-  let html = '<div class="focus">'+d.name+": "+d.focus+'</div>'+(d.note ? '<p class="focus-sub">'+d.note+'</p>' : '')+'<div class="grid">';
-  d.meals.forEach((m,i)=>{
-    const k = d.key+i;
-    html += '<article class="'+h.cardClass(k)+'"><div class="body">'+
-      '<div class="step">'+m.slot+(times[m.slot] ? ' <span class="time">· '+times[m.slot]+'</span>' : '')+'</div>'+
-      '<h3 class="title">'+m.dish+'</h3>'+
-      '<ul class="items">'+m.items.map(x=>'<li>'+x+'</li>').join("")+'</ul>'+
-      (m.why ? '<div class="why">'+m.why+'</div>' : '')+
-      '<div class="row">'+h.doneButton(k)+'</div></div></article>';
-  });
-  return html + "</div>";
-}
-
-FamilyApp.start({
-  app: "meal_plan",
-  title: name => "Meal Plan for "+name,
-  doneLabels: ["Mark eaten", "Eaten ✓"],
-  renderDay,
-  onPlan: plan => { times = plan.times || {}; }
-});
-</script>
+<script src="../shared/moved.js" data-page="meals.html"></script>
 </body>
 </html>

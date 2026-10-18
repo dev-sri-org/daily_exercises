@@ -96,9 +96,12 @@ async function start(){
 
   // A member whose plans are only in English sets "languages": ["en"] in the manifest to hide the switch
   if(manifest.languages && !manifest.languages.includes("te")){ lang = "en"; $("lang").hidden = true; }
+  // Optional per-member layout: cards side by side to swipe through, and the rules box closed at first
+  document.body.classList.toggle("swipe", !!manifest.swipeCards);
+  if(manifest.safetyCollapsed) $("safety").open = false;
 
   window.addEventListener("hashchange", ()=>{ pick(location.hash.slice(1)); renderAll(); });
-  window.addEventListener("resize", labelTabs);
+  window.addEventListener("resize", ()=>{ labelTabs(); updateDots(); });
   pick(location.hash.slice(1));
   renderAll();
 }
@@ -176,7 +179,32 @@ function renderDay(){
   let html = "";
   if(todayIdx===-1 && plan.restMessage) html += '<div class="rest">'+t(plan.restMessage)+'</div>';
   $("content").innerHTML = html + section.renderDay(plan.days[current]);
+  addDots();
   if(section.afterRender) section.afterRender();
+}
+
+// Swipe layout: dots under the cards show which one is in view; tapping a dot scrolls to it
+let updateDots = ()=>{};
+function addDots(){
+  updateDots = ()=>{};
+  const grid = $("content").querySelector(".grid");
+  if(!grid || !document.body.classList.contains("swipe")) return;
+  const cards = [...grid.children];
+  if(cards.length < 2) return;
+  const dots = document.createElement("div");
+  dots.className = "dots";
+  dots.innerHTML = cards.map((c,i) => '<button aria-label="Card '+(i+1)+'"></button>').join("");
+  grid.after(dots);
+  const btns = [...dots.children];
+  btns.forEach((b,i) => b.onclick = ()=> grid.scrollTo({ left: cards[i].offsetLeft - cards[0].offsetLeft, behavior: "smooth" }));
+  const update = ()=>{
+    const i = Math.round(grid.scrollLeft / (cards[1].offsetLeft - cards[0].offsetLeft));
+    btns.forEach((b,j) => b.setAttribute("aria-current", j===i));
+    dots.hidden = grid.scrollWidth <= grid.clientWidth;  // all cards fit, nothing to swipe
+  };
+  grid.addEventListener("scroll", update, { passive:true });
+  updateDots = update;
+  update();
 }
 
 // ---- Install as an app ----

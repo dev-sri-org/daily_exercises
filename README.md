@@ -40,6 +40,8 @@ exercises/, meal_plan/    Old addresses; they redirect to the member's app
 
 1. Copy a member's folder, e.g. `nanna/` to `ravi/`. The folder name becomes the address (`.../daily_exercises/ravi/`), so use lowercase with no spaces.
 2. In `ravi/manifest.webmanifest`, change `name` and `short_name`. Add `"languages": ["en"]` if the plans are only in English; this hides the Telugu button.
+   Optional: `"swipeCards": true` shows the day's cards side by side to swipe through (with dots underneath),
+   and `"safetyCollapsed": true` starts the rules box closed. Srinivas's app uses both.
 3. Edit `ravi/plans/exercises.json` and `ravi/plans/meals.json`.
 4. Add a link to `ravi/` in the root `index.html`.
 

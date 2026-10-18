@@ -80,3 +80,14 @@ body[data-section="meals"]{--accent:#a8481f}
 .install .msg{flex:1;min-width:200px;font-size:18px}
 .install .row{margin:0;padding:0;flex-basis:100%}
 body.has-install .wrap{padding-bottom:200px}
+
+/* Swipe layout (a member's manifest sets "swipeCards"): cards side by side, swipe left and right */
+body.swipe .grid{display:flex;align-items:flex-start;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -16px;padding:0 16px 4px;scroll-padding:0 16px;scrollbar-width:none}
+body.swipe .grid::-webkit-scrollbar{display:none}
+body.swipe .grid>.card{flex:0 0 86%;scroll-snap-align:start}
+@media(min-width:860px){body.swipe .grid>.card{flex-basis:calc((100% - 24px)/3)}}
+.dots{display:flex;justify-content:center;gap:4px;margin-top:6px}
+.dots[hidden]{display:none}
+.dots button{width:28px;height:28px;padding:0;border:0;background:none;cursor:pointer;display:grid;place-items:center}
+.dots button::before{content:"";width:10px;height:10px;border-radius:50%;background:var(--line)}
+.dots button[aria-current="true"]::before{background:var(--accent);width:22px;border-radius:5px}

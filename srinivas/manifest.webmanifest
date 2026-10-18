@@ -2,6 +2,8 @@
   "name": "Srinivas's Daily Plan",
   "short_name": "Srinivas",
   "languages": ["en"],
+  "swipeCards": true,
+  "safetyCollapsed": true,
   "description": "Strength training, morning yoga and meditation, and a vegan meal plan.",
   "id": "./",
   "start_url": "./",

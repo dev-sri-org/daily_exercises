@@ -1,0 +1,299 @@
+{
+  "subtitle": "Vegan, menopause-friendly meals for strength and weight loss. Meal 1 and Meal 2 are the same dishes as Srinivas's, in lighter portions, plus a high-protein breakfast.",
+  "safetyTitle": "Daily rules of thumb",
+  "safety": [
+    "<strong>Shared meals, smaller plate:</strong> take the same dishes as Srinivas but half the rice, roti or millet (1 roti instead of 2). Keep the full protein and fill up on extra vegetables and salad.",
+    "<strong>Protein:</strong> about 1.2 g per kg of body weight a day, spread over the three meals. Protein keeps you full and protects muscle while losing weight.",
+    "<strong>Menopause:</strong> have soy foods (tofu, soy milk, soya chunks) and 1 tbsp ground flaxseed most days; they may ease hot flushes. Spicy food, caffeine and alcohol can trigger flushes.",
+    "<strong>Bones:</strong> aim for calcium-rich foods every day: calcium-set tofu, fortified soy milk, ragi, sesame and leafy greens. Ask the doctor about vitamin D and B12, which are needed on a vegan diet.",
+    "<strong>No added sugar</strong>, jaggery or honey; whole fruit instead of juice. Nuts are healthy but calorie-dense: a small handful a day.",
+    "Finish dinner 2 to 3 hours before bed. Drink 2.5 litres of water a day; thirst is often mistaken for hunger.",
+    "Lose weight slowly, about ½ kg a week. Crash diets take away muscle and bone."
+  ],
+  "times": {
+    "Breakfast": "8:00 am",
+    "Meal 1": "12:00 pm",
+    "Meal 2": "7:00 pm"
+  },
+  "days": [
+    {
+      "key": "Mon",
+      "name": "Mon",
+      "focus": "Tofu & rajma",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Overnight oats",
+          "items": [
+            "½ cup rolled oats soaked overnight in unsweetened soy milk",
+            "1 tbsp chia seeds",
+            "1 tbsp ground flaxseed",
+            "½ cup berries or chopped apple"
+          ],
+          "why": "About 18 g protein. Flaxseed and soy may ease hot flushes; oats keep you full for hours."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Tofu bhurji with multigrain roti",
+          "items": [
+            "200 g firm tofu bhurji with onion, tomato, capsicum and spinach",
+            "2 multigrain or jowar rotis",
+            "1 cup steamed moong sprouts with lemon",
+            "1 tbsp roasted pumpkin seeds",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 45 g protein. Tofu is a complete protein; pumpkin seeds add zinc, which the thyroid needs."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Rajma, brown rice and bhindi",
+          "items": [
+            "1½ cups rajma curry",
+            "1 small cup brown rice",
+            "1 cup bhindi or beans sabzi",
+            "Cucumber, tomato and onion salad",
+            "1 cup unsweetened soy curd raita"
+          ],
+          "why": "About 35 g protein. Rajma and brown rice together give a full set of amino acids."
+        }
+      ]
+    },
+    {
+      "key": "Tue",
+      "name": "Tue",
+      "focus": "Pesarattu & soya",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Moong dal chilla",
+          "items": [
+            "2 moong dal chillas with grated vegetables",
+            "2 tbsp mint chutney",
+            "1 glass unsweetened soy milk"
+          ],
+          "why": "About 20 g protein for very few calories."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Pesarattu with tofu",
+          "items": [
+            "3 pesarattu (green moong dosa)",
+            "100 g tofu stir-fried with vegetables",
+            "2 tbsp peanut chutney",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Moong is easy to digest and has a low glycemic index."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Soya chunk curry with jowar roti",
+          "items": [
+            "1 cup soya chunk curry (50 g dry chunks)",
+            "2 jowar rotis",
+            "1 cup moong or masoor dal",
+            "1 cup mixed vegetable curry",
+            "Salad"
+          ],
+          "why": "About 45 g protein. Soya chunks are one of the richest vegetarian proteins."
+        }
+      ]
+    },
+    {
+      "key": "Wed",
+      "name": "Wed",
+      "focus": "Besan & chana",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Tofu scramble",
+          "items": [
+            "100 g tofu scrambled with spinach, onion and tomato",
+            "1 slice multigrain toast or 1 small roti",
+            "Black coffee or tea, no sugar"
+          ],
+          "why": "About 17 g protein. Calcium-set tofu helps protect bones after menopause."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Besan chilla with tofu filling",
+          "items": [
+            "3 vegetable besan chillas",
+            "100 g crumbled tofu filling",
+            "2 tbsp mint-coriander chutney",
+            "1 glass unsweetened soy milk",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Besan is high in protein and fibre and keeps sugar steady."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Chana masala with quinoa",
+          "items": [
+            "1½ cups chana masala",
+            "1 cup cooked quinoa or foxtail millet",
+            "1 cup palak or cabbage sabzi",
+            "1 cup unsweetened soy curd"
+          ],
+          "why": "About 38 g protein. Quinoa is a complete protein and gentler on blood sugar than white rice."
+        }
+      ]
+    },
+    {
+      "key": "Thu",
+      "name": "Thu",
+      "focus": "Soya & tofu",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Soy milk smoothie",
+          "items": [
+            "1 glass unsweetened soy milk",
+            "1 scoop pea or soy protein powder (optional)",
+            "½ cup berries or ½ banana",
+            "1 tbsp ground flaxseed"
+          ],
+          "why": "About 25 g protein with the powder, 10 g without. Quick on busy mornings."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Soya keema with bajra roti",
+          "items": [
+            "1 cup soya granule keema with peas (50 g dry granules)",
+            "2 bajra or multigrain rotis",
+            "1 cup sprouts salad",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 40 g protein."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Tofu palak with dal and brown rice",
+          "items": [
+            "200 g tofu in palak gravy",
+            "1 cup moong dal",
+            "1 small cup brown rice",
+            "Salad"
+          ],
+          "why": "About 45 g protein."
+        }
+      ]
+    },
+    {
+      "key": "Fri",
+      "name": "Fri",
+      "focus": "Protein bowl",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Sprouts chaat",
+          "items": [
+            "1½ cups moong sprouts with onion, tomato, cucumber and lemon",
+            "1 tbsp roasted pumpkin seeds",
+            "1 glass unsweetened soy milk"
+          ],
+          "why": "About 17 g protein and lots of fibre."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Vegan protein bowl",
+          "items": [
+            "1 cup cooked quinoa",
+            "1 cup boiled chickpeas",
+            "100 g grilled tofu",
+            "Roasted vegetables (capsicum, zucchini, onion, broccoli)",
+            "1 tbsp tahini or peanut dressing with lemon",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 40 g protein. Lots of fibre keeps the sugar rise small."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Moong dal khichdi with tofu tikka",
+          "items": [
+            "1½ cups millet and moong dal khichdi (more dal than millet)",
+            "100 g tofu tikka",
+            "1 cup unsweetened soy curd",
+            "Salad"
+          ],
+          "why": "About 38 g protein. Soft and easy to digest."
+        }
+      ]
+    },
+    {
+      "key": "Sat",
+      "name": "Sat",
+      "focus": "South Indian day",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Ragi idli with sambar",
+          "items": [
+            "2 ragi or millet idlis",
+            "1 cup sambar",
+            "1 tbsp peanut chutney"
+          ],
+          "why": "About 12 g protein. Ragi is one of the best plant sources of calcium."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Adai with chana sundal",
+          "items": [
+            "3 adai (mixed dal dosa)",
+            "1 cup chana sundal",
+            "2 tbsp peanut chutney",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Adai has far more protein than plain dosa."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Soya chunk millet biryani",
+          "items": [
+            "1½ cups millet or brown rice biryani with 50 g soya chunks and lots of vegetables",
+            "1 cup soy curd raita with cucumber and onion"
+          ],
+          "why": "About 40 g protein in a one-pot meal."
+        }
+      ]
+    },
+    {
+      "key": "Sun",
+      "name": "Sun",
+      "focus": "Chole & tofu",
+      "meals": [
+        {
+          "slot": "Breakfast",
+          "dish": "Chia pudding",
+          "items": [
+            "2 tbsp chia seeds soaked in 1 cup unsweetened soy milk",
+            "½ cup papaya or berries",
+            "1 tbsp roasted pumpkin seeds"
+          ],
+          "why": "About 14 g protein. Chia adds omega-3 and fibre."
+        },
+        {
+          "slot": "Meal 1",
+          "dish": "Chole with roti and sprouts",
+          "items": [
+            "1½ cups chole (chickpea curry)",
+            "2 multigrain rotis",
+            "1 cup moong sprouts salad",
+            "1 cup unsweetened soy curd",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Muscles still grow on rest days, so keep the protein up."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Tofu vegetable stir-fry with millets",
+          "items": [
+            "200 g tofu stir-fried with broccoli, beans, carrot and capsicum",
+            "1 cup cooked foxtail or little millet",
+            "1 bowl dal soup"
+          ],
+          "why": "About 40 g protein to finish the week."
+        }
+      ]
+    }
+  ]
+}

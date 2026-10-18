@@ -94,6 +94,9 @@ async function start(){
     ...sections.map(s => getJSON(s.plan).then(p => { s.data = p; if(s.onPlan) s.onPlan(p); }).catch(()=>{}))
   ]);
 
+  // A member whose plans are only in English sets "languages": ["en"] in the manifest to hide the switch
+  if(manifest.languages && !manifest.languages.includes("te")){ lang = "en"; $("lang").hidden = true; }
+
   window.addEventListener("hashchange", ()=>{ pick(location.hash.slice(1)); renderAll(); });
   window.addEventListener("resize", labelTabs);
   pick(location.hash.slice(1));

@@ -1,5 +1,5 @@
 // Exercises tab. Each day in plans/exercises.json has tiles (warm-up, main, cool-down);
-// "id" is the YouTube video ID.
+// "id" is the YouTube video ID, and "moves" lists exercises with sets and reps.
 (function(){
 const { isIOS, isAndroid } = FamilyApp;
 
@@ -27,24 +27,39 @@ const ytOrigin = location.protocol.startsWith("http") ? "&origin="+encodeURIComp
 const TEXT = {
   en: {
     cast: '<strong>To watch on the TV:</strong> tap "Watch on TV / YouTube", then tap the Cast icon at the top of the video.',
-    watch: "Watch on TV / YouTube", mins: n => "About "+n+" minutes"
+    watch: "Watch on TV / YouTube", mins: n => "About "+n+" minutes", howto: "How to ›"
   },
   te: {
     cast: '<strong>టీవీలో చూడాలంటే:</strong> "టీవీ / YouTube లో చూడండి" నొక్కి, వీడియో పైన ఉన్న Cast గుర్తును నొక్కండి. వీడియోలు ఇంగ్లీషులో ఉంటాయి.',
-    watch: "టీవీ / YouTube లో చూడండి", mins: n => "సుమారు "+n+" నిమిషాలు"
+    watch: "టీవీ / YouTube లో చూడండి", mins: n => "సుమారు "+n+" నిమిషాలు", howto: "ఎలా చేయాలి ›"
   }
 };
 
+// A tile can have a video ("id"), a list of moves ("moves": [{name, dose, tip}]), or both.
+// Each move gets a "How to" link that searches YouTube for its "q" (or its name).
+function moveList(moves){
+  const t = FamilyApp.t, txt = TEXT[FamilyApp.lang()];
+  return '<ol class="moves">'+moves.map(m=>{
+    const q = "https://www.youtube.com/results?search_query="+encodeURIComponent(m.q || t(m.name)+" how to");
+    return '<li><div class="move"><strong>'+t(m.name)+'</strong>'+(m.dose ? '<span class="dose">'+t(m.dose)+'</span>' : '')+'</div>'+
+      (m.tip ? '<div class="move-tip">'+t(m.tip)+'</div>' : '')+
+      '<a class="howto" href="'+q+'" target="_blank" rel="noopener">'+txt.howto+'</a></li>';
+  }).join("")+'</ol>';
+}
+
 function renderDay(d){
   const t = FamilyApp.t, txt = TEXT[FamilyApp.lang()];
-  let html = '<div class="focus">'+FamilyApp.dayName(d.key, true)+": "+t(d.focus)+'</div><p class="focus-sub">'+t(d.note)+'</p>'+
-    '<p class="castnote">'+txt.cast+'</p><div class="grid">';
+  const hasVideo = d.tiles.some(tile => tile.id);
+  let html = '<div class="focus">'+FamilyApp.dayName(d.key, true)+": "+t(d.focus)+'</div>'+(d.note ? '<p class="focus-sub">'+t(d.note)+'</p>' : '')+
+    (hasVideo ? '<p class="castnote">'+txt.cast+'</p>' : '')+'<div class="grid">';
   d.tiles.forEach(tile=>{
     html += '<article class="card">'+
-      '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/'+tile.id+'?rel=0&playsinline=1&enablejsapi=1'+ytOrigin+'" title="'+t(tile.title)+'" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>'+
+      (tile.id ? '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/'+tile.id+'?rel=0&playsinline=1&enablejsapi=1'+ytOrigin+'" title="'+t(tile.title)+'" allow="accelerometer; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>' : '')+
       '<div class="body"><div class="step">'+t(tile.step)+'</div><h3 class="title">'+t(tile.title)+'</h3>'+
-      '<div class="meta">'+txt.mins(tile.mins)+'</div><div class="tip">'+t(tile.tip)+'</div>'+
-      '<div class="row"><a class="btn ghost" href="'+ytAppLink(tile.id)+'" data-yt="'+tile.id+'"'+(isAndroid?'':' target="_blank" rel="noopener"')+'>'+txt.watch+'</a></div></div></article>';
+      (tile.mins ? '<div class="meta">'+txt.mins(tile.mins)+'</div>' : '')+(tile.tip ? '<div class="tip">'+t(tile.tip)+'</div>' : '')+
+      (tile.moves ? moveList(tile.moves) : '')+
+      (tile.id ? '<div class="row"><a class="btn ghost" href="'+ytAppLink(tile.id)+'" data-yt="'+tile.id+'"'+(isAndroid?'':' target="_blank" rel="noopener"')+'>'+txt.watch+'</a></div>' : '')+
+      '</div></article>';
   });
   return html + "</div>";
 }

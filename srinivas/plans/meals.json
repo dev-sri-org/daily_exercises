@@ -1,0 +1,228 @@
+{
+  "subtitle": "Vegan, diabetes-friendly and thyroid-friendly meals for building muscle at 55. Two big meals a day, each with about 40 g of plant protein.",
+  "safetyTitle": "Daily rules of thumb",
+  "safety": [
+    "Check with the doctor before switching to two meals a day if you take diabetes medicine. Insulin and tablets like glimepiride or gliclazide can cause low sugar with long gaps between meals.",
+    "<strong>Thyroid tablet:</strong> take it first thing in the morning with plain water. Wait at least 1 hour before black tea or coffee, and keep soy foods, soy milk and calcium or iron tablets 4 hours away. Meal 1 at noon fits this.",
+    "<strong>Protein:</strong> aim for 1.2 to 1.6 g per kg of body weight a day, about 85 to 110 g at 70 kg. That means 40 g or more at each meal.",
+    "<strong>Plate:</strong> half vegetables, a third protein (tofu, soya, dal, chana, rajma), the rest whole grains or millets. Eat the vegetables and protein first and the grains last; it keeps sugar lower.",
+    "<strong>Supplements:</strong> vitamin B12 is a must on a vegan diet. Ask the doctor about vitamin D and an algae omega-3, and check B12, vitamin D, iron and TSH every year.",
+    "<strong>No added sugar</strong>, jaggery or honey, and choose unsweetened soy milk and soy curd. Whole fruit, not juice.",
+    "Use iodised salt, in moderation. Cook cabbage, cauliflower and broccoli rather than eating lots raw.",
+    "Between meals: water, black coffee, black or green tea, all without sugar. Drink 3 litres of water a day, more on gym days.",
+    "<strong>Low sugar</strong> (shaky, sweaty, confused): take 3 glucose tablets or half a glass of fruit juice right away, then eat."
+  ],
+  "times": {
+    "Meal 1": "12:00 pm",
+    "Meal 2": "7:00 pm"
+  },
+  "days": [
+    {
+      "key": "Mon",
+      "name": "Mon",
+      "focus": "Gym day",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Tofu bhurji with multigrain roti",
+          "items": [
+            "200 g firm tofu bhurji with onion, tomato, capsicum and spinach",
+            "2 multigrain or jowar rotis",
+            "1 cup steamed moong sprouts with lemon",
+            "1 tbsp roasted pumpkin seeds",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 45 g protein. Tofu is a complete protein; pumpkin seeds add zinc, which the thyroid needs."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Rajma, brown rice and bhindi",
+          "items": [
+            "1½ cups rajma curry",
+            "1 small cup brown rice",
+            "1 cup bhindi or beans sabzi",
+            "Cucumber, tomato and onion salad",
+            "1 cup unsweetened soy curd raita"
+          ],
+          "why": "About 35 g protein. Rajma and brown rice together give a full set of amino acids for recovery after the gym."
+        }
+      ]
+    },
+    {
+      "key": "Tue",
+      "name": "Tue",
+      "focus": "Pesarattu & soya",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Pesarattu with tofu",
+          "items": [
+            "3 pesarattu (green moong dosa)",
+            "100 g tofu stir-fried with vegetables",
+            "2 tbsp peanut chutney",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Moong is easy to digest and has a low glycemic index."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Soya chunk curry with jowar roti",
+          "items": [
+            "1 cup soya chunk curry (50 g dry chunks)",
+            "2 jowar rotis",
+            "1 cup moong or masoor dal",
+            "1 cup mixed vegetable curry",
+            "Salad"
+          ],
+          "why": "About 45 g protein. Soya chunks are one of the richest vegetarian proteins."
+        }
+      ]
+    },
+    {
+      "key": "Wed",
+      "name": "Wed",
+      "focus": "Recovery day",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Besan chilla with tofu filling",
+          "items": [
+            "3 vegetable besan chillas",
+            "100 g crumbled tofu filling",
+            "2 tbsp mint-coriander chutney",
+            "1 glass unsweetened soy milk",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Besan is high in protein and fibre and keeps sugar steady."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Chana masala with quinoa",
+          "items": [
+            "1½ cups chana masala",
+            "1 cup cooked quinoa or foxtail millet",
+            "1 cup palak or cabbage sabzi",
+            "1 cup unsweetened soy curd"
+          ],
+          "why": "About 38 g protein. Quinoa is a complete protein and gentler on blood sugar than white rice."
+        }
+      ]
+    },
+    {
+      "key": "Thu",
+      "name": "Thu",
+      "focus": "Soya & tofu",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Soya keema with bajra roti",
+          "items": [
+            "1 cup soya granule keema with peas (50 g dry granules)",
+            "2 bajra or multigrain rotis",
+            "1 cup sprouts salad",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 40 g protein before the home workout."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Tofu palak with dal and brown rice",
+          "items": [
+            "200 g tofu in palak gravy",
+            "1 cup moong dal",
+            "1 small cup brown rice",
+            "Salad"
+          ],
+          "why": "About 45 g protein to recover from the workout."
+        }
+      ]
+    },
+    {
+      "key": "Fri",
+      "name": "Fri",
+      "focus": "Gym day",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Vegan protein bowl",
+          "items": [
+            "1 cup cooked quinoa",
+            "1 cup boiled chickpeas",
+            "100 g grilled tofu",
+            "Roasted vegetables (capsicum, zucchini, onion, broccoli)",
+            "1 tbsp tahini or peanut dressing with lemon",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 40 g protein. Lots of fibre keeps the sugar rise small."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Moong dal khichdi with tofu tikka",
+          "items": [
+            "1½ cups millet and moong dal khichdi (more dal than millet)",
+            "100 g tofu tikka",
+            "1 cup unsweetened soy curd",
+            "Salad"
+          ],
+          "why": "About 38 g protein. Soft, easy to digest, and good for recovery after the gym."
+        }
+      ]
+    },
+    {
+      "key": "Sat",
+      "name": "Sat",
+      "focus": "South Indian day",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Adai with chana sundal",
+          "items": [
+            "3 adai (mixed dal dosa)",
+            "1 cup chana sundal",
+            "2 tbsp peanut chutney",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Adai has far more protein than plain dosa."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Soya chunk millet biryani",
+          "items": [
+            "1½ cups millet or brown rice biryani with 50 g soya chunks and lots of vegetables",
+            "1 cup soy curd raita with cucumber and onion"
+          ],
+          "why": "About 40 g protein in a one-pot meal."
+        }
+      ]
+    },
+    {
+      "key": "Sun",
+      "name": "Sun",
+      "focus": "Rest day",
+      "meals": [
+        {
+          "slot": "Meal 1",
+          "dish": "Chole with roti and sprouts",
+          "items": [
+            "1½ cups chole (chickpea curry)",
+            "2 multigrain rotis",
+            "1 cup moong sprouts salad",
+            "1 cup unsweetened soy curd",
+            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+          ],
+          "why": "About 38 g protein. Muscles still grow on rest days, so keep the protein up."
+        },
+        {
+          "slot": "Meal 2",
+          "dish": "Tofu vegetable stir-fry with millets",
+          "items": [
+            "200 g tofu stir-fried with broccoli, beans, carrot and capsicum",
+            "1 cup cooked foxtail or little millet",
+            "1 bowl dal soup"
+          ],
+          "why": "About 40 g protein to finish the week."
+        }
+      ]
+    }
+  ]
+}

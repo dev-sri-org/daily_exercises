@@ -1,0 +1,785 @@
+{
+  "subtitle": "Build muscle at 55: gym on Monday and Friday, dumbbell and bench workouts at home on Tuesday, Thursday and Saturday, and yoga with 15 minutes of meditation every morning.",
+  "safetyTitle": "Train safely",
+  "safety": [
+    "Check with the doctor before starting heavy lifting, especially if the diabetes medicine or insulin, or the thyroid dose, has changed recently.",
+    "<strong>Blood sugar:</strong> if you take insulin or sulfonylurea tablets (like glimepiride or gliclazide), check sugar before lifting and keep glucose tablets nearby. Lift 1 to 3 hours after a meal, not fasted.",
+    "<strong>Form before weight.</strong> Stop each set with 1 or 2 good reps left. Breathe out as you lift; never hold your breath.",
+    "<strong>Add weight slowly:</strong> when you can do the top of the rep range for every set with good form, go up 1 to 2 kg next time.",
+    "On the bench, use a weight you can control over the face and chest. Don't train to failure alone.",
+    "Yoga: move only to a comfortable stretch, never into pain. Full shoulder stand and headstand are left out on purpose.",
+    "<strong>Stop</strong> for sharp joint pain, dizziness or unusual breathlessness. <strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.",
+    "Sleep 7 to 8 hours. Muscles are built during rest."
+  ],
+  "days": [
+    {
+      "key": "Mon",
+      "name": "Mon",
+      "focus": "Gym day",
+      "note": "Morning yoga and meditation at home, then the gym.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Hips & hamstrings",
+          "mins": 28,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Cat-cow (Marjaryasana-Bitilasana)",
+              "dose": "1 min",
+              "tip": "Move with the breath to warm up the spine."
+            },
+            {
+              "name": "Surya Namaskar, slow",
+              "dose": "4 rounds",
+              "tip": "Bend the knees in the forward folds. Step back, don't jump.",
+              "q": "surya namaskar slow for beginners"
+            },
+            {
+              "name": "Low lunge (Anjaneyasana)",
+              "dose": "45 sec each side",
+              "tip": "Pad the back knee. Sink the hips forward gently."
+            },
+            {
+              "name": "Half split (Ardha Hanumanasana)",
+              "dose": "45 sec each side",
+              "tip": "Hands on blocks or books. Back flat, front leg long."
+            },
+            {
+              "name": "Bound angle (Baddha Konasana)",
+              "dose": "1 min",
+              "tip": "Sit on a folded blanket so the back stays tall."
+            },
+            {
+              "name": "Head-to-knee pose (Janu Sirsasana)",
+              "dose": "45 sec each side",
+              "tip": "Fold from the hips, not the upper back."
+            },
+            {
+              "name": "Reclined hand-to-big-toe (Supta Padangusthasana)",
+              "dose": "1 min each side",
+              "tip": "Use a strap or towel around the foot.",
+              "q": "supta padangusthasana with strap"
+            },
+            {
+              "name": "Bridge (Setu Bandhasana)",
+              "dose": "3 × 30 sec",
+              "tip": "Opens the front of the hips and the throat; good for the thyroid."
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Breath meditation (Anapana), 15 minutes",
+          "mins": 15,
+          "id": "CuHAfop5urA",
+          "tip": "Sit tall on a cushion or chair. Rest attention on the breath at the nostrils; when the mind wanders, come back."
+        },
+        {
+          "step": "3. Gym with your instructor",
+          "title": "Instructor's routine",
+          "mins": 60,
+          "tip": "Your instructor sets the workout. Some reminders:",
+          "moves": [
+            {
+              "name": "Tell the instructor",
+              "dose": "once",
+              "tip": "Age 55, diabetes and thyroid, and that you do home workouts on Tuesday, Thursday and Saturday, so the gym days can fill the gaps."
+            },
+            {
+              "name": "Warm up",
+              "dose": "5 to 10 min",
+              "tip": "Treadmill walk or cycle, then light sets."
+            },
+            {
+              "name": "Pack",
+              "dose": "every time",
+              "tip": "Water bottle, glucose tablets or a small fruit, and a towel."
+            },
+            {
+              "name": "Log your lifts",
+              "dose": "each set",
+              "tip": "Write down weights and reps so you can add a little each week."
+            },
+            {
+              "name": "Walk after",
+              "dose": "10 min",
+              "tip": "An easy walk afterwards helps bring the blood sugar down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Tue",
+      "name": "Tue",
+      "focus": "Home: full body A",
+      "note": "Strength at home with dumbbells and the bench.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Shoulders & chest",
+          "mins": 27,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Neck and shoulder rolls",
+              "dose": "1 min"
+            },
+            {
+              "name": "Cat-cow (Marjaryasana-Bitilasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Thread the needle",
+              "dose": "45 sec each side",
+              "tip": "Opens the upper back after pressing days."
+            },
+            {
+              "name": "Puppy pose (Uttana Shishosana)",
+              "dose": "1 min",
+              "tip": "Hips over the knees, chest melts down."
+            },
+            {
+              "name": "Cow-face arms (Gomukhasana arms)",
+              "dose": "30 sec each side",
+              "tip": "Hold a strap or towel if the hands don't meet."
+            },
+            {
+              "name": "Eagle arms (Garudasana arms)",
+              "dose": "30 sec each side"
+            },
+            {
+              "name": "Camel, supported (Ustrasana)",
+              "dose": "3 × 20 sec",
+              "tip": "Hands on the lower back, hips forward. Skip if the neck or back complains."
+            },
+            {
+              "name": "Fish pose, supported (Matsyasana)",
+              "dose": "1 min",
+              "tip": "Lie back over a rolled blanket or block under the upper back."
+            },
+            {
+              "name": "Child's pose (Balasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Body scan meditation, 15 minutes",
+          "mins": 15,
+          "id": "xu7-MvMRf0Q",
+          "tip": "Move attention slowly from the toes to the head, relaxing each part. Good on lifting days."
+        },
+        {
+          "step": "3. Home workout",
+          "title": "Full body A: dumbbells & bench",
+          "mins": 50,
+          "tip": "Rest 90 sec between sets on big lifts, 60 sec on small ones.",
+          "moves": [
+            {
+              "name": "Warm-up",
+              "dose": "5 to 8 min",
+              "tip": "Brisk marching, arm circles, 10 bodyweight squats, 10 hip hinges, then one light set of the first exercise.",
+              "q": "full body warm up before weight training"
+            },
+            {
+              "name": "Goblet squat",
+              "dose": "3 × 10–12",
+              "tip": "Hold one dumbbell at the chest. Sit down between the heels, chest up.",
+              "q": "dumbbell goblet squat form"
+            },
+            {
+              "name": "Flat dumbbell bench press",
+              "dose": "3 × 8–12",
+              "tip": "Feet flat, shoulder blades pinched. Lower slowly for 2 to 3 seconds.",
+              "q": "dumbbell bench press form"
+            },
+            {
+              "name": "One-arm dumbbell row",
+              "dose": "3 × 10 each side",
+              "tip": "Hand and knee on the bench, back flat. Pull the elbow to the hip.",
+              "q": "one arm dumbbell row bench form"
+            },
+            {
+              "name": "Dumbbell Romanian deadlift",
+              "dose": "3 × 10",
+              "tip": "Push the hips back, dumbbells close to the legs, back flat.",
+              "q": "dumbbell romanian deadlift form"
+            },
+            {
+              "name": "Seated dumbbell shoulder press",
+              "dose": "3 × 8–10",
+              "tip": "Bench upright. Don't arch the lower back.",
+              "q": "seated dumbbell shoulder press form"
+            },
+            {
+              "name": "Biceps curl + overhead triceps extension",
+              "dose": "2 × 12 each",
+              "tip": "Do them back to back, then rest."
+            },
+            {
+              "name": "Dead bug",
+              "dose": "3 × 8 each side",
+              "tip": "Lower back stays pressed into the floor.",
+              "q": "dead bug exercise form"
+            },
+            {
+              "name": "Cool-down",
+              "dose": "5 min",
+              "tip": "Easy walk around the house, then stretch the muscles you worked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Wed",
+      "name": "Wed",
+      "focus": "Active recovery",
+      "note": "No weights. Recovery is when the muscles grow.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Sun salutation flow",
+          "mins": 28,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Surya Namaskar",
+              "dose": "6 to 8 rounds",
+              "tip": "Slow and steady, one breath per movement.",
+              "q": "surya namaskar step by step"
+            },
+            {
+              "name": "Triangle (Trikonasana)",
+              "dose": "45 sec each side",
+              "tip": "Hand on the shin or a block, not the floor."
+            },
+            {
+              "name": "Warrior II (Virabhadrasana II)",
+              "dose": "45 sec each side",
+              "tip": "Front knee over the ankle."
+            },
+            {
+              "name": "Pyramid pose (Parsvottanasana)",
+              "dose": "45 sec each side",
+              "tip": "Hands on blocks; stretches the hamstrings."
+            },
+            {
+              "name": "Seated forward bend (Paschimottanasana)",
+              "dose": "1 min",
+              "tip": "Strap around the feet; keep the back long rather than reaching far."
+            },
+            {
+              "name": "Legs up the wall (Viparita Karani)",
+              "dose": "3 min",
+              "tip": "A safe swap for shoulder stand. Calms the body before meditation.",
+              "q": "viparita karani legs up the wall"
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Mindfulness meditation, 15 minutes",
+          "mins": 15,
+          "id": "JQE-XQkisp8",
+          "tip": "Notice thoughts and sounds without following them, and return to the breath."
+        },
+        {
+          "step": "3. Move",
+          "title": "Brisk walk & mobility",
+          "mins": 40,
+          "tip": "Best done after a meal; walking helps lower blood sugar.",
+          "moves": [
+            {
+              "name": "Brisk walk",
+              "dose": "30 min",
+              "tip": "Fast enough to breathe harder but still talk."
+            },
+            {
+              "name": "Foam roll or easy stretching",
+              "dose": "10 min",
+              "tip": "Legs, upper back and chest."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Thu",
+      "name": "Thu",
+      "focus": "Home: full body B",
+      "note": "Strength at home with dumbbells and the bench.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Spine & back",
+          "mins": 27,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Cat-cow (Marjaryasana-Bitilasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Child's pose (Balasana)",
+              "dose": "1 min",
+              "tip": "Knees wide, arms forward, forehead down."
+            },
+            {
+              "name": "Downward dog (Adho Mukha Svanasana)",
+              "dose": "3 × 30 sec",
+              "tip": "Bend the knees as much as needed to keep the back long."
+            },
+            {
+              "name": "Cobra (Bhujangasana)",
+              "dose": "3 × 20 sec",
+              "tip": "Lift with the back muscles, elbows soft, shoulders down."
+            },
+            {
+              "name": "Locust (Shalabhasana)",
+              "dose": "3 × 15 sec",
+              "tip": "Strengthens the back that the deadlifts and rows depend on."
+            },
+            {
+              "name": "Sphinx pose",
+              "dose": "1 min",
+              "tip": "A gentle backbend on the forearms."
+            },
+            {
+              "name": "Seated twist (Ardha Matsyendrasana)",
+              "dose": "45 sec each side",
+              "tip": "Grow tall on the inhale, twist a little more on the exhale."
+            },
+            {
+              "name": "Knees-to-chest (Pavanamuktasana)",
+              "dose": "1 min",
+              "tip": "Rock gently side to side to massage the lower back."
+            },
+            {
+              "name": "Reclined twist (Supta Matsyendrasana)",
+              "dose": "1 min each side"
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Body scan meditation, 15 minutes",
+          "mins": 15,
+          "id": "xu7-MvMRf0Q",
+          "tip": "Move attention slowly from the toes to the head, relaxing each part. Good on lifting days."
+        },
+        {
+          "step": "3. Home workout",
+          "title": "Full body B: dumbbells & bench",
+          "mins": 50,
+          "tip": "Rest 90 sec between sets on big lifts, 60 sec on small ones.",
+          "moves": [
+            {
+              "name": "Warm-up",
+              "dose": "5 to 8 min",
+              "tip": "Brisk marching, arm circles, 10 bodyweight squats, 10 hip hinges, then one light set of the first exercise.",
+              "q": "full body warm up before weight training"
+            },
+            {
+              "name": "Bulgarian split squat",
+              "dose": "3 × 8 each side",
+              "tip": "Rear foot on the bench. Start with bodyweight; hold dumbbells once balance is good. Reverse lunges are a fine swap.",
+              "q": "bulgarian split squat dumbbell form"
+            },
+            {
+              "name": "Incline dumbbell press",
+              "dose": "3 × 8–12",
+              "tip": "Bench at 30 to 45 degrees.",
+              "q": "incline dumbbell press form"
+            },
+            {
+              "name": "Chest-supported dumbbell row",
+              "dose": "3 × 10–12",
+              "tip": "Lie face down on the incline bench; easy on the lower back.",
+              "q": "chest supported dumbbell row incline bench"
+            },
+            {
+              "name": "Dumbbell hip thrust",
+              "dose": "3 × 12",
+              "tip": "Upper back on the bench, dumbbell on the hips. Squeeze the glutes at the top.",
+              "q": "dumbbell hip thrust bench form"
+            },
+            {
+              "name": "Lateral raise",
+              "dose": "3 × 12–15",
+              "tip": "Light weight, lift to shoulder height, no swinging.",
+              "q": "dumbbell lateral raise form"
+            },
+            {
+              "name": "Hammer curl + lying triceps extension",
+              "dose": "2 × 12 each",
+              "tip": "Lying extension on the bench, lower the dumbbells beside the head."
+            },
+            {
+              "name": "Side plank",
+              "dose": "3 × 20–30 sec each side",
+              "tip": "From the knees if needed."
+            },
+            {
+              "name": "Standing calf raise",
+              "dose": "2 × 15",
+              "tip": "Hold dumbbells, pause at the top.",
+              "q": "dumbbell calf raise form"
+            },
+            {
+              "name": "Cool-down",
+              "dose": "5 min",
+              "tip": "Easy walk around the house, then stretch the muscles you worked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Fri",
+      "name": "Fri",
+      "focus": "Gym day",
+      "note": "Morning yoga and meditation at home, then the gym.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Hips & legs",
+          "mins": 28,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Surya Namaskar, slow",
+              "dose": "3 rounds"
+            },
+            {
+              "name": "Garland squat (Malasana)",
+              "dose": "1 min",
+              "tip": "Heels on a folded mat if they lift. Hold the bench for support."
+            },
+            {
+              "name": "Low lunge with quad stretch",
+              "dose": "45 sec each side",
+              "tip": "Hold the back foot with a strap if needed."
+            },
+            {
+              "name": "Pigeon pose (Eka Pada Rajakapotasana prep)",
+              "dose": "1 min each side",
+              "tip": "Or reclined figure-4 if the knee complains.",
+              "q": "pigeon pose beginners modification"
+            },
+            {
+              "name": "Wide-legged seated forward bend (Upavistha Konasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Cow-face legs (Gomukhasana legs)",
+              "dose": "45 sec each side"
+            },
+            {
+              "name": "Happy baby (Ananda Balasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Legs up the wall (Viparita Karani)",
+              "dose": "3 min"
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Breath meditation (Anapana), 15 minutes",
+          "mins": 15,
+          "id": "CuHAfop5urA",
+          "tip": "Sit tall on a cushion or chair. Rest attention on the breath at the nostrils; when the mind wanders, come back."
+        },
+        {
+          "step": "3. Gym with your instructor",
+          "title": "Instructor's routine",
+          "mins": 60,
+          "tip": "Your instructor sets the workout. Some reminders:",
+          "moves": [
+            {
+              "name": "Tell the instructor",
+              "dose": "once",
+              "tip": "Age 55, diabetes and thyroid, and that you do home workouts on Tuesday, Thursday and Saturday, so the gym days can fill the gaps."
+            },
+            {
+              "name": "Warm up",
+              "dose": "5 to 10 min",
+              "tip": "Treadmill walk or cycle, then light sets."
+            },
+            {
+              "name": "Pack",
+              "dose": "every time",
+              "tip": "Water bottle, glucose tablets or a small fruit, and a towel."
+            },
+            {
+              "name": "Log your lifts",
+              "dose": "each set",
+              "tip": "Write down weights and reps so you can add a little each week."
+            },
+            {
+              "name": "Walk after",
+              "dose": "10 min",
+              "tip": "An easy walk afterwards helps bring the blood sugar down."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sat",
+      "name": "Sat",
+      "focus": "Home: full body C",
+      "note": "A lighter full-body session the day after the gym.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Twists & side body",
+          "mins": 27,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Cat-cow (Marjaryasana-Bitilasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Gate pose (Parighasana)",
+              "dose": "45 sec each side",
+              "tip": "Long stretch along the side of the body."
+            },
+            {
+              "name": "Extended side angle (Utthita Parsvakonasana)",
+              "dose": "45 sec each side",
+              "tip": "Forearm on the thigh is fine."
+            },
+            {
+              "name": "Revolved chair (Parivrtta Utkatasana)",
+              "dose": "30 sec each side",
+              "tip": "Palms together, twist from the upper back."
+            },
+            {
+              "name": "Revolved triangle (Parivrtta Trikonasana)",
+              "dose": "30 sec each side",
+              "tip": "Hand on a block; go only as far as the back stays long."
+            },
+            {
+              "name": "Easy seated twist (Bharadvajasana)",
+              "dose": "45 sec each side"
+            },
+            {
+              "name": "Seated side bend",
+              "dose": "30 sec each side"
+            },
+            {
+              "name": "Reclined twist (Supta Matsyendrasana)",
+              "dose": "1 min each side"
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Body scan meditation, 15 minutes",
+          "mins": 15,
+          "id": "xu7-MvMRf0Q",
+          "tip": "Move attention slowly from the toes to the head, relaxing each part. Good on lifting days."
+        },
+        {
+          "step": "3. Home workout",
+          "title": "Full body C: lighter, more reps",
+          "mins": 45,
+          "tip": "Shorter rests (45 to 60 sec). Keep it a little easier the day after the gym.",
+          "moves": [
+            {
+              "name": "Warm-up",
+              "dose": "5 to 8 min",
+              "tip": "Brisk marching, arm circles, 10 bodyweight squats, 10 hip hinges, then one light set of the first exercise.",
+              "q": "full body warm up before weight training"
+            },
+            {
+              "name": "Dumbbell sumo squat",
+              "dose": "3 × 12–15",
+              "tip": "Wide stance, toes out, hold one dumbbell between the legs.",
+              "q": "dumbbell sumo squat form"
+            },
+            {
+              "name": "Dumbbell fly on the bench",
+              "dose": "3 × 12",
+              "tip": "Light weight, slight bend in the elbows, slow stretch.",
+              "q": "dumbbell fly bench form"
+            },
+            {
+              "name": "Dumbbell pullover",
+              "dose": "3 × 12",
+              "tip": "Lie across or along the bench, arms almost straight.",
+              "q": "dumbbell pullover form"
+            },
+            {
+              "name": "Single-leg glute bridge",
+              "dose": "3 × 10 each side",
+              "tip": "Good for balance and the lower back."
+            },
+            {
+              "name": "Rear-delt fly",
+              "dose": "3 × 15",
+              "tip": "Chest on the incline bench, light weights, squeeze the shoulder blades.",
+              "q": "incline bench rear delt fly dumbbell"
+            },
+            {
+              "name": "Farmer's carry",
+              "dose": "3 × 40 steps",
+              "tip": "Heavy dumbbells, stand tall, walk slowly. Builds grip and posture.",
+              "q": "farmers carry dumbbell form"
+            },
+            {
+              "name": "Plank",
+              "dose": "3 × 30 sec",
+              "tip": "Straight line from head to heels, breathe normally."
+            },
+            {
+              "name": "Cool-down",
+              "dose": "5 min",
+              "tip": "Easy walk around the house, then stretch the muscles you worked."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sun",
+      "name": "Sun",
+      "focus": "Rest day",
+      "note": "Just the yoga and meditation. An easy walk is fine.",
+      "tiles": [
+        {
+          "step": "1. Morning yoga",
+          "title": "Gentle & restorative",
+          "mins": 30,
+          "tip": "First thing in the morning, on an empty stomach (the thyroid tablet with water is fine). Breathe through the nose and never push into pain.",
+          "moves": [
+            {
+              "name": "Easy seated breathing",
+              "dose": "1 min",
+              "tip": "Sit tall, slow breaths through the nose. Notice how the body feels today."
+            },
+            {
+              "name": "Child's pose (Balasana)",
+              "dose": "2 min",
+              "tip": "Rest the forehead on a pillow."
+            },
+            {
+              "name": "Cat-cow (Marjaryasana-Bitilasana)",
+              "dose": "1 min"
+            },
+            {
+              "name": "Supported bridge",
+              "dose": "2 min",
+              "tip": "A block or firm cushion under the lower back."
+            },
+            {
+              "name": "Reclined bound angle (Supta Baddha Konasana)",
+              "dose": "3 min",
+              "tip": "Pillows under the knees."
+            },
+            {
+              "name": "Reclined twist (Supta Matsyendrasana)",
+              "dose": "1 min each side"
+            },
+            {
+              "name": "Legs up the wall (Viparita Karani)",
+              "dose": "5 min"
+            },
+            {
+              "name": "Alternate-nostril breathing (Anulom Vilom)",
+              "dose": "3 min",
+              "tip": "Slow and even; never force the breath.",
+              "q": "anulom vilom how to do"
+            },
+            {
+              "name": "Shavasana (corpse pose)",
+              "dose": "3 min",
+              "tip": "Lie still and let the whole body go heavy before the meditation.",
+              "q": "shavasana how to relax"
+            }
+          ]
+        },
+        {
+          "step": "2. Meditation",
+          "title": "Mindfulness meditation, 15 minutes",
+          "mins": 15,
+          "id": "JQE-XQkisp8",
+          "tip": "Notice thoughts and sounds without following them, and return to the breath."
+        }
+      ]
+    }
+  ]
+}

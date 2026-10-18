@@ -11,6 +11,8 @@ Hosted on GitHub Pages: https://dev-sri-org.github.io/daily_exercises/
 |---|---|
 | Nanna | https://dev-sri-org.github.io/daily_exercises/nanna/ |
 | Amma | https://dev-sri-org.github.io/daily_exercises/amma/ |
+| Srinivas | https://dev-sri-org.github.io/daily_exercises/srinivas/ |
+| Saumya | https://dev-sri-org.github.io/daily_exercises/saumya/ |
 
 ## Layout
 
@@ -29,13 +31,15 @@ nanna/                    Nanna's app
   plans/exercises.json    Nanna's exercise plan
   plans/meals.json        Nanna's meal plan
 amma/                     Amma's app (same files, her own plans)
+srinivas/, saumya/        Srinivas's and Saumya's apps (English only)
+tools/saumya_meals.py     Builds Saumya's meal plan from Srinivas's (see below)
 exercises/, meal_plan/    Old addresses; they redirect to the member's app
 ```
 
 ## Adding a family member
 
 1. Copy a member's folder, e.g. `nanna/` to `ravi/`. The folder name becomes the address (`.../daily_exercises/ravi/`), so use lowercase with no spaces.
-2. In `ravi/manifest.webmanifest`, change `name` and `short_name`.
+2. In `ravi/manifest.webmanifest`, change `name` and `short_name`. Add `"languages": ["en"]` if the plans are only in English; this hides the Telugu button.
 3. Edit `ravi/plans/exercises.json` and `ravi/plans/meals.json`.
 4. Add a link to `ravi/` in the root `index.html`.
 
@@ -51,6 +55,13 @@ Both plan files share these fields:
 - `restMessage` (optional): shown on days with no plan, such as weekends
 - `days`: one entry per day, each with `key` (`Mon`…`Sun`), `name`, `focus` and an optional `note`
 
-Each exercise day has `tiles`: `{ step, title, mins, id, tip }`, where `id` is the YouTube video ID.
+Each exercise day has `tiles`: `{ step, title, mins, id, tip, moves }`. `id` is a YouTube video ID; `moves` is a list of exercises,
+`{ name, dose, tip, q }`, e.g. `{ "name": "Goblet squat", "dose": "3 × 10–12" }`. Each move gets a "How to" link that searches
+YouTube for `q`, or for its name. A tile can have a video, moves, or both.
 
 Each meal plan day has `meals`: `{ slot, dish, items: [...], why }`. Times for each slot come from the plan's top-level `times`.
+
+## Shared meals
+
+Saumya eats the same Meal 1 and Meal 2 as Srinivas, plus her own breakfast. After changing
+`srinivas/plans/meals.json` (or her breakfasts in `tools/saumya_meals.py`), run `python tools/saumya_meals.py` to rebuild `saumya/plans/meals.json`.

@@ -2,8 +2,8 @@
   "subtitle": "Build muscle at 55: gym on Monday and Friday, dumbbell and bench workouts at home on Tuesday, Thursday and Saturday, and yoga with 15 minutes of meditation every morning.",
   "safetyTitle": "Train safely",
   "safety": [
-    "Check with the doctor before starting heavy lifting, especially if the diabetes medicine or insulin, or the thyroid dose, has changed recently.",
-    "<strong>Blood sugar:</strong> if you take insulin or sulfonylurea tablets (like glimepiride or gliclazide), check sugar before lifting and keep glucose tablets nearby. Lift 1 to 3 hours after a meal, not fasted.",
+    "Check with the doctor before starting heavy lifting, especially if any medicine dose has changed recently.",
+    "<strong>Blood sugar:</strong> if your medicines can lower blood sugar, check sugar before lifting and keep glucose tablets nearby. Lift 1 to 3 hours after a meal, not fasted.",
     "<strong>Form before weight.</strong> Stop each set with 1 or 2 good reps left. Breathe out as you lift; never hold your breath.",
     "<strong>Add weight slowly:</strong> when you can do the top of the rep range for every set with good form, go up 1 to 2 kg next time.",
     "On the bench, use a weight you can control over the face and chest. Don't train to failure alone.",
@@ -95,7 +95,7 @@
             {
               "name": "Tell the instructor",
               "dose": "once",
-              "tip": "Age 55, diabetes and thyroid, and that you do home workouts on Tuesday, Thursday and Saturday, so the gym days can fill the gaps."
+              "tip": "Your age, any health conditions, and that you do home workouts on Tuesday, Thursday and Saturday, so the gym days can fill the gaps."
             },
             {
               "name": "Warm up",
@@ -559,7 +559,7 @@
             {
               "name": "Tell the instructor",
               "dose": "once",
-              "tip": "Age 55, diabetes and thyroid, and that you do home workouts on Tuesday, Thursday and Saturday, so the gym days can fill the gaps."
+              "tip": "Your age, any health conditions, and that you do home workouts on Tuesday, Thursday and Saturday, so the gym days can fill the gaps."
             },
             {
               "name": "Warm up",

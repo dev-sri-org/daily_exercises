@@ -1,7 +1,7 @@
 {
   "subtitle": {
-    "en": "Heart-healthy, diabetes-friendly Indian meals for an 80-year-old. Small portions, low salt, no added sugar, and plenty of vegetables, dal, nuts and fruit.",
-    "te": "80 ఏళ్ల వారికి గుండెకు మంచి, షుగర్‌కు అనుకూలమైన భోజనం. తక్కువ మోతాదు, తక్కువ ఉప్పు, చక్కెర లేకుండా, కూరగాయలు, పప్పు, గింజలు, పండ్లు ఎక్కువగా."
+    "en": "Heart-healthy Indian meals for an 80-year-old. Small portions, low salt, no added sugar, and plenty of vegetables, dal, nuts and fruit.",
+    "te": "80 ఏళ్ల వారికి గుండెకు మంచి భోజనం. తక్కువ మోతాదు, తక్కువ ఉప్పు, చక్కెర లేకుండా, కూరగాయలు, పప్పు, గింజలు, పండ్లు ఎక్కువగా."
   },
   "safetyTitle": {
     "en": "Daily rules of thumb",
@@ -9,8 +9,8 @@
   },
   "safety": [
     {
-      "en": "Check with the doctor or a dietitian before changing the diet, especially with diabetes tablets or insulin (to avoid low sugar) or a blood thinner.",
-      "te": "ఆహారం మార్చే ముందు డాక్టర్ లేదా డైటీషియన్‌ను అడగండి. ముఖ్యంగా షుగర్ మాత్రలు లేదా ఇన్సులిన్ (షుగర్ పడిపోకుండా) లేదా రక్తం పలుచబడే మందులు వాడుతుంటే తప్పకుండా అడగండి."
+      "en": "Check with the doctor or a dietitian before changing the diet, especially with daily medicines (to avoid low sugar) or a blood thinner.",
+      "te": "ఆహారం మార్చే ముందు డాక్టర్ లేదా డైటీషియన్‌ను అడగండి. ముఖ్యంగా రోజూ వాడే మందులు (షుగర్ పడిపోకుండా) లేదా రక్తం పలుచబడే మందులు వాడుతుంటే తప్పకుండా అడగండి."
     },
     {
       "en": "<strong>Blood thinner (warfarin):</strong> keep green leafy vegetables like palak and methi about the same amount every week. Do not suddenly add a lot or stop them.",

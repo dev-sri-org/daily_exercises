@@ -29,8 +29,8 @@ FamilyApp.addSection({
   themeColor: "#a8481f",
   plan: "plans/meals.json",
   foot: {
-    en: "A general guide, not medical advice. Ask the doctor or a dietitian to check portions, especially with diabetes medicines, insulin or blood thinners.",
-    te: "ఇది సాధారణ మార్గదర్శి మాత్రమే, వైద్య సలహా కాదు. ముఖ్యంగా షుగర్ మందులు, ఇన్సులిన్ లేదా రక్తం పలుచబడే మందులు వాడుతుంటే, మోతాదులను డాక్టర్ లేదా డైటీషియన్‌తో సరిచూసుకోండి."
+    en: "A general guide, not medical advice. Ask the doctor or a dietitian to check portions, especially with daily medicines or blood thinners.",
+    te: "ఇది సాధారణ మార్గదర్శి మాత్రమే, వైద్య సలహా కాదు. ముఖ్యంగా రోజూ వాడే మందులు లేదా రక్తం పలుచబడే మందులు వాడుతుంటే, మోతాదులను డాక్టర్ లేదా డైటీషియన్‌తో సరిచూసుకోండి."
   },
   renderDay,
   onPlan: plan => { times = plan.times || {}; }

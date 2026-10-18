@@ -1,12 +1,12 @@
 {
-  "subtitle": "Vegan, thyroid-friendly meals with no added sugar for building muscle at 55. Two big meals a day, each with about 40 g of plant protein.",
+  "subtitle": "Vegan meals with no added sugar for building muscle at 55. Two big meals a day, each with about 40 g of plant protein.",
   "safetyTitle": "Daily rules of thumb",
   "safety": [
     "Check with the doctor before switching to two meals a day if you take daily medicines. Some can cause low sugar with long gaps between meals.",
-    "<strong>Thyroid tablet:</strong> take it first thing in the morning with plain water. Wait at least 1 hour before black tea or coffee, and keep soy foods, soy milk and calcium or iron tablets 4 hours away. Meal 1 at noon fits this.",
+    "<strong>Morning tablet:</strong> take it first thing in the morning with plain water. Wait at least 1 hour before black tea or coffee, and keep soy foods, soy milk and calcium or iron tablets 4 hours away. Meal 1 at noon fits this.",
     "<strong>Protein:</strong> aim for 1.2 to 1.6 g per kg of body weight a day, about 85 to 110 g at 70 kg. That means 40 g or more at each meal.",
     "<strong>Plate:</strong> half vegetables, a third protein (tofu, soya, dal, chana, rajma), the rest whole grains or millets. Eat the vegetables and protein first and the grains last; it keeps sugar lower.",
-    "<strong>Supplements:</strong> vitamin B12 is a must on a vegan diet. Ask the doctor about vitamin D and an algae omega-3, and check B12, vitamin D, iron and TSH every year.",
+    "<strong>Supplements:</strong> vitamin B12 is a must on a vegan diet. Ask the doctor about vitamin D and an algae omega-3, and check B12, vitamin D, iron and other routine blood tests every year.",
     "<strong>No added sugar</strong>, jaggery or honey, and choose unsweetened soy milk and soy curd. Whole fruit, not juice.",
     "Use iodised salt, in moderation. Cook cabbage, cauliflower and broccoli rather than eating lots raw.",
     "Between meals: water, black coffee, black or green tea, all without sugar. Drink 3 litres of water a day, more on gym days.",
@@ -32,7 +32,7 @@
             "1 tbsp roasted pumpkin seeds",
             "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
           ],
-          "why": "About 45 g protein. Tofu is a complete protein; pumpkin seeds add zinc, which the thyroid needs."
+          "why": "About 45 g protein. Tofu is a complete protein; pumpkin seeds add zinc and magnesium."
         },
         {
           "slot": "Meal 2",

@@ -1,11 +1,11 @@
 {
-  "subtitle": "Strength and weight loss at 46, menopause friendly: three dumbbell sessions at home, two cardio days, yoga and plenty of walking.",
+  "subtitle": "Strength and weight loss at 46: three dumbbell sessions at home, two cardio days, yoga and plenty of walking.",
   "safetyTitle": "Train safely",
   "safety": [
-    "Check with the doctor before starting, especially with joint pain, high blood pressure, or known low bone density.",
-    "<strong>Strength training matters most:</strong> muscle and bone are lost faster after menopause, and lifting slows that down. Add 1 to 2 kg when the top of the rep range feels easy.",
+    "Check with the doctor before starting, especially with joint pain or any other health concerns.",
+    "<strong>Strength training matters most:</strong> muscle and bone are lost faster after 40, and lifting slows that down. Add 1 to 2 kg when the top of the rep range feels easy.",
     "<strong>Form before weight.</strong> Breathe out as you lift; never hold your breath.",
-    "<strong>Hot flushes:</strong> train in a cool, airy room, wear light layers and keep cold water nearby.",
+    "<strong>Stay cool:</strong> train in a cool, airy room, wear light layers and keep cold water nearby.",
     "If jumping or heavy lifts cause leaking or heaviness low in the pelvis, skip the hops, keep up the Kegels and ask the doctor about a pelvic floor physiotherapist.",
     "<strong>Stop</strong> for sharp joint pain, dizziness or unusual breathlessness. <strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.",
     "Sleep 7 to 8 hours; poor sleep makes weight loss much harder."
@@ -56,7 +56,7 @@
             {
               "name": "Small hops",
               "dose": "3 × 10",
-              "tip": "Little jumps on the spot, soft landings. Impact helps keep bones strong after menopause. Skip if you have leaking, knee pain or have been told you have osteoporosis.",
+              "tip": "Little jumps on the spot, soft landings. Impact helps keep bones strong. Skip if you have leaking, knee pain or have been told you have osteoporosis.",
               "q": "low impact bone density jumps women"
             },
             {
@@ -225,14 +225,14 @@
     {
       "key": "Thu",
       "name": "Thu",
-      "focus": "Yoga for menopause",
-      "note": "Flexibility, balance and calm; helps sleep and hot flushes.",
+      "focus": "Yoga",
+      "note": "Flexibility, balance and calm; helps sleep and keeps you calm.",
       "tiles": [
         {
           "step": "Main",
-          "title": "Gentle yoga for menopause",
-          "mins": 24,
-          "id": "x91xXtxDgu8",
+          "title": "Gentle full-body yoga",
+          "mins": 23,
+          "id": "T0_vY6xc410",
           "tip": "Move to a comfortable stretch. Keep the room cool."
         },
         {
@@ -366,9 +366,9 @@
       "tiles": [
         {
           "step": "Optional",
-          "title": "15-min yoga for menopause",
-          "mins": 19,
-          "id": "QSBr489Y68M",
+          "title": "15-min gentle yoga",
+          "mins": 16,
+          "id": "EvMTrP8eRvM",
           "tip": "Gentle stretching to unwind."
         },
         {

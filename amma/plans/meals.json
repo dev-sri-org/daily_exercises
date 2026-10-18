@@ -1,7 +1,7 @@
 {
   "subtitle": {
-    "en": "Heart-healthy, blood-pressure-friendly and thyroid-friendly Indian meals for an 80-year-old. Small portions, low salt (iodised), no added sugar, and plenty of vegetables, dal, nuts and fruit.",
-    "te": "80 ఏళ్ల వారికి గుండెకు, బీపీకి, థైరాయిడ్‌కు మంచి భోజనం. తక్కువ మోతాదు, తక్కువ ఉప్పు (అయోడిన్ ఉప్పు), చక్కెర లేకుండా, కూరగాయలు, పప్పు, గింజలు, పండ్లు ఎక్కువగా."
+    "en": "Heart-healthy Indian meals for an 80-year-old. Small portions, low salt (iodised), no added sugar, and plenty of vegetables, dal, nuts and fruit.",
+    "te": "80 ఏళ్ల వారికి ఆరోగ్యానికి మంచి భోజనం. తక్కువ మోతాదు, తక్కువ ఉప్పు (అయోడిన్ ఉప్పు), చక్కెర లేకుండా, కూరగాయలు, పప్పు, గింజలు, పండ్లు ఎక్కువగా."
   },
   "safetyTitle": {
     "en": "Daily rules of thumb",
@@ -9,32 +9,32 @@
   },
   "safety": [
     {
-      "en": "Check with the doctor or a dietitian before changing the diet, especially with thyroid tablets or blood pressure medicines.",
-      "te": "ఆహారం మార్చే ముందు డాక్టర్ లేదా డైటీషియన్‌ను అడగండి. ముఖ్యంగా థైరాయిడ్ మాత్రలు లేదా బీపీ మందులు వాడుతుంటే తప్పకుండా అడగండి."
+      "en": "Check with the doctor or a dietitian before changing the diet, especially with daily medicines.",
+      "te": "ఆహారం మార్చే ముందు డాక్టర్ లేదా డైటీషియన్‌ను అడగండి. ముఖ్యంగా రోజూ మందులు వాడుతుంటే తప్పకుండా అడగండి."
     },
     {
-      "en": "<strong>Thyroid tablet:</strong> take it first thing in the morning with plain water on an empty stomach. Wait at least 1 hour before tea, coffee or breakfast. Take calcium or iron tablets at least 4 hours after it.",
-      "te": "<strong>థైరాయిడ్ మాత్ర:</strong> ఉదయం లేవగానే పరగడుపున మంచి నీళ్లతో వేసుకోండి. టీ, కాఫీ లేదా టిఫిన్‌కు కనీసం 1 గంట ఆగండి. కాల్షియం లేదా ఐరన్ మాత్రలు దానికి కనీసం 4 గంటల తర్వాత వేసుకోండి."
+      "en": "<strong>Morning tablet:</strong> take it first thing in the morning with plain water on an empty stomach. Wait at least 1 hour before tea, coffee or breakfast. Take calcium or iron tablets at least 4 hours after it.",
+      "te": "<strong>ఉదయం మాత్ర:</strong> ఉదయం లేవగానే పరగడుపున మంచి నీళ్లతో వేసుకోండి. టీ, కాఫీ లేదా టిఫిన్‌కు కనీసం 1 గంట ఆగండి. కాల్షియం లేదా ఐరన్ మాత్రలు దానికి కనీసం 4 గంటల తర్వాత వేసుకోండి."
     },
     {
       "en": "<strong>Plate:</strong> half vegetables, a quarter dal, paneer or curd, and a quarter rice or roti. About 1 small cup of cooked rice or 2 small phulkas per meal.",
       "te": "<strong>పళ్లెం:</strong> సగం కూరగాయలు, పావు వంతు పప్పు, పనీర్ లేదా పెరుగు, పావు వంతు అన్నం లేదా రొట్టె. ఒక పూటకు సుమారు 1 చిన్న కప్పు అన్నం లేదా 2 చిన్న పుల్కాలు."
     },
     {
-      "en": "<strong>Salt (for blood pressure):</strong> less than 1 teaspoon a day in total, and only iodised salt, which the thyroid needs. Skip pickles, papad, chips, salted nuts and ready-made snacks. Do not add salt at the table.",
-      "te": "<strong>ఉప్పు (బీపీ కోసం):</strong> రోజు మొత్తానికి 1 చిన్న చెంచా కంటే తక్కువ, అదీ అయోడిన్ ఉప్పు మాత్రమే (థైరాయిడ్‌కు అవసరం). ఊరగాయలు, అప్పడాలు, చిప్స్, ఉప్పు వేసిన గింజలు, బయట కొన్న స్నాక్స్ వద్దు. భోజనం దగ్గర పైన ఉప్పు వేసుకోవద్దు."
+      "en": "<strong>Salt:</strong> less than 1 teaspoon a day in total, and only iodised salt. Skip pickles, papad, chips, salted nuts and ready-made snacks. Do not add salt at the table.",
+      "te": "<strong>ఉప్పు:</strong> రోజు మొత్తానికి 1 చిన్న చెంచా కంటే తక్కువ, అదీ అయోడిన్ ఉప్పు మాత్రమే. ఊరగాయలు, అప్పడాలు, చిప్స్, ఉప్పు వేసిన గింజలు, బయట కొన్న స్నాక్స్ వద్దు. భోజనం దగ్గర పైన ఉప్పు వేసుకోవద్దు."
     },
     {
-      "en": "<strong>Cabbage, cauliflower and broccoli</strong> are fine when well cooked. Avoid soya, tofu and soy milk, which can stop the thyroid tablet from working well.",
-      "te": "<strong>క్యాబేజీ, కాలీఫ్లవర్, బ్రొకోలీ</strong> బాగా ఉడికించి తింటే పర్వాలేదు. సోయా, టోఫు, సోయా పాలు వద్దు, అవి థైరాయిడ్ మాత్ర సరిగా పనిచేయకుండా చేయవచ్చు."
+      "en": "<strong>Cabbage, cauliflower and broccoli</strong> are fine when well cooked. Avoid soya, tofu and soy milk, which can stop the morning tablet from working well.",
+      "te": "<strong>క్యాబేజీ, కాలీఫ్లవర్, బ్రొకోలీ</strong> బాగా ఉడికించి తింటే పర్వాలేదు. సోయా, టోఫు, సోయా పాలు వద్దు, అవి ఉదయం మాత్ర సరిగా పనిచేయకుండా చేయవచ్చు."
     },
     {
       "en": "<strong>Oil:</strong> 3 to 4 teaspoons a day (groundnut, mustard or rice-bran). Ghee only a few drops.",
       "te": "<strong>నూనె:</strong> రోజుకు 3 నుండి 4 చిన్న చెంచాలు (వేరుశనగ, ఆవ లేదా రైస్ బ్రాన్ నూనె). నెయ్యి కొన్ని చుక్కలు మాత్రమే."
     },
     {
-      "en": "<strong>No added sugar</strong>, jaggery or honey. Eat whole fruit instead of juice. At most 2 cups of tea or coffee a day. Avoid grapefruit, which interacts with some blood pressure medicines.",
-      "te": "<strong>చక్కెర</strong>, బెల్లం, తేనె <strong>వద్దు</strong>. రసం బదులు పూర్తి పండు తినండి. టీ లేదా కాఫీ రోజుకు 2 కప్పులు మించకూడదు. గ్రేప్‌ఫ్రూట్ తినవద్దు, అది కొన్ని బీపీ మందులతో కలిసి ఇబ్బంది కలిగిస్తుంది."
+      "en": "<strong>No added sugar</strong>, jaggery or honey. Eat whole fruit instead of juice. At most 2 cups of tea or coffee a day. Avoid grapefruit, which interacts with some medicines.",
+      "te": "<strong>చక్కెర</strong>, బెల్లం, తేనె <strong>వద్దు</strong>. రసం బదులు పూర్తి పండు తినండి. టీ లేదా కాఫీ రోజుకు 2 కప్పులు మించకూడదు. గ్రేప్‌ఫ్రూట్ తినవద్దు, అది కొన్ని మందులతో కలిసి ఇబ్బంది కలిగిస్తుంది."
     },
     {
       "en": "Drink 6 to 8 glasses of water a day, unless the doctor has limited fluids. Eat dinner early, by 7:30 pm.",
@@ -89,8 +89,8 @@
             }
           ],
           "why": {
-            "en": "Oats fibre helps lower cholesterol and blood pressure.",
-            "te": "ఓట్స్‌లోని పీచు కొలెస్ట్రాల్‌ను, బీపీని తగ్గించడానికి సహాయపడుతుంది."
+            "en": "Oats fibre helps lower cholesterol.",
+            "te": "ఓట్స్‌లోని పీచు కొలెస్ట్రాల్‌ను తగ్గించడానికి సహాయపడుతుంది."
           }
         },
         {
@@ -147,8 +147,8 @@
             }
           ],
           "why": {
-            "en": "Guava has potassium and vitamin C, which are good for blood pressure.",
-            "te": "జామపండులో పొటాషియం, విటమిన్ C ఉంటాయి, ఇవి బీపీకి మంచివి."
+            "en": "Guava has potassium and vitamin C, which are good for the heart.",
+            "te": "జామపండులో పొటాషియం, విటమిన్ C ఉంటాయి, ఇవి గుండెకు మంచివి."
           }
         },
         {
@@ -375,8 +375,8 @@
             }
           ],
           "why": {
-            "en": "Pumpkin seeds have zinc, which the thyroid needs, and magnesium for blood pressure.",
-            "te": "గుమ్మడి గింజల్లో థైరాయిడ్‌కు కావలసిన జింక్, బీపీకి మంచి మెగ్నీషియం ఉంటాయి."
+            "en": "Pumpkin seeds have zinc, and magnesium for a healthy heart.",
+            "te": "గుమ్మడి గింజల్లో జింక్, గుండెకు మంచి మెగ్నీషియం ఉంటాయి."
           }
         },
         {

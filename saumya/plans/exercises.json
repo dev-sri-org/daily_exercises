@@ -1,12 +1,13 @@
 {
-  "subtitle": "Strength and weight loss at 46: three dumbbell sessions at home, two cardio days, yoga and plenty of walking.",
+  "subtitle": "Strength and weight loss at 46: chair exercises with and without dumbbells, standing exercises and plenty of walking.",
   "safetyTitle": "Train safely",
   "safety": [
     "Check with the doctor before starting, especially with joint pain or any other health concerns.",
+    "<strong>Use a sturdy chair</strong> without wheels or arms, pushed against a wall so it cannot slide.",
     "<strong>Strength training matters most:</strong> muscle and bone are lost faster after 40, and lifting slows that down. Add 1 to 2 kg when the top of the rep range feels easy.",
     "<strong>Form before weight.</strong> Breathe out as you lift; never hold your breath.",
     "<strong>Stay cool:</strong> train in a cool, airy room, wear light layers and keep cold water nearby.",
-    "If jumping or heavy lifts cause leaking or heaviness low in the pelvis, skip the hops, keep up the Kegels and ask the doctor about a pelvic floor physiotherapist.",
+    "If any exercise causes leaking or heaviness low in the pelvis, make it easier, keep up the Kegels and ask the doctor about a pelvic floor physiotherapist.",
     "<strong>Stop</strong> for sharp joint pain, dizziness or unusual breathlessness. <strong>Call for an ambulance</strong> for chest pain or pressure, fainting, sudden weakness or trouble speaking.",
     "Sleep 7 to 8 hours; poor sleep makes weight loss much harder."
   ],
@@ -14,67 +15,124 @@
     {
       "key": "Mon",
       "name": "Mon",
-      "focus": "Strength A",
-      "note": "Dumbbells and bench at home.",
+      "focus": "Lower body A",
+      "note": "Works: thighs, glutes, hips, calves, core and pelvic floor.",
       "tiles": [
         {
-          "step": "Main",
-          "title": "Full body strength A",
-          "mins": 45,
-          "tip": "Pick a weight where the last 2 reps are hard but clean. Rest 60 to 90 sec between sets.",
+          "step": "1. Chair, no weights",
+          "title": "Seated leg work",
+          "mins": 12,
+          "tip": "Sit tall near the front of the chair, feet flat. Rest 30 to 45 sec between sets.",
           "moves": [
             {
-              "name": "Warm-up",
-              "dose": "5 to 8 min",
-              "tip": "Marching, arm circles, 10 bodyweight squats, 10 hip hinges, then one light set of the first exercise.",
-              "q": "full body warm up before weight training women"
+              "name": "Seated warm-up",
+              "dose": "3 min",
+              "tip": "March the feet, roll the shoulders and circle the arms.",
+              "q": "seated warm up chair exercises"
             },
             {
-              "name": "Goblet squat",
-              "dose": "3 × 10–12",
-              "tip": "Hold one dumbbell at the chest, sit between the heels.",
-              "q": "dumbbell goblet squat form"
+              "name": "Seated leg extension",
+              "dose": "3 × 12 each leg",
+              "tip": "Straighten one knee, hold 2 sec, lower slowly.",
+              "q": "seated leg extension chair exercise"
             },
             {
-              "name": "Flat dumbbell bench press",
-              "dose": "3 × 10",
-              "tip": "Lower slowly for 2 to 3 seconds.",
-              "q": "dumbbell bench press form"
+              "name": "Seated knee lift",
+              "dose": "3 × 10 each leg",
+              "tip": "Lift the knee towards the chest without leaning back.",
+              "q": "seated knee lift chair exercise"
             },
             {
-              "name": "One-arm dumbbell row",
-              "dose": "3 × 10 each side",
-              "tip": "Hand and knee on the bench, back flat.",
-              "q": "one arm dumbbell row bench form"
+              "name": "Pillow squeeze",
+              "dose": "3 × 12",
+              "tip": "Squeeze a cushion between the knees for 3 sec. Works the inner thighs.",
+              "q": "seated pillow squeeze inner thigh"
             },
             {
-              "name": "Dumbbell Romanian deadlift",
-              "dose": "3 × 10",
-              "tip": "Hips back, back flat, dumbbells close to the legs.",
-              "q": "dumbbell romanian deadlift form"
-            },
-            {
-              "name": "Small hops",
-              "dose": "3 × 10",
-              "tip": "Little jumps on the spot, soft landings. Impact helps keep bones strong. Skip if you have leaking, knee pain or have been told you have osteoporosis.",
-              "q": "low impact bone density jumps women"
-            },
-            {
-              "name": "Dead bug",
-              "dose": "3 × 8 each side",
-              "tip": "Lower back stays on the floor.",
-              "q": "dead bug exercise form"
+              "name": "Seated heel and toe raises",
+              "dose": "2 × 15",
+              "q": "seated heel toe raises chair"
             },
             {
               "name": "Pelvic floor (Kegels)",
               "dose": "10 × 5 sec squeeze",
-              "tip": "Squeeze as if stopping the flow of urine, relax fully between. Do these every day.",
-              "q": "kegel exercises women how to"
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
+            }
+          ]
+        },
+        {
+          "step": "2. Chair with dumbbells",
+          "title": "Seated dumbbell legs",
+          "mins": 12,
+          "tip": "Pick a weight where the last 2 reps are hard but clean. Breathe out as you lift.",
+          "moves": [
+            {
+              "name": "Sit-to-stand with dumbbell",
+              "dose": "3 × 10–12",
+              "tip": "Hold one dumbbell at the chest. Stand up without using the hands, sit down slowly.",
+              "q": "goblet sit to stand chair dumbbell"
+            },
+            {
+              "name": "Seated dumbbell calf raise",
+              "dose": "3 × 15",
+              "tip": "Dumbbells resting on the knees, lift the heels high.",
+              "q": "seated dumbbell calf raise"
+            },
+            {
+              "name": "Seated weighted knee lift",
+              "dose": "3 × 10 each leg",
+              "tip": "Hold a dumbbell on top of the thigh near the knee.",
+              "q": "seated weighted knee raise dumbbell"
+            },
+            {
+              "name": "Seated dumbbell twist",
+              "dose": "3 × 10 each side",
+              "tip": "Hold one dumbbell with both hands and turn from the waist.",
+              "q": "seated russian twist dumbbell chair"
+            }
+          ]
+        },
+        {
+          "step": "3. Standing",
+          "title": "Standing legs and glutes",
+          "mins": 18,
+          "tip": "Keep the chair in front of you to hold for balance. Rest 45 to 60 sec between sets.",
+          "moves": [
+            {
+              "name": "Chair-supported reverse lunge",
+              "dose": "3 × 8 each leg",
+              "tip": "Step back, lower the back knee towards the floor.",
+              "q": "reverse lunge holding chair"
+            },
+            {
+              "name": "Sumo squat",
+              "dose": "3 × 12",
+              "tip": "Wide stance, toes out. Hold a dumbbell when it gets easy.",
+              "q": "dumbbell sumo squat form"
+            },
+            {
+              "name": "Standing side leg raise",
+              "dose": "3 × 12 each leg",
+              "tip": "Hold the chair, lift the leg out to the side, toes forward.",
+              "q": "standing side leg raise holding chair"
+            },
+            {
+              "name": "Standing glute kickback",
+              "dose": "3 × 12 each leg",
+              "tip": "Hold the chair, push the leg straight back without arching the back.",
+              "q": "standing glute kickback chair"
+            },
+            {
+              "name": "Standing calf raise",
+              "dose": "3 × 15",
+              "q": "standing calf raises holding chair"
             },
             {
               "name": "Cool-down stretch",
               "dose": "5 min",
-              "tip": "Hamstrings, hips, chest and shoulders."
+              "tip": "Hold each stretch for 20 to 30 sec: thighs, hamstrings, hips, chest and shoulders. Hold the chair for balance.",
+              "q": "standing stretches holding chair"
             }
           ]
         },
@@ -95,36 +153,120 @@
     {
       "key": "Tue",
       "name": "Tue",
-      "focus": "Low-impact cardio",
-      "note": "Gets the heart rate up without jumping.",
+      "focus": "Upper body A",
+      "note": "Works: chest, upper back, shoulders, biceps, triceps and core.",
       "tiles": [
         {
-          "step": "Main",
-          "title": "30-min low-impact workout for weight loss",
-          "mins": 34,
-          "id": "MOz41fYRBvs",
-          "tip": "Work hard enough to breathe heavily but still say a few words."
-        },
-        {
-          "step": "Core",
-          "title": "Core & pelvic floor",
-          "mins": 8,
-          "tip": "Right after the video.",
+          "step": "1. Chair, no weights",
+          "title": "Seated upper body",
+          "mins": 10,
+          "tip": "Sit tall near the front of the chair, feet flat. Rest 30 to 45 sec between sets.",
           "moves": [
             {
-              "name": "Bird dog",
-              "dose": "3 × 8 each side",
-              "q": "bird dog exercise form"
+              "name": "Seated warm-up",
+              "dose": "3 min",
+              "tip": "March the feet, roll the shoulders and circle the arms.",
+              "q": "seated warm up chair exercises"
             },
             {
-              "name": "Dead bug",
-              "dose": "3 × 8 each side"
+              "name": "Seated shoulder-blade squeeze",
+              "dose": "3 × 12",
+              "tip": "Arms in a W shape, squeeze the shoulder blades together for 2 sec.",
+              "q": "seated scapular squeeze W exercise"
+            },
+            {
+              "name": "Chair dips",
+              "dose": "3 × 6–10",
+              "tip": "Hands on the seat beside the hips, knees bent, lower a little and press up. Skip if the shoulders hurt.",
+              "q": "chair dips beginners"
+            },
+            {
+              "name": "Seated side bend",
+              "dose": "2 × 10 each side",
+              "tip": "Reach one arm overhead and lean the other way.",
+              "q": "seated side bend stretch chair"
             },
             {
               "name": "Pelvic floor (Kegels)",
               "dose": "10 × 5 sec squeeze",
-              "tip": "Squeeze as if stopping the flow of urine, relax fully between. Do these every day.",
-              "q": "kegel exercises women how to"
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
+            }
+          ]
+        },
+        {
+          "step": "2. Chair with dumbbells",
+          "title": "Seated dumbbell arms and shoulders",
+          "mins": 15,
+          "tip": "Pick a weight where the last 2 reps are hard but clean. Breathe out as you lift.",
+          "moves": [
+            {
+              "name": "Seated dumbbell shoulder press",
+              "dose": "3 × 10",
+              "tip": "Back against the chair, ribs down.",
+              "q": "seated dumbbell shoulder press form"
+            },
+            {
+              "name": "Seated dumbbell biceps curl",
+              "dose": "3 × 12",
+              "tip": "Elbows stay by the sides.",
+              "q": "seated dumbbell biceps curl"
+            },
+            {
+              "name": "Seated overhead triceps extension",
+              "dose": "3 × 12",
+              "tip": "Hold one dumbbell with both hands behind the head.",
+              "q": "seated overhead dumbbell triceps extension"
+            },
+            {
+              "name": "Seated bent-over row",
+              "dose": "3 × 12",
+              "tip": "Lean forward from the hips, pull the dumbbells to the hips.",
+              "q": "seated bent over dumbbell row chair"
+            },
+            {
+              "name": "Seated lateral raise",
+              "dose": "2 × 12",
+              "tip": "Light weight, lift to shoulder height only.",
+              "q": "seated dumbbell lateral raise"
+            }
+          ]
+        },
+        {
+          "step": "3. Standing",
+          "title": "Standing upper body and core",
+          "mins": 15,
+          "tip": "Keep the chair in front of you to hold for balance. Rest 45 to 60 sec between sets.",
+          "moves": [
+            {
+              "name": "Incline push-up on the chair",
+              "dose": "3 × 8–12",
+              "tip": "Chair against a wall, hands on the seat, body in a straight line.",
+              "q": "incline push up on chair"
+            },
+            {
+              "name": "Standing dumbbell row",
+              "dose": "3 × 10 each arm",
+              "tip": "One hand on the chair back, pull the dumbbell to the hip.",
+              "q": "one arm dumbbell row standing chair support"
+            },
+            {
+              "name": "Standing dumbbell wood chop",
+              "dose": "3 × 10 each side",
+              "tip": "Hold one dumbbell, move from high on one side to low on the other.",
+              "q": "standing dumbbell wood chop"
+            },
+            {
+              "name": "March with punches",
+              "dose": "2 × 1 min",
+              "tip": "March on the spot and punch forward. Raises the heart rate.",
+              "q": "standing march with punches"
+            },
+            {
+              "name": "Cool-down stretch",
+              "dose": "5 min",
+              "tip": "Hold each stretch for 20 to 30 sec: thighs, hamstrings, hips, chest and shoulders. Hold the chair for balance.",
+              "q": "standing stretches holding chair"
             }
           ]
         },
@@ -145,66 +287,117 @@
     {
       "key": "Wed",
       "name": "Wed",
-      "focus": "Strength B",
-      "note": "Dumbbells and bench at home.",
+      "focus": "Cardio, balance and core",
+      "note": "Works: heart and lungs, legs, core, balance and pelvic floor.",
       "tiles": [
         {
-          "step": "Main",
-          "title": "Full body strength B",
-          "mins": 45,
-          "tip": "Pick a weight where the last 2 reps are hard but clean. Rest 60 to 90 sec between sets.",
+          "step": "1. Chair, no weights",
+          "title": "Seated cardio",
+          "mins": 12,
+          "tip": "Move quickly enough to breathe heavily but still say a few words.",
           "moves": [
             {
-              "name": "Warm-up",
-              "dose": "5 to 8 min",
-              "tip": "Marching, arm circles, 10 bodyweight squats, 10 hip hinges, then one light set of the first exercise.",
-              "q": "full body warm up before weight training women"
+              "name": "Seated warm-up",
+              "dose": "3 min",
+              "tip": "March the feet, roll the shoulders and circle the arms.",
+              "q": "seated warm up chair exercises"
             },
             {
-              "name": "Reverse lunge",
-              "dose": "3 × 8 each side",
-              "tip": "Hold dumbbells once balance is good.",
-              "q": "dumbbell reverse lunge form"
+              "name": "Fast seated march",
+              "dose": "3 × 1 min",
+              "tip": "Pump the arms as well.",
+              "q": "seated marching cardio"
             },
             {
-              "name": "Seated dumbbell shoulder press",
-              "dose": "3 × 10",
-              "tip": "Bench upright, ribs down.",
-              "q": "seated dumbbell shoulder press form"
+              "name": "Seated jumping jacks",
+              "dose": "3 × 30 sec",
+              "tip": "Feet tap out and in while the arms go up and down.",
+              "q": "seated jumping jacks"
             },
             {
-              "name": "Chest-supported dumbbell row",
-              "dose": "3 × 12",
-              "tip": "Face down on the incline bench.",
-              "q": "chest supported dumbbell row incline bench"
+              "name": "Seated knee-to-elbow",
+              "dose": "3 × 10 each side",
+              "tip": "Twist to bring the opposite elbow towards the knee.",
+              "q": "seated knee to elbow crunch"
             },
             {
-              "name": "Dumbbell hip thrust",
-              "dose": "3 × 12",
-              "tip": "Upper back on the bench, squeeze at the top.",
-              "q": "dumbbell hip thrust bench form"
-            },
-            {
-              "name": "Step-up onto a low step",
-              "dose": "3 × 8 each side",
-              "tip": "A sturdy stair or low box, not the bench if it is too high.",
-              "q": "dumbbell step up form"
-            },
-            {
-              "name": "Side plank",
-              "dose": "3 × 20 sec each side",
-              "tip": "From the knees if needed."
+              "name": "Seated lean-back hold",
+              "dose": "3 × 20 sec",
+              "tip": "Lean back a little with a flat back and tight tummy.",
+              "q": "seated lean back core chair"
             },
             {
               "name": "Pelvic floor (Kegels)",
               "dose": "10 × 5 sec squeeze",
-              "tip": "Squeeze as if stopping the flow of urine, relax fully between. Do these every day.",
-              "q": "kegel exercises women how to"
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
+            }
+          ]
+        },
+        {
+          "step": "2. Chair with dumbbells",
+          "title": "Seated dumbbell cardio",
+          "mins": 10,
+          "tip": "Use light dumbbells and keep moving.",
+          "moves": [
+            {
+              "name": "Light dumbbell punches",
+              "dose": "3 × 30 sec",
+              "tip": "Punch forward quickly, arms not fully locked.",
+              "q": "seated dumbbell punches"
+            },
+            {
+              "name": "Seated dumbbell wood chop",
+              "dose": "3 × 10 each side",
+              "q": "seated dumbbell wood chop"
+            },
+            {
+              "name": "Seated front raise with knee lift",
+              "dose": "3 × 10",
+              "tip": "Lift both dumbbells to the front as one knee comes up; switch legs.",
+              "q": "seated front raise knee lift"
+            }
+          ]
+        },
+        {
+          "step": "3. Standing",
+          "title": "Standing cardio and balance",
+          "mins": 15,
+          "tip": "Hold the chair whenever you need to.",
+          "moves": [
+            {
+              "name": "Step-touch side to side",
+              "dose": "3 × 1 min",
+              "tip": "Add arm swings to work harder.",
+              "q": "step touch low impact cardio"
+            },
+            {
+              "name": "High-knee march",
+              "dose": "3 × 1 min",
+              "q": "high knee march low impact"
+            },
+            {
+              "name": "Single-leg stand",
+              "dose": "3 × 20 sec each leg",
+              "tip": "Hold the chair lightly; let go once it feels steady.",
+              "q": "single leg balance holding chair"
+            },
+            {
+              "name": "Heel-to-toe walk",
+              "dose": "3 × 10 steps",
+              "tip": "Walk in a straight line next to a wall or counter.",
+              "q": "heel to toe walk balance"
+            },
+            {
+              "name": "Standing dumbbell side bend",
+              "dose": "2 × 12 each side",
+              "q": "standing dumbbell side bend"
             },
             {
               "name": "Cool-down stretch",
               "dose": "5 min",
-              "tip": "Hamstrings, hips, chest and shoulders."
+              "tip": "Hold each stretch for 20 to 30 sec: thighs, hamstrings, hips, chest and shoulders. Hold the chair for balance.",
+              "q": "standing stretches holding chair"
             }
           ]
         },
@@ -225,15 +418,120 @@
     {
       "key": "Thu",
       "name": "Thu",
-      "focus": "Yoga",
-      "note": "Flexibility, balance and calm; helps sleep and keeps you calm.",
+      "focus": "Lower body B",
+      "note": "Works: hamstrings, glutes, inner and outer thighs, hips, core and pelvic floor.",
       "tiles": [
         {
-          "step": "Main",
-          "title": "Gentle full-body yoga",
-          "mins": 23,
-          "id": "T0_vY6xc410",
-          "tip": "Move to a comfortable stretch. Keep the room cool."
+          "step": "1. Chair, no weights",
+          "title": "Seated hips and thighs",
+          "mins": 12,
+          "tip": "Sit tall near the front of the chair, feet flat. Rest 30 to 45 sec between sets.",
+          "moves": [
+            {
+              "name": "Seated warm-up",
+              "dose": "3 min",
+              "tip": "March the feet, roll the shoulders and circle the arms.",
+              "q": "seated warm up chair exercises"
+            },
+            {
+              "name": "Seated straight leg raise",
+              "dose": "3 × 10 each leg",
+              "tip": "Straighten the leg and lift it a few centimetres.",
+              "q": "seated straight leg raise chair"
+            },
+            {
+              "name": "Seated knees-out press",
+              "dose": "3 × 12",
+              "tip": "Hands on the outside of the knees, push the knees out against the hands for 3 sec.",
+              "q": "seated hip abduction press hands"
+            },
+            {
+              "name": "Pillow squeeze",
+              "dose": "3 × 12",
+              "tip": "Squeeze a cushion between the knees for 3 sec.",
+              "q": "seated pillow squeeze inner thigh"
+            },
+            {
+              "name": "Seated glute squeeze",
+              "dose": "3 × 10",
+              "tip": "Squeeze the buttocks for 5 sec, then relax.",
+              "q": "seated glute squeeze"
+            },
+            {
+              "name": "Pelvic floor (Kegels)",
+              "dose": "10 × 5 sec squeeze",
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
+            }
+          ]
+        },
+        {
+          "step": "2. Chair with dumbbells",
+          "title": "Chair squats with dumbbells",
+          "mins": 12,
+          "tip": "Pick a weight where the last 2 reps are hard but clean. Breathe out as you lift.",
+          "moves": [
+            {
+              "name": "Chair squat with two dumbbells",
+              "dose": "3 × 10",
+              "tip": "Dumbbells by the sides, tap the chair lightly and stand.",
+              "q": "dumbbell chair squat"
+            },
+            {
+              "name": "Seated dumbbell good morning",
+              "dose": "3 × 10",
+              "tip": "Dumbbell at the chest, lean forward from the hips with a flat back, then sit tall.",
+              "q": "seated good morning dumbbell"
+            },
+            {
+              "name": "Seated dumbbell calf raise",
+              "dose": "3 × 15",
+              "q": "seated dumbbell calf raise"
+            }
+          ]
+        },
+        {
+          "step": "3. Standing",
+          "title": "Standing hamstrings and glutes",
+          "mins": 18,
+          "tip": "Keep the chair in front of you to hold for balance. Rest 45 to 60 sec between sets.",
+          "moves": [
+            {
+              "name": "Dumbbell Romanian deadlift",
+              "dose": "3 × 10",
+              "tip": "Hips back, back flat, dumbbells close to the legs.",
+              "q": "dumbbell romanian deadlift form"
+            },
+            {
+              "name": "Step-up onto a low step",
+              "dose": "3 × 8 each leg",
+              "tip": "A sturdy stair; hold the rail or chair.",
+              "q": "step ups low step beginners"
+            },
+            {
+              "name": "Curtsy step-back holding chair",
+              "dose": "3 × 8 each leg",
+              "q": "curtsy lunge holding chair"
+            },
+            {
+              "name": "Standing hamstring curl",
+              "dose": "3 × 12 each leg",
+              "tip": "Hold the chair, bring the heel towards the buttock.",
+              "q": "standing hamstring curl holding chair"
+            },
+            {
+              "name": "Wall sit",
+              "dose": "3 × 20–30 sec",
+              "tip": "Back against the wall, knees above the ankles.",
+              "q": "wall sit beginners"
+            },
+            {
+              "name": "Cool-down stretch",
+              "dose": "5 min",
+              "tip": "Hold each stretch for 20 to 30 sec: thighs, hamstrings, hips, chest and shoulders. Hold the chair for balance.",
+              "q": "standing stretches holding chair"
+            }
+          ]
         },
         {
           "step": "Every day",
@@ -252,67 +550,114 @@
     {
       "key": "Fri",
       "name": "Fri",
-      "focus": "Strength C",
-      "note": "A faster circuit with dumbbells and the bench.",
+      "focus": "Upper body B",
+      "note": "Works: back, shoulders, chest, biceps, triceps, grip and core.",
       "tiles": [
         {
-          "step": "Main",
-          "title": "Full body strength C: circuit",
-          "mins": 45,
-          "tip": "Go from one exercise to the next with 30 sec rest, then rest 2 min and repeat. Burns more calories while still building strength.",
+          "step": "1. Chair, no weights",
+          "title": "Seated back and core",
+          "mins": 10,
+          "tip": "Sit tall near the front of the chair, feet flat. Rest 30 to 45 sec between sets.",
           "moves": [
             {
-              "name": "Warm-up",
-              "dose": "5 to 8 min",
-              "tip": "Marching, arm circles, 10 bodyweight squats, 10 hip hinges, then one light set of the first exercise.",
-              "q": "full body warm up before weight training women"
+              "name": "Seated warm-up",
+              "dose": "3 min",
+              "tip": "March the feet, roll the shoulders and circle the arms.",
+              "q": "seated warm up chair exercises"
             },
             {
-              "name": "Dumbbell sumo squat",
+              "name": "Seated cat-cow",
+              "dose": "1 min",
+              "tip": "Round the back, then lift the chest. Good for the spine.",
+              "q": "seated cat cow chair"
+            },
+            {
+              "name": "Seated reverse fly (no weight)",
               "dose": "3 × 12",
-              "tip": "Wide stance, toes out.",
-              "q": "dumbbell sumo squat form"
+              "tip": "Lean forward, open the arms out wide, squeeze the shoulder blades.",
+              "q": "seated reverse fly no weights"
             },
             {
-              "name": "Incline push-up (hands on the bench)",
-              "dose": "3 × 8–12",
-              "tip": "Body in a straight line.",
-              "q": "incline push up bench"
+              "name": "Seated oblique crunch",
+              "dose": "3 × 10 each side",
+              "tip": "Lean sideways, bringing the elbow towards the hip.",
+              "q": "seated oblique crunch chair"
             },
             {
-              "name": "Bent-over dumbbell row",
+              "name": "Pelvic floor (Kegels)",
+              "dose": "10 × 5 sec squeeze",
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
+            }
+          ]
+        },
+        {
+          "step": "2. Chair with dumbbells",
+          "title": "Seated dumbbell upper body",
+          "mins": 15,
+          "tip": "Pick a weight where the last 2 reps are hard but clean. Breathe out as you lift.",
+          "moves": [
+            {
+              "name": "Seated Arnold press",
+              "dose": "3 × 10",
+              "tip": "Start palms facing you and turn them out as you press up.",
+              "q": "seated arnold press dumbbell"
+            },
+            {
+              "name": "Seated hammer curl",
               "dose": "3 × 12",
-              "tip": "Hinge at the hips, back flat.",
-              "q": "bent over dumbbell row form"
+              "tip": "Palms face each other.",
+              "q": "seated hammer curl"
             },
             {
-              "name": "Glute bridge with dumbbell",
-              "dose": "3 × 15"
+              "name": "Seated dumbbell reverse fly",
+              "dose": "3 × 12",
+              "tip": "Light weight, lean forward, arms open wide.",
+              "q": "seated dumbbell reverse fly"
             },
             {
-              "name": "Biceps curl + overhead triceps extension",
-              "dose": "2 × 12 each"
+              "name": "Seated triceps kickback",
+              "dose": "3 × 12",
+              "tip": "Lean forward, upper arm still, straighten the elbow.",
+              "q": "seated dumbbell triceps kickback"
+            }
+          ]
+        },
+        {
+          "step": "3. Standing",
+          "title": "Standing upper body and core",
+          "mins": 15,
+          "tip": "Keep the chair in front of you to hold for balance. Rest 45 to 60 sec between sets.",
+          "moves": [
+            {
+              "name": "Wall push-up",
+              "dose": "3 × 12",
+              "tip": "Lower the chest slowly to the wall.",
+              "q": "wall push up form"
+            },
+            {
+              "name": "Curl to press",
+              "dose": "3 × 10",
+              "tip": "Curl the dumbbells up, then press overhead.",
+              "q": "dumbbell curl to press"
             },
             {
               "name": "Farmer's carry",
               "dose": "3 × 40 steps",
               "tip": "Heavy dumbbells, tall posture.",
-              "q": "farmers carry dumbbell form"
+              "q": "farmers carry dumbbells"
             },
             {
-              "name": "Plank",
-              "dose": "3 × 30 sec"
-            },
-            {
-              "name": "Pelvic floor (Kegels)",
-              "dose": "10 × 5 sec squeeze",
-              "tip": "Squeeze as if stopping the flow of urine, relax fully between. Do these every day.",
-              "q": "kegel exercises women how to"
+              "name": "Incline plank on the chair",
+              "dose": "3 × 20–30 sec",
+              "tip": "Chair against a wall, hands on the seat, body straight.",
+              "q": "incline plank on chair"
             },
             {
               "name": "Cool-down stretch",
               "dose": "5 min",
-              "tip": "Hamstrings, hips, chest and shoulders."
+              "tip": "Hold each stretch for 20 to 30 sec: thighs, hamstrings, hips, chest and shoulders. Hold the chair for balance.",
+              "q": "standing stretches holding chair"
             }
           ]
         },
@@ -333,43 +678,180 @@
     {
       "key": "Sat",
       "name": "Sat",
-      "focus": "Long walk or power walk",
-      "note": "Outdoors if you can; the video is for rainy days.",
+      "focus": "Full-body circuit and long walk",
+      "note": "Works: legs, glutes, chest, back, shoulders, arms, core, and heart and lungs.",
       "tiles": [
         {
-          "step": "Main",
-          "title": "Brisk walk",
-          "mins": 45,
-          "tip": "Outdoors, at a pace where talking is a little hard.",
+          "step": "1. Chair, no weights",
+          "title": "Seated circuit",
+          "mins": 8,
+          "tip": "Go from one exercise to the next with little rest. Do all three cards twice.",
           "moves": [
             {
-              "name": "Brisk walk",
-              "dose": "45 min",
-              "tip": "Add a few hills or stairs when it gets easy."
+              "name": "Sit-to-stand",
+              "dose": "12",
+              "q": "sit to stand exercise"
+            },
+            {
+              "name": "Fast seated march",
+              "dose": "1 min",
+              "q": "seated marching cardio"
+            },
+            {
+              "name": "Chair dips",
+              "dose": "8",
+              "tip": "Skip if the shoulders hurt.",
+              "q": "chair dips beginners"
+            },
+            {
+              "name": "Pelvic floor (Kegels)",
+              "dose": "10 × 5 sec squeeze",
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
             }
           ]
         },
         {
-          "step": "Or indoors",
-          "title": "30-min power walking workout",
+          "step": "2. Chair with dumbbells",
+          "title": "Seated dumbbell circuit",
+          "mins": 8,
+          "tip": "Pick a weight where the last 2 reps are hard but clean. Breathe out as you lift.",
+          "moves": [
+            {
+              "name": "Seated dumbbell shoulder press",
+              "dose": "10",
+              "q": "seated dumbbell shoulder press form"
+            },
+            {
+              "name": "Seated dumbbell biceps curl",
+              "dose": "12",
+              "q": "seated dumbbell biceps curl"
+            },
+            {
+              "name": "Seated dumbbell twist",
+              "dose": "10 each side",
+              "q": "seated russian twist dumbbell chair"
+            }
+          ]
+        },
+        {
+          "step": "3. Standing",
+          "title": "Standing circuit",
+          "mins": 10,
+          "tip": "Rest 2 min after the standing card, then repeat all three.",
+          "moves": [
+            {
+              "name": "Dumbbell sumo squat",
+              "dose": "12",
+              "q": "dumbbell sumo squat form"
+            },
+            {
+              "name": "Incline push-up on the chair",
+              "dose": "10",
+              "q": "incline push up on chair"
+            },
+            {
+              "name": "Bent-over dumbbell row",
+              "dose": "12",
+              "tip": "Hinge at the hips, back flat.",
+              "q": "bent over dumbbell row form"
+            },
+            {
+              "name": "Standing calf raise",
+              "dose": "15",
+              "q": "standing calf raises holding chair"
+            }
+          ]
+        },
+        {
+          "step": "4. Outdoors",
+          "title": "Brisk walk",
           "mins": 30,
-          "id": "-Kx-_QaEXto",
-          "tip": "Same benefit, at home."
+          "tip": "At a pace where talking is a little hard. Add hills or stairs when it gets easy.",
+          "moves": [
+            {
+              "name": "Brisk walk",
+              "dose": "30 min"
+            }
+          ]
         }
       ]
     },
     {
       "key": "Sun",
       "name": "Sun",
-      "focus": "Rest day",
-      "note": "Rest and recover. A relaxed walk is fine.",
+      "focus": "Rest and stretch",
+      "note": "Stretches: neck, shoulders, chest, back, hips, hamstrings, thighs and calves.",
       "tiles": [
         {
-          "step": "Optional",
-          "title": "15-min gentle yoga",
-          "mins": 16,
-          "id": "EvMTrP8eRvM",
-          "tip": "Gentle stretching to unwind."
+          "step": "1. Chair, no weights",
+          "title": "Seated stretches",
+          "mins": 10,
+          "tip": "Hold each stretch for 20 to 30 sec and breathe slowly. No bouncing.",
+          "moves": [
+            {
+              "name": "Neck side stretch",
+              "dose": "2 each side",
+              "q": "seated neck stretch"
+            },
+            {
+              "name": "Shoulder rolls",
+              "dose": "10 each way",
+              "q": "seated shoulder rolls"
+            },
+            {
+              "name": "Seated cat-cow",
+              "dose": "1 min",
+              "q": "seated cat cow chair"
+            },
+            {
+              "name": "Seated twist",
+              "dose": "2 each side",
+              "q": "seated spinal twist chair"
+            },
+            {
+              "name": "Seated hamstring stretch",
+              "dose": "2 each leg",
+              "tip": "One leg straight, heel down, lean forward with a flat back.",
+              "q": "seated hamstring stretch chair"
+            },
+            {
+              "name": "Seated figure-4 hip stretch",
+              "dose": "2 each leg",
+              "tip": "Ankle on the opposite knee, lean forward gently.",
+              "q": "seated figure 4 stretch chair"
+            },
+            {
+              "name": "Pelvic floor (Kegels)",
+              "dose": "10 × 5 sec squeeze",
+              "tip": "Sit tall and squeeze as if stopping the flow of urine, then relax fully. Do these every day.",
+              "q": "kegel exercises for women seated"
+            }
+          ]
+        },
+        {
+          "step": "2. Standing",
+          "title": "Standing stretches",
+          "mins": 6,
+          "tip": "Hold the chair for balance.",
+          "moves": [
+            {
+              "name": "Standing calf stretch",
+              "dose": "2 each leg",
+              "q": "standing calf stretch chair"
+            },
+            {
+              "name": "Standing thigh (quad) stretch",
+              "dose": "2 each leg",
+              "q": "standing quad stretch holding chair"
+            },
+            {
+              "name": "Chest opener",
+              "dose": "2 × 20 sec",
+              "tip": "Hands clasped behind the back, lift the chest.",
+              "q": "standing chest opener stretch"
+            }
+          ]
         },
         {
           "step": "Every day",

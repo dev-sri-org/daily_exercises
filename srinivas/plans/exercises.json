@@ -16,7 +16,7 @@
       "key": "Mon",
       "name": "Mon",
       "focus": "Gym day",
-      "note": "Morning yoga and meditation at home, then the gym.",
+      "note": "Morning yoga and meditation at home, then the gym. Works: hips and hamstrings in yoga, plus whatever the instructor's routine covers.",
       "tiles": [
         {
           "step": "1. Morning yoga",
@@ -125,7 +125,7 @@
       "key": "Tue",
       "name": "Tue",
       "focus": "Home: full body A",
-      "note": "Strength at home with dumbbells and the bench.",
+      "note": "Strength at home with dumbbells and the bench. Works: thighs, glutes, hamstrings, chest, back, shoulders, biceps, triceps and core. Yoga stretches the shoulders and chest.",
       "tiles": [
         {
           "step": "1. Morning yoga",
@@ -260,7 +260,7 @@
       "key": "Wed",
       "name": "Wed",
       "focus": "Active recovery",
-      "note": "No weights. Recovery is when the muscles grow.",
+      "note": "No weights. Recovery is when the muscles grow. Works: legs, heart and lungs on the walk. Yoga stretches the hamstrings, hips, shoulders and spine.",
       "tiles": [
         {
           "step": "1. Morning yoga",
@@ -344,7 +344,7 @@
       "key": "Thu",
       "name": "Thu",
       "focus": "Home: full body B",
-      "note": "Strength at home with dumbbells and the bench.",
+      "note": "Strength at home with dumbbells and the bench. Works: thighs, glutes, upper chest, back, shoulders, biceps, triceps, side of the core and calves. Yoga stretches the spine and back.",
       "tiles": [
         {
           "step": "1. Morning yoga",
@@ -486,7 +486,7 @@
       "key": "Fri",
       "name": "Fri",
       "focus": "Gym day",
-      "note": "Morning yoga and meditation at home, then the gym.",
+      "note": "Morning yoga and meditation at home, then the gym. Works: hips, thighs and hamstrings in yoga, plus whatever the instructor's routine covers.",
       "tiles": [
         {
           "step": "1. Morning yoga",
@@ -589,7 +589,7 @@
       "key": "Sat",
       "name": "Sat",
       "focus": "Home: full body C",
-      "note": "A lighter full-body session the day after the gym.",
+      "note": "A lighter full-body session the day after the gym. Works: thighs, inner thighs, glutes, chest, back, rear shoulders, grip and core. Yoga stretches the waist and side body.",
       "tiles": [
         {
           "step": "1. Morning yoga",
@@ -718,7 +718,7 @@
       "key": "Sun",
       "name": "Sun",
       "focus": "Rest day",
-      "note": "Just the yoga and meditation. An easy walk is fine.",
+      "note": "Just the yoga and meditation. An easy walk is fine. Works: gentle stretching for the hips, spine and back; breathing to relax.",
       "tiles": [
         {
           "step": "1. Morning yoga",

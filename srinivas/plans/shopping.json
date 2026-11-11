@@ -37,7 +37,7 @@
           "items": [
             {
               "name": "Spectrum Essentials organic ground flaxseed",
-              "qty": "7 tsp",
+              "qty": "14 tsp",
               "note": "1 bag lasts months"
             },
             {
@@ -49,6 +49,16 @@
               "name": "Hemp hearts",
               "qty": "8 oz (1¼ cups)",
               "note": "3 tbsp a day"
+            },
+            {
+              "name": "Pumpkin seeds (hulled, unsalted)",
+              "qty": "4 oz (105 g)",
+              "note": "15 g a day"
+            },
+            {
+              "name": "Sunflower seeds (hulled, unsalted)",
+              "qty": "4 oz (105 g)",
+              "note": "15 g a day"
             }
           ]
         },

@@ -1,10 +1,10 @@
 {
-  "subtitle": "Vegan, no added sugar, for building muscle at 158 lb (72 kg). Two meals a day: a breakfast routine and a soup bowl, about 1,870 kcal and 123 g protein.",
+  "subtitle": "Vegan, no added sugar, for building muscle at 158 lb (72 kg). Two meals a day: a breakfast routine and a soup bowl, about 2,060 kcal and 131 g protein.",
   "safetyTitle": "Daily rules of thumb",
   "safety": [
     "Check with the doctor before switching to two meals a day if you take daily medicines. Some can cause low sugar with long gaps between meals.",
     "<strong>Morning tablet:</strong> take it first thing in the morning with plain water. Wait at least 1 hour before black tea or coffee, and keep soy foods, soy milk and calcium or iron tablets 4 hours away. Meal 1 at noon fits this.",
-    "<strong>Protein:</strong> at 158 lb (72 kg), aim for 1.6 g per kg a day, about 115 g. The two meals give about 123 g.",
+    "<strong>Protein:</strong> at 158 lb (72 kg), aim for 1.6 g per kg a day, about 115 g. The two meals give about 131 g.",
     "<strong>Weight:</strong> weigh yourself once a week. If you lose weight you want to keep, add 1 cup soymilk or ½ cup more quinoa; if you gain fat, drop the walnuts to ½ oz.",
     "<strong>Supplements:</strong> vitamin B12 is a must on a vegan diet. Ask the doctor about vitamin D and an algae omega-3, and check B12, vitamin D, iron and other routine blood tests every year.",
     "<strong>Psyllium:</strong> drink a full glass of water with it, and take medicines 2 hours apart from it.",
@@ -26,24 +26,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",
@@ -76,24 +78,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",
@@ -126,24 +130,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",
@@ -176,24 +182,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",
@@ -226,24 +234,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",
@@ -276,24 +286,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",
@@ -326,24 +338,26 @@
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
           "nutrition": {
-            "kcal": 730,
-            "protein": 45,
-            "carbs": 37,
-            "fat": 49,
-            "fiber": 15
+            "kcal": 915,
+            "protein": 53,
+            "carbs": 42,
+            "fat": 65,
+            "fiber": 18
           },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
-            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "2 tsp Spectrum Essentials organic ground flaxseed",
             "1 tsp psyllium husk",
             "1 cup frozen mixed berries",
             "10 whole almonds",
             "1 oz walnuts (about 14 halves)",
             "3 tbsp hemp hearts",
+            "15 g pumpkin seeds (about 2 tbsp), unsalted",
+            "15 g sunflower seeds (about 2 tbsp), unsalted",
             "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and seeds on the side."
         },
         {
           "slot": "Meal 2",

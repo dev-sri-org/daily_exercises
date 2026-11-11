@@ -2,7 +2,7 @@
 // Pages and plans are fetched fresh when online (so updates show up right away)
 // and fall back to the cached copy when offline.
 const APP = location.pathname.split("/").slice(-2, -1)[0];  // member folder, e.g. "nanna"
-const CACHE = APP + "-v6";
+const CACHE = APP + "-v7";
 const PRECACHE = ["./", "./manifest.webmanifest",
   "./plans/exercises.json", "./plans/meals.json",
   "../shared/app.css", "../shared/app.js", "../shared/exercises.js", "../shared/meals.js", "../shared/shopping.js",
@@ -25,7 +25,9 @@ self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;  // videos stream from YouTube
   e.respondWith(
-    fetch(e.request)
+    // "no-cache" asks the server whether a file changed instead of trusting the browser's 10-minute
+    // cache, so a new page never runs with old shared scripts (navigations can't take options)
+    fetch(e.request.mode === "navigate" ? e.request : new Request(e.request, { cache: "no-cache" }))
       .then(res => {
         if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); }
         return res;

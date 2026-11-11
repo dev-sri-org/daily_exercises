@@ -46,6 +46,11 @@ exercises/, meal_plan/    Old addresses; they redirect to the member's app
 3. Edit `ravi/plans/exercises.json` and `ravi/plans/meals.json`.
 4. Add a link to `ravi/` in the root `index.html`.
 
+## Updating shared code
+
+Each `index.html` loads the shared files with `?v=2`. When you change `shared/*.js` or `app.css`, bump that number
+in all four `index.html` files so phones fetch the new copies together instead of mixing old and new files.
+
 ## Plan format
 
 Any text can be a plain string or an English/Telugu pair: `{ "en": "1 cup sambar", "te": "1 కప్పు సాంబారు" }`.

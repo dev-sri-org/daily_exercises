@@ -22,6 +22,7 @@ shared/                   Code and styles every member's app uses
   app.js                  Page layout, Exercises/Meals tabs, day tabs, date, install popup
   exercises.js            Exercises tab (YouTube videos)
   meals.js                Meals tab
+  shopping.js             Shopping tab (only in apps whose index.html includes it)
   app.css, sw-core.js     Styles and offline support
   icons/                  App and tab icons
 nanna/                    Nanna's app
@@ -63,6 +64,13 @@ YouTube for `q`, or for its name. A tile can have a video, moves, or both.
 
 Each meal plan day has `meals`: `{ slot, dish, items: [...], why, nutrition }`. `nutrition` is optional,
 `{ "kcal": 730, "protein": 45, "carbs": 37, "fat": 49, "fiber": 15 }` (grams); the app adds the day's meals up into a total shown above the cards. Times for each slot come from the plan's top-level `times`.
+
+## Shopping list
+
+Srinivas's app has a third tab, Shopping, built from `srinivas/plans/shopping.json`: a week of ingredients, one card per meal.
+Each card is `{ title, for, groups: [{ name, items: [{ name, qty, note }] }] }`. Ticks are saved on the phone until "Clear ticks".
+Update the amounts there when the meal plan changes. To give another member the tab, add
+`<script src="../shared/shopping.js"></script>` after `meals.js` in their `index.html` and add their own `plans/shopping.json`.
 
 ## Shared meals
 

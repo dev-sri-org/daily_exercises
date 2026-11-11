@@ -1,14 +1,14 @@
 {
-  "subtitle": "Vegan meals with no added sugar for building muscle at 55. Two big meals a day, each with about 40 g of plant protein.",
+  "subtitle": "Vegan, no added sugar, for building muscle at 158 lb (72 kg). Two meals a day: a breakfast routine and a soup bowl, about 1,900 kcal and 120 g protein.",
   "safetyTitle": "Daily rules of thumb",
   "safety": [
     "Check with the doctor before switching to two meals a day if you take daily medicines. Some can cause low sugar with long gaps between meals.",
     "<strong>Morning tablet:</strong> take it first thing in the morning with plain water. Wait at least 1 hour before black tea or coffee, and keep soy foods, soy milk and calcium or iron tablets 4 hours away. Meal 1 at noon fits this.",
-    "<strong>Protein:</strong> aim for 1.2 to 1.6 g per kg of body weight a day, about 85 to 110 g at 70 kg. That means 40 g or more at each meal.",
-    "<strong>Plate:</strong> half vegetables, a third protein (tofu, soya, dal, chana, rajma), the rest whole grains or millets. Eat the vegetables and protein first and the grains last; it keeps sugar lower.",
+    "<strong>Protein:</strong> at 158 lb (72 kg), aim for 1.6 g per kg a day, about 115 g. The two meals give about 120 g.",
+    "<strong>Weight:</strong> weigh yourself once a week. If you lose weight you want to keep, add 1 cup soymilk or ½ cup more quinoa; if you gain fat, drop the walnuts to ½ oz.",
     "<strong>Supplements:</strong> vitamin B12 is a must on a vegan diet. Ask the doctor about vitamin D and an algae omega-3, and check B12, vitamin D, iron and other routine blood tests every year.",
-    "<strong>No added sugar</strong>, jaggery or honey, and choose unsweetened soy milk and soy curd. Whole fruit, not juice.",
-    "Use iodised salt, in moderation. Cook cabbage, cauliflower and broccoli rather than eating lots raw.",
+    "<strong>Psyllium:</strong> drink a full glass of water with it, and take medicines 2 hours apart from it.",
+    "<strong>No added sugar</strong>, and choose unsweetened soymilk and an unsweetened protein powder. Whole fruit, not juice.",
     "Between meals: water, black coffee, black or green tea, all without sugar. Drink 3 litres of water a day, more on gym days.",
     "<strong>Low sugar</strong> (shaky, sweaty, confused): take 3 glucose tablets or half a glass of fruit juice right away, then eat."
   ],
@@ -24,57 +24,72 @@
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Tofu bhurji with multigrain roti",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "200 g firm tofu bhurji with onion, tomato, capsicum and spinach",
-            "2 multigrain or jowar rotis",
-            "1 cup steamed moong sprouts with lemon",
-            "1 tbsp roasted pumpkin seeds",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 45 g protein. Tofu is a complete protein; pumpkin seeds add zinc and magnesium."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Rajma, brown rice and bhindi",
+          "dish": "Lunch / Dinner Soup Bowl: Classic",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "1½ cups rajma curry",
-            "1 small cup brown rice",
-            "1 cup bhindi or beans sabzi",
-            "Cucumber, tomato and onion salad",
-            "1 cup unsweetened soy curd raita"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: broccoli, carrots and celery",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 35 g protein. Rajma and brown rice together give a full set of amino acids for recovery after the gym."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     },
     {
       "key": "Tue",
       "name": "Tue",
-      "focus": "Pesarattu & soya",
+      "focus": "Strength day",
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Pesarattu with tofu",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "3 pesarattu (green moong dosa)",
-            "100 g tofu stir-fried with vegetables",
-            "2 tbsp peanut chutney",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 38 g protein. Moong is easy to digest and has a low glycemic index."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Soya chunk curry with jowar roti",
+          "dish": "Lunch / Dinner Soup Bowl: Spinach & tomato",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "1 cup soya chunk curry (50 g dry chunks)",
-            "2 jowar rotis",
-            "1 cup moong or masoor dal",
-            "1 cup mixed vegetable curry",
-            "Salad"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: spinach, tomato, onion and garlic, with cumin and turmeric",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 45 g protein. Soya chunks are one of the richest vegetarian proteins."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     },
@@ -85,55 +100,72 @@
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Besan chilla with tofu filling",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "3 vegetable besan chillas",
-            "100 g crumbled tofu filling",
-            "2 tbsp mint-coriander chutney",
-            "1 glass unsweetened soy milk",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 38 g protein. Besan is high in protein and fibre and keeps sugar steady."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Chana masala with quinoa",
+          "dish": "Lunch / Dinner Soup Bowl: Minestrone style",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "1½ cups chana masala",
-            "1 cup cooked quinoa or foxtail millet",
-            "1 cup palak or cabbage sabzi",
-            "1 cup unsweetened soy curd"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: zucchini, carrots, celery and canned tomatoes, with Italian herbs",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 38 g protein. Quinoa is a complete protein and gentler on blood sugar than white rice."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     },
     {
       "key": "Thu",
       "name": "Thu",
-      "focus": "Soya & tofu",
+      "focus": "Home workout",
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Soya keema with bajra roti",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "1 cup soya granule keema with peas (50 g dry granules)",
-            "2 bajra or multigrain rotis",
-            "1 cup sprouts salad",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 40 g protein before the home workout."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Tofu palak with dal and brown rice",
+          "dish": "Lunch / Dinner Soup Bowl: Ginger & greens",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "200 g tofu in palak gravy",
-            "1 cup moong dal",
-            "1 small cup brown rice",
-            "Salad"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: bok choy, mushrooms, carrots and ginger",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 45 g protein to recover from the workout."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     },
@@ -144,54 +176,72 @@
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Vegan protein bowl",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "1 cup cooked quinoa",
-            "1 cup boiled chickpeas",
-            "100 g grilled tofu",
-            "Roasted vegetables (capsicum, zucchini, onion, broccoli)",
-            "1 tbsp tahini or peanut dressing with lemon",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 40 g protein. Lots of fibre keeps the sugar rise small."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Moong dal khichdi with tofu tikka",
+          "dish": "Lunch / Dinner Soup Bowl: Classic",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "1½ cups millet and moong dal khichdi (more dal than millet)",
-            "100 g tofu tikka",
-            "1 cup unsweetened soy curd",
-            "Salad"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: broccoli, carrots and celery",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 38 g protein. Soft, easy to digest, and good for recovery after the gym."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     },
     {
       "key": "Sat",
       "name": "Sat",
-      "focus": "South Indian day",
+      "focus": "Active day",
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Adai with chana sundal",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "3 adai (mixed dal dosa)",
-            "1 cup chana sundal",
-            "2 tbsp peanut chutney",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 38 g protein. Adai has far more protein than plain dosa."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Soya chunk millet biryani",
+          "dish": "Lunch / Dinner Soup Bowl: Sambar style",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "1½ cups millet or brown rice biryani with 50 g soya chunks and lots of vegetables",
-            "1 cup soy curd raita with cucumber and onion"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: drumstick or green beans, pumpkin and tomato, with sambar powder",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 40 g protein in a one-pot meal."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     },
@@ -202,25 +252,34 @@
       "meals": [
         {
           "slot": "Meal 1",
-          "dish": "Chole with roti and sprouts",
+          "dish": "Breakfast Routine",
+          "macros": "~750 kcal · 45 g protein · 15 g fiber",
           "items": [
-            "1½ cups chole (chickpea curry)",
-            "2 multigrain rotis",
-            "1 cup moong sprouts salad",
-            "1 cup unsweetened soy curd",
-            "1 fruit (guava, apple, orange or a cup of berries) and a small handful of unsalted nuts"
+            "½ cup Eden Foods Edensoy Unsweetened soymilk",
+            "1 scoop Momentous Plant-Based Protein powder",
+            "1 tsp Spectrum Essentials organic ground flaxseed",
+            "1 tsp psyllium husk",
+            "1 cup frozen mixed berries",
+            "10 whole almonds",
+            "1 oz walnuts (about 14 halves)",
+            "3 tbsp hemp hearts",
+            "1 Brazil nut (selenium; just 1 a day)"
           ],
-          "why": "About 38 g protein. Muscles still grow on rest days, so keep the protein up."
+          "why": "Blend the soymilk, protein powder, flax, psyllium and berries with 1 cup water and drink it right away, before the psyllium thickens. Eat the nuts and hemp hearts on the side."
         },
         {
           "slot": "Meal 2",
-          "dish": "Tofu vegetable stir-fry with millets",
+          "dish": "Lunch / Dinner Soup Bowl: Kale & sweet potato",
+          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
           "items": [
-            "200 g tofu stir-fried with broccoli, beans, carrot and capsicum",
-            "1 cup cooked foxtail or little millet",
-            "1 bowl dal soup"
+            "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
+            "½ cup dry green or brown lentils",
+            "⅓ cup dry organic quinoa",
+            "3 cups soup vegetables: kale, ½ small sweet potato, onion and smoked paprika",
+            "1 tbsp olive oil and 2 tbsp nutritional yeast",
+            "Low-sodium vegetable broth or water, iodised salt and pepper"
           ],
-          "why": "About 40 g protein to finish the week."
+          "why": "Simmer the lentils and quinoa in the broth for 20 minutes, add the vegetables for 10, then the tofu for the last 5. Cook a double pot and keep half in the fridge for the next day."
         }
       ]
     }

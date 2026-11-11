@@ -1,5 +1,5 @@
 // Meals tab. Each day in plans/meals.json has meals; each meal has a slot (Breakfast, Lunch...),
-// a dish name, a list of items with portions, and a short "why". Slot times come from the plan's "times".
+// a dish name, optional macros (e.g. "~750 kcal · 45 g protein"), a list of items with portions, and a short "why". Slot times come from the plan's "times".
 (function(){
 const SLOTS = {
   te: { "Breakfast": "అల్పాహారం", "Mid-morning": "ఉదయం చిరుతిండి", "Lunch": "మధ్యాహ్న భోజనం",
@@ -15,6 +15,7 @@ function renderDay(d){
     html += '<article class="card"><div class="body">'+
       '<div class="step">'+(slots[m.slot] || m.slot)+(times[m.slot] ? ' <span class="time">· '+t(times[m.slot])+'</span>' : '')+'</div>'+
       '<h3 class="title">'+t(m.dish)+'</h3>'+
+      (m.macros ? '<div class="macros">'+t(m.macros)+'</div>' : '')+
       '<ul class="items">'+m.items.map(x=>'<li>'+t(x)+'</li>').join("")+'</ul>'+
       (m.why ? '<div class="why">'+t(m.why)+'</div>' : '')+
       '</div></article>';

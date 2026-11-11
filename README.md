@@ -32,7 +32,7 @@ nanna/                    Nanna's app
   plans/meals.json        Nanna's meal plan
 amma/                     Amma's app (same files, her own plans)
 srinivas/, saumya/        Srinivas's and Saumya's apps (English only)
-tools/saumya_meals.py     Builds Saumya's meal plan from Srinivas's (see below)
+tools/saumya_meals.py     Builds Saumya's meal plan (see below)
 exercises/, meal_plan/    Old addresses; they redirect to the member's app
 ```
 
@@ -61,9 +61,9 @@ Each exercise day has `tiles`: `{ step, title, mins, id, tip, moves }`. `id` is 
 `{ name, dose, tip, q }`, e.g. `{ "name": "Goblet squat", "dose": "3 × 10–12" }`. Each move gets a "How to" link that searches
 YouTube for `q`, or for its name. A tile can have a video, moves, or both.
 
-Each meal plan day has `meals`: `{ slot, dish, items: [...], why }`. Times for each slot come from the plan's top-level `times`.
+Each meal plan day has `meals`: `{ slot, dish, macros, items: [...], why }` (`macros` is optional, e.g. `"~750 kcal · 45 g protein · 15 g fiber"`). Times for each slot come from the plan's top-level `times`.
 
 ## Shared meals
 
-Saumya eats the same Meal 1 and Meal 2 as Srinivas, plus her own breakfast. After changing
-`srinivas/plans/meals.json` (or her breakfasts in `tools/saumya_meals.py`), run `python tools/saumya_meals.py` to rebuild `saumya/plans/meals.json`.
+Saumya's Meal 1 and Meal 2 come from `tools/saumya_shared_meals.json` (Srinivas's earlier plan), plus her own breakfast.
+After changing that file (or her breakfasts in `tools/saumya_meals.py`), run `python tools/saumya_meals.py` to rebuild `saumya/plans/meals.json`.

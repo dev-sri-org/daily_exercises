@@ -1,9 +1,9 @@
-"""Saumya eats Srinivas's Meal 1 and Meal 2 (read from his plan) plus her own breakfast.
-Run "python tools/saumya_meals.py" after changing srinivas/plans/meals.json to keep the shared meals in step."""
+"""Saumya eats the shared Meal 1 and Meal 2 (tools/saumya_shared_meals.json, Srinivas's earlier plan) plus her own breakfast.
+Run "python tools/saumya_meals.py" after changing that file or the breakfasts below."""
 import json, copy
 import os
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..") + "/"
-s = json.load(open(ROOT + "srinivas/plans/meals.json", encoding="utf-8"))
+s = json.load(open(ROOT + "tools/saumya_shared_meals.json", encoding="utf-8"))
 
 def meal(dish, items, why):
     return {"slot": "Breakfast", "dish": dish, "items": items, "why": why}

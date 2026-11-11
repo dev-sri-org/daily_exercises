@@ -61,7 +61,8 @@ Each exercise day has `tiles`: `{ step, title, mins, id, tip, moves }`. `id` is 
 `{ name, dose, tip, q }`, e.g. `{ "name": "Goblet squat", "dose": "3 × 10–12" }`. Each move gets a "How to" link that searches
 YouTube for `q`, or for its name. A tile can have a video, moves, or both.
 
-Each meal plan day has `meals`: `{ slot, dish, macros, items: [...], why }` (`macros` is optional, e.g. `"~750 kcal · 45 g protein · 15 g fiber"`). Times for each slot come from the plan's top-level `times`.
+Each meal plan day has `meals`: `{ slot, dish, items: [...], why, nutrition }`. `nutrition` is optional,
+`{ "kcal": 730, "protein": 45, "carbs": 37, "fat": 49, "fiber": 15 }` (grams); the app adds the day's meals up into a total shown above the cards. Times for each slot come from the plan's top-level `times`.
 
 ## Shared meals
 

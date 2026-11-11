@@ -60,7 +60,13 @@ body[data-section="meals"]{--accent:#a8481f}
 .castnote{margin:0 0 14px;font-size:17px}
 .video{position:relative;aspect-ratio:16/9;background:#000}
 .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.macros{font-size:16px;font-weight:600;color:var(--accent);margin-top:-2px}
+.day-total{background:var(--card);border:2px solid var(--accent);border-radius:20px;padding:14px 16px;margin:10px 0 16px;display:flex;flex-direction:column;gap:8px}
+.nutri{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;margin:0;text-align:center}
+.nutri div{background:var(--bg,#f6f3ec);border:1px solid var(--line);border-radius:10px;padding:6px 2px}
+.nutri dt{font-size:13px;color:var(--muted);font-weight:600}
+.nutri dd{margin:0;font-size:18px;font-weight:700}
+.nutri-split{font-size:16px;color:var(--muted)}
+@media(max-width:420px){.nutri dt{font-size:11px}.nutri dd{font-size:15px}}
 .time{color:var(--muted);font-size:16px;font-weight:600}
 .items{margin:0;padding-left:22px;font-size:19px}
 .items li{margin:4px 0}

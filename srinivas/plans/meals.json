@@ -1,10 +1,10 @@
 {
-  "subtitle": "Vegan, no added sugar, for building muscle at 158 lb (72 kg). Two meals a day: a breakfast routine and a soup bowl, about 1,900 kcal and 120 g protein.",
+  "subtitle": "Vegan, no added sugar, for building muscle at 158 lb (72 kg). Two meals a day: a breakfast routine and a soup bowl, about 1,870 kcal and 123 g protein.",
   "safetyTitle": "Daily rules of thumb",
   "safety": [
     "Check with the doctor before switching to two meals a day if you take daily medicines. Some can cause low sugar with long gaps between meals.",
     "<strong>Morning tablet:</strong> take it first thing in the morning with plain water. Wait at least 1 hour before black tea or coffee, and keep soy foods, soy milk and calcium or iron tablets 4 hours away. Meal 1 at noon fits this.",
-    "<strong>Protein:</strong> at 158 lb (72 kg), aim for 1.6 g per kg a day, about 115 g. The two meals give about 120 g.",
+    "<strong>Protein:</strong> at 158 lb (72 kg), aim for 1.6 g per kg a day, about 115 g. The two meals give about 123 g.",
     "<strong>Weight:</strong> weigh yourself once a week. If you lose weight you want to keep, add 1 cup soymilk or ½ cup more quinoa; if you gain fat, drop the walnuts to ½ oz.",
     "<strong>Supplements:</strong> vitamin B12 is a must on a vegan diet. Ask the doctor about vitamin D and an algae omega-3, and check B12, vitamin D, iron and other routine blood tests every year.",
     "<strong>Psyllium:</strong> drink a full glass of water with it, and take medicines 2 hours apart from it.",
@@ -25,7 +25,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -42,7 +48,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Classic",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",
@@ -63,7 +75,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -80,7 +98,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Spinach & tomato",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",
@@ -101,7 +125,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -118,7 +148,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Minestrone style",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",
@@ -139,7 +175,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -156,7 +198,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Ginger & greens",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",
@@ -177,7 +225,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -194,7 +248,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Classic",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",
@@ -215,7 +275,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -232,7 +298,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Sambar style",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",
@@ -253,7 +325,13 @@
         {
           "slot": "Meal 1",
           "dish": "Breakfast Routine",
-          "macros": "~750 kcal · 45 g protein · 15 g fiber",
+          "nutrition": {
+            "kcal": 730,
+            "protein": 45,
+            "carbs": 37,
+            "fat": 49,
+            "fiber": 15
+          },
           "items": [
             "½ cup Eden Foods Edensoy Unsweetened soymilk",
             "1 scoop Momentous Plant-Based Protein powder",
@@ -270,7 +348,13 @@
         {
           "slot": "Meal 2",
           "dish": "Lunch / Dinner Soup Bowl: Kale & sweet potato",
-          "macros": "~1,150 kcal · 75 g protein · 25 g fiber",
+          "nutrition": {
+            "kcal": 1140,
+            "protein": 78,
+            "carbs": 128,
+            "fat": 39,
+            "fiber": 26
+          },
           "items": [
             "½ block Kirkland Signature Organic Extra Firm Tofu (8 oz), cubed",
             "½ cup dry green or brown lentils",

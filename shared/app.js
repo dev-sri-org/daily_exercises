@@ -61,7 +61,8 @@ async function getJSON(url){
 }
 
 // section: { id, label, icon, plan, themeColor, foot, renderDay(day), onPlan(plan), afterRender() }
-// label and foot can be {en, te}.
+// label and foot can be {en, te}. A section with renderPage(plan) instead of renderDay shows one page with no day tabs.
+// Sections other than exercises and meals are added only in the member's own index.html (e.g. shared/shopping.js).
 function addSection(s){ sections.push(s); }
 
 let manifest = {}, section, current, todayIdx;
@@ -109,7 +110,7 @@ async function start(){
 // Choose a section and jump to today's day in it
 function pick(id){
   section = sections.find(s => s.id===id) || sections[0];
-  const days = section.data ? section.data.days : [];
+  const days = (section.data && section.data.days) || [];
   todayIdx = days.findIndex(d => d.key===DAY_KEYS[now.getDay()]);
   current = todayIdx>=0 ? todayIdx : 0;
 }
@@ -122,6 +123,8 @@ function renderAll(){
   document.title = $("title").textContent = name ? ui("plan")(name) : ui("noName");
   $("date").textContent = now.toLocaleDateString(lang==="te" ? "te-IN" : "en-US", { weekday:"long", year:"numeric", month:"long", day:"numeric" });
 
+  $("sections").style.setProperty("--n", sections.length);
+  $("sections").classList.toggle("many", sections.length > 2);
   $("sections").innerHTML = sections.map(s =>
     '<button class="section" role="tab" data-s="'+s.id+'" aria-selected="'+(s===section)+'">'+
     '<img src="../shared/icons/'+s.icon+'-192.png" alt="">'+t(s.label)+'</button>').join("");
@@ -147,7 +150,12 @@ function renderAll(){
   $("safety").hidden = !safe.length;
   $("safety-title").textContent = t(plan.safetyTitle) || ui("safety");
   $("safety-list").innerHTML = safe.map(s => "<li>"+t(s)+"</li>").join("");
-  renderTabs(); renderDay();
+  if(section.renderPage){
+    $("tabs").innerHTML = "";
+    $("content").innerHTML = section.renderPage(plan);
+    addDots();
+    if(section.afterRender) section.afterRender();
+  } else { renderTabs(); renderDay(); }
 }
 
 function renderTabs(){
@@ -169,7 +177,7 @@ function renderTabs(){
 
 // Full weekday names when there is room, short ones on phones
 function labelTabs(){
-  if(!section || !section.data) return;
+  if(!section || !section.data || !section.data.days) return;
   const days = section.data.days, wide = window.innerWidth >= days.length*(lang==="te" ? 132 : 112);
   [...$("tabs").children].forEach((b,i)=>{ b.textContent = dayName(days[i].key, wide); });
 }

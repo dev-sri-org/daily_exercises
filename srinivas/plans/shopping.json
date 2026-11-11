@@ -1,0 +1,214 @@
+{
+  "subtitle": "Everything for one week of meals, one card per meal. Tick items off as you shop; the ticks stay until you clear them.",
+  "safetyTitle": "Shopping tips",
+  "safety": [
+    "Check the pantry first: flaxseed, psyllium, protein powder, quinoa, oil and spices last several weeks.",
+    "Buy <strong>unsweetened</strong> soymilk and protein powder, and <strong>calcium-set</strong> tofu (calcium sulfate on the label).",
+    "Keep walnuts, hemp hearts and ground flaxseed in the fridge so they don't go rancid.",
+    "Frozen vegetables are fine for the soup when fresh ones run out."
+  ],
+  "cards": [
+    {
+      "title": "Breakfast Routine",
+      "for": "Meal 1 · 7 days",
+      "groups": [
+        {
+          "name": "Drink",
+          "items": [
+            {
+              "name": "Eden Foods Edensoy Unsweetened soymilk",
+              "qty": "1 carton (32 oz)",
+              "note": "½ cup a day"
+            },
+            {
+              "name": "Momentous Plant-Based Protein powder",
+              "qty": "7 scoops",
+              "note": "1 tub lasts several weeks"
+            },
+            {
+              "name": "Frozen mixed berries",
+              "qty": "2 bags (16 oz)",
+              "note": "1 cup a day"
+            }
+          ]
+        },
+        {
+          "name": "Seeds & fiber",
+          "items": [
+            {
+              "name": "Spectrum Essentials organic ground flaxseed",
+              "qty": "7 tsp",
+              "note": "1 bag lasts months"
+            },
+            {
+              "name": "Psyllium husk",
+              "qty": "7 tsp",
+              "note": "1 tub lasts months"
+            },
+            {
+              "name": "Hemp hearts",
+              "qty": "8 oz (1¼ cups)",
+              "note": "3 tbsp a day"
+            }
+          ]
+        },
+        {
+          "name": "Nuts",
+          "items": [
+            {
+              "name": "Whole almonds",
+              "qty": "3 oz (70 nuts)",
+              "note": "10 a day"
+            },
+            {
+              "name": "Walnuts",
+              "qty": "7 oz",
+              "note": "1 oz a day"
+            },
+            {
+              "name": "Brazil nuts",
+              "qty": "7 nuts",
+              "note": "1 a day"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lunch / Dinner Soup Bowl",
+      "for": "Meal 2 · 7 days",
+      "groups": [
+        {
+          "name": "Protein & grains",
+          "items": [
+            {
+              "name": "Kirkland Signature Organic Extra Firm Tofu",
+              "qty": "4 blocks (16 oz)",
+              "note": "½ block a day"
+            },
+            {
+              "name": "Dry green or brown lentils",
+              "qty": "2 lb bag",
+              "note": "½ cup a day"
+            },
+            {
+              "name": "Organic quinoa",
+              "qty": "1 lb bag",
+              "note": "⅓ cup a day"
+            }
+          ]
+        },
+        {
+          "name": "Vegetables",
+          "items": [
+            {
+              "name": "Carrots",
+              "qty": "2 lb bag",
+              "note": "Mon, Wed, Thu, Fri"
+            },
+            {
+              "name": "Broccoli",
+              "qty": "1 head",
+              "note": "Mon, Fri"
+            },
+            {
+              "name": "Celery",
+              "qty": "1 bunch",
+              "note": "Mon, Wed, Fri"
+            },
+            {
+              "name": "Spinach",
+              "qty": "5 oz bag",
+              "note": "Tue"
+            },
+            {
+              "name": "Tomatoes",
+              "qty": "4",
+              "note": "Tue, Sat"
+            },
+            {
+              "name": "Onions",
+              "qty": "2",
+              "note": "Tue, Sun"
+            },
+            {
+              "name": "Garlic",
+              "qty": "1 head",
+              "note": "Tue"
+            },
+            {
+              "name": "Zucchini",
+              "qty": "1",
+              "note": "Wed"
+            },
+            {
+              "name": "Canned diced tomatoes",
+              "qty": "1 can (14.5 oz)",
+              "note": "Wed"
+            },
+            {
+              "name": "Baby bok choy",
+              "qty": "1 lb",
+              "note": "Thu"
+            },
+            {
+              "name": "Mushrooms",
+              "qty": "8 oz pack",
+              "note": "Thu"
+            },
+            {
+              "name": "Fresh ginger",
+              "qty": "1 small piece",
+              "note": "Thu"
+            },
+            {
+              "name": "Green beans or drumsticks",
+              "qty": "8 oz",
+              "note": "Sat"
+            },
+            {
+              "name": "Pumpkin or butternut squash",
+              "qty": "1 cup cubed",
+              "note": "Sat"
+            },
+            {
+              "name": "Kale",
+              "qty": "1 bunch",
+              "note": "Sun"
+            },
+            {
+              "name": "Sweet potato",
+              "qty": "1 small",
+              "note": "Sun"
+            }
+          ]
+        },
+        {
+          "name": "Pantry",
+          "items": [
+            {
+              "name": "Low-sodium vegetable broth",
+              "qty": "4 cartons (32 oz)",
+              "note": "or use water"
+            },
+            {
+              "name": "Nutritional yeast",
+              "qty": "1 tub (about 3 oz)",
+              "note": "2 tbsp a day"
+            },
+            {
+              "name": "Olive oil",
+              "qty": "7 tbsp",
+              "note": "1 tbsp a day"
+            },
+            {
+              "name": "Spices",
+              "qty": "check stock",
+              "note": "cumin, turmeric, Italian herbs, sambar powder, smoked paprika, black pepper, iodised salt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

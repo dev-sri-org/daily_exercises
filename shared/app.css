@@ -16,12 +16,15 @@ h1{font-size:30px;margin:8px 0 2px}
 .sub{color:var(--muted);margin:0 0 16px;font-size:18px}
 body[data-section="meals"]{--accent:#a8481f}
 @media (prefers-color-scheme: dark){ body[data-section="meals"]{--accent:#f0a274} }
+body[data-section="shopping"]{--accent:#2f6f3e}
+@media (prefers-color-scheme: dark){ body[data-section="shopping"]{--accent:#7fd19a} }
 
 /* Exercises / Meals tabs at the top of a member's app */
-.sections{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 14px}
+.sections{display:grid;grid-template-columns:repeat(var(--n,2),1fr);gap:10px;margin:14px 0 14px}
 .section{font:inherit;font-weight:700;font-size:20px;display:flex;align-items:center;justify-content:center;gap:10px;min-height:64px;padding:10px;border-radius:16px;border:2px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
 .section img{width:36px;height:36px;border-radius:9px;flex:none}
 .section[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+@media(max-width:560px){.sections.many{gap:6px}.sections.many .section{flex-direction:column;gap:4px;font-size:16px;padding:8px 4px;border-radius:14px}.sections.many .section img{width:30px;height:30px}}
 
 /* Family page */
 .apps{display:grid;gap:16px;margin-top:20px}
@@ -78,6 +81,18 @@ body[data-section="meals"]{--accent:#a8481f}
 .dose{color:var(--accent);font-weight:700;font-size:17px}
 .move-tip{color:var(--muted);font-size:16px}
 .howto{color:var(--accent);font-size:16px;font-weight:600}
+.shop-for{color:var(--muted);font-size:16px;font-weight:600}
+.shop-group{font-size:15px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin:8px 0 0;border-top:1px solid var(--line);padding-top:10px}
+.shop{list-style:none;margin:0;padding:0}
+.shop li{border-top:1px solid var(--line)}
+.shop li:first-child{border-top:0}
+.shop label{display:flex;gap:12px;align-items:flex-start;padding:9px 0;cursor:pointer;font-size:18px}
+.shop input{width:24px;height:24px;margin:2px 0 0;flex:none;accent-color:var(--accent)}
+.shop .what{flex:1;min-width:0}
+.shop .qty{font-weight:700;color:var(--accent);white-space:nowrap}
+.shop .note{display:block;font-size:15px;color:var(--muted)}
+.shop input:checked ~ .what,.shop input:checked ~ .qty{text-decoration:line-through;opacity:.55}
+.shop-count{font-size:16px;color:var(--muted)}
 .foot{color:var(--muted);font-size:15px;margin-top:28px}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 
